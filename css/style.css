@@ -8,10 +8,6 @@
     font-size: 16px;
 }
 
-html {
-    overflow-x: hidden;
-}
-
 :root {
     --purple-color: #6F3FF5;
     --light-green-color: #B3FFED;
@@ -103,6 +99,21 @@ nav a:active {
     }
 }
 
+/* remove sticky hover on buttons */
+@media (hover:none), (hover:on-demand) {
+    .button.purple:hover { 
+        background-color: var(--purple-color);
+    }
+
+    #telegram-button:hover {
+        color: var(--purple-color);
+    }
+
+    .hero-content .button:hover {
+        color: var(--light-green-color);
+    }
+}
+
 /* Header section
 ================= */
 
@@ -131,7 +142,8 @@ li:not(:last-child) {
 
     nav {
         z-index: 10;
-        width: 100vw;
+        width: 96vw;
+        height: calc(100vh - 40px - 0.8rem);
         padding: 3rem 0;
         background-color:hsla(256, 90%, 60%, 0.6);
     }
@@ -148,13 +160,13 @@ li:not(:last-child) {
         position: relative;
         top: 0;
         right: 0;
-        padding: 0.4rem;
-        padding-bottom: 35px;
+        padding: 0.8rem;
+        padding-bottom: calc(40px + 0.8rem);
     }
 
     #nav-content {
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: calc(40px + 0.8rem);
         right: 0;
         backdrop-filter: blur(2px);
         transition: all 0.4s ease-out;
@@ -167,7 +179,7 @@ li:not(:last-child) {
     #mobile-icon {
         display: block;
         position: absolute;
-        right:0.4rem;
+        right: 0.8rem;
     }
 
     #icon1,
@@ -308,7 +320,7 @@ li:not(:last-child) {
     color: var(--purple-color);
 }
 
-#telegram-button:hover
+#telegram-button:hover,
 #telegram-button:active {
     color: var(--grey-color);
 }
