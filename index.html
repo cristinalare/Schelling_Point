@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schelling Point</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <a id="mobile-icon">
+            <img id="icon1" class="visible-icon" src="./images/burger-menu-open.svg" alt="open menu icon" width="30px">
+            <img id="icon2" class="hidden-icon" src="./images/burger-menu-close.svg" alt="close menu icon" width="30px">
+        </a>
+        
+        <nav id="nav-content" class="hidden">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#afterparty">Afterparty</a></li>
+                <li><a href="#telegram">Telegram</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Hero -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Schelling<br>
+                    Point<br>
+                    Amsterdam</h1>
+                <p>04.21.2022<br>Grand Hotel Krasnapolsky</p>
+                <a href="https://devconnect.org/city-guide" target="_blank" class="button">> City guide</a>
+            </div>
+            <object id="logo-animation" type="image/svg+xml" data="./images/hero-schelling-animation.svg" width="57%">
+                <img src="./images/hero-schelling-animation.svg" alt="schelling point logo animation"/>
+            </object>
+        </div>
+
+        <div class="denver">
+            <h2>Schelling Point | Denver</h2>
+            <a href="https://www.youtube.com/playlist?list=PLvTrX8LNPbPlryx_S85pZPfH9yD7qcPsg" target="_blank" class="button purple">Youtube playlist</a>
+        </div>
+
+        <!-- About -->
+        <div class="about" id="about">
+            <h2>The Event</h2>
+            <p class="main-p">We reject the doomerism left to us by the legacy generations & legacy institutions. We believe that Ethereum is a schelling point for the hopeful & we have come together to build a better world. Our weapon of choice is novel mechanism design deployed to decentralized blockchain networks.
+                <br><br>By co-creating this schelling point, we will reconnect with why we're *actually here* & accelerate these narratives:
+            </p>
+            <p class="about-keywords">Self-sovereignty <span class="keywords-separation">/</span> 
+                Coordination technology <span class="keywords-separation">/</span> 
+                Regenerative economic experiments <span class="keywords-separation">/</span> 
+                Radical markets <span class="keywords-separation">/</span> 
+                Solarpunk lore & the many fruits of public goods.
+            </p>
+            <p>Celebrate our collective possibility by joining us for this one-day educational event:
+            </p>
+            <div class="about-buttons">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9mcpI11LhfwQKsZjYdxy_yOlhIAuGPM5dUwAyn8Ef3TR5pg/viewform" target="_blank" class="button purple">Registration open</a>
+                <a href="https://t.me/joinchat/EX2vtzI0earU2LER" target="_blank" class="button" id="telegram-button">Join Us On Telegram</a>
+            </div>
+        </div>
+
+        <!-- Speakers -->
+        <div class="speakers" id="speakers">
+            <h2>Speakers</h2>
+        </div>
+
+        <!-- Sponsors -->
+        <div class="sponsors" id="sponsors">
+            <h2>Sponsors</h2>
+        </div>
+
+        <!-- Agenda -->
+        <div class="agenda" id="agenda">
+            <h2>Agenda</h2>
+        </div>
+
+        <!-- Afterparty -->
+        <div class="afterparty" id="afterparty">
+            <h2>Afterparty</h2>
+        </div>
+
+        <!-- Telegram -->
+        <div class="telegram" id="telegram">
+            <h2>Telegram</h2>
+        </div>
+    </main>
+    
+    <script>
+        let mobileMenu = document.getElementById('mobile-icon');
+        let navContent = document.getElementById('nav-content');
+
+        let icon1 = document.getElementById('icon1');
+        let icon2 = document.getElementById('icon2');
+
+        let x = window.matchMedia("(max-width: 870px)");
+
+        function toggleMenu(){
+            if (x.matches) {
+                navContent.classList.toggle('hidden');
+                icon1.classList.toggle('visible-icon');
+                icon2.classList.toggle('hidden-icon');
+            }
+        }
+    
+        mobileMenu.addEventListener('click', toggleMenu);
+        navContent.addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>
