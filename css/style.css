@@ -113,6 +113,20 @@ nav a:active {
     }
 }
     
+.purple-link {
+    color: var(--purple-color);
+}
+
+.purple-link:active {
+    color: var(--grey-color);
+}
+
+@media (hover: hover) {
+    .purple-link:hover {
+        color: var(--grey-color);
+    }
+}
+
 @media only screen and (max-width: 500px) {
     html {
         font-size: 14px;
@@ -303,7 +317,7 @@ li:not(:last-child) {
     gap: 4rem;
     text-align: center;
     width: 90%;
-    padding: 7rem 0;
+    padding: 5rem 0;
     margin: auto;
 }
 
@@ -332,7 +346,9 @@ li:not(:last-child) {
 }
 
 .goal-container p,
-.about-keywords {
+.goal-container a,
+.about-keywords,
+.about-keywords a {
     color: var(--purple-color);
 }
 
@@ -345,28 +361,33 @@ li:not(:last-child) {
     color: var(--green-color);
 }
 
+@media (hover: none) {
+    .keywords-link {
+        text-decoration: underline;
+    }
+}
+
+@media (hover: hover) {
+    .keywords-link {
+        display: inline;
+        background-image: linear-gradient(var(--green-color), var(--green-color));
+        background-size: 0% 2px;
+        background-repeat: no-repeat;
+        transition: background-size 0.5s;
+        background-position: 0 100%;
+    }
+
+    .keywords-link:hover {
+        background-size: 100% 2px;
+    } 
+}
+
 .about-buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
-}
-
-#telegram-button,
-#speaker-button {
-    color: var(--purple-color);
-}
-
-@media (hover: hover) {
-    #telegram-button:hover,
-    #speaker-button:hover {
-        color: var(--grey-color);
-    }
-}
-
-#telegram-button:active {
-    color: var(--grey-color);
 }
 
 @media only screen and (max-width: 805px) {
@@ -399,7 +420,12 @@ li:not(:last-child) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     padding: 3rem 0;
+}
+
+.speaker-container img {
+    width: max(14%, 80px);
 }
 
 /* Footer section
@@ -477,7 +503,18 @@ footer {
 }
 
 /*  */
-h2 {
+h2 { 
+    padding: 1.5rem 0;
+}
+
+.speakers,
+.sponsors,
+.agenda,
+.afterparty {
     text-align: center;
-    padding: 2rem 0;
+    padding-bottom: 1rem;
+}
+
+.afterparty {
+    margin-bottom: 2rem;
 }
