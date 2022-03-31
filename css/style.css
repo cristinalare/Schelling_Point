@@ -36,6 +36,7 @@ a {
 
 h1,
 h2,
+.h2,
 nav {
     font-family: 'Space Mono', monospace;
     font-weight: 700;
@@ -47,7 +48,8 @@ h1 {
     color: var(--green-color);
 }
 
-h2 {
+h2,
+.h2 {
     font-size: 1.875rem;
     color: var(--grey-color);
 }
@@ -251,6 +253,18 @@ li:not(:last-child) {
     color: var(--green-color);
 }
 
+.logo-animation {
+    width: 57%; 
+    height: auto;
+    
+}
+
+.svg-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 57%;
+}
+
 .denver {
     display: flex;
     align-items: center;
@@ -259,9 +273,8 @@ li:not(:last-child) {
     padding: 2rem 20% 2rem 17%;
 }
 
-
 @media only screen and (max-width: 1147px) {
-    .denver h2 {
+    .denver .h2 {
         font-size: 1.6rem;
     }
 }
@@ -271,7 +284,7 @@ li:not(:last-child) {
         font-size: 2.5rem;
     }
 
-    .denver h2 {
+    .denver .h2 {
         font-size: 1.5rem;
     }
 
@@ -284,12 +297,12 @@ li:not(:last-child) {
 }
 
 h1 {
-    animation: slidein 0.6s ease-in;
+    animation: slidein 1.5s ease-in-out;
 }
 
 @keyframes slidein {
     from {
-      margin-top: 10%;
+      margin-top: 35%;
     }
     to {
       margin-top: 0%;
@@ -303,6 +316,9 @@ h1 {
         padding: 2rem 0 3rem 0;
     }
 
+    h1 {
+        animation: none;
+    }
     .hero-content {
         text-align: center;
         align-items: center;
@@ -314,9 +330,22 @@ h1 {
         padding: 2rem 0;
     }
 
-    #logo-animation {
+    .logo-animation {
         width: 80%;
+        position: absolute;
+        top: 4rem;
     }
+
+    .svg-container {
+        padding-bottom: 0%;
+    }
+
+    .svg-container2 {
+        position: relative;
+        height: 0;
+        padding-bottom: 80%;
+    }
+
 }
 
 /* About section
