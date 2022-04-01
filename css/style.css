@@ -127,6 +127,11 @@ nav a:active {
         color: var(--green-color);
     }
 }
+
+.inactive {
+    pointer-events: none;
+    opacity: 0.5;
+}
     
 .purple-link {
     color: var(--purple-color);
