@@ -246,8 +246,8 @@ nav a:active {
 
 /* about section paragraphs animation */
 .p-animation-triggered {
-    animation: opacity 1s ease-out;
-    -webkit-animation: opacity 1s ease-out;
+    animation: opacity 1s ease-in;
+    -webkit-animation: opacity 1s ease-in;
 }
 
 @keyframes opacity {
