@@ -658,7 +658,7 @@ footer {
 
 /*  */
 h2 { 
-    padding: 1.5rem 0;
+    padding: 3rem 0;
 }
 
 .speakers,
@@ -666,9 +666,26 @@ h2 {
 .agenda,
 .afterparty {
     text-align: center;
-    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+
 }
 
 .afterparty {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+.soon {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: 0.8em;
+    direction:rtl;
+    display:inline-block;
+    text-indent:-0.8em;
+    color: var(--purple-color);
+    width: fit-content;
+    border: 1px var(--purple-color);
+    border-style: solid none;
+    margin: auto;
 }
