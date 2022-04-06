@@ -3,7 +3,6 @@
 
 * {
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     scroll-behavior: smooth;
     font-size: 16px;
@@ -35,10 +34,6 @@ img {
 
 a {
     cursor: pointer;
-    -webkit-transition: color 0.4s ease-in-out,
-        background-color 0.4s ease-in-out;
-    -o-transition: color 0.4s ease-in-out,
-        background-color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out,
         background-color 0.4s ease-in-out;
 }
@@ -173,7 +168,6 @@ nav a:active {
     position: relative;
     bottom: 0;
     animation: h1slide 0.7s ease-out;
-    -webkit-animation: h1slide 0.7s ease-out;
 }
 
 @keyframes h1slide {
@@ -192,25 +186,18 @@ nav a:active {
 
     .animated-h2 {
         transform: translateY(70%);
-        -webkit-transform: translateY(70%);
-            -ms-transform: translateY(70%);
     }
     .h2-animation-triggered {
         animation: h2slide 0.7s ease-in forwards;
-        -webkit-animation: h2slide 0.7s ease-in forwards;
     }
 
     @keyframes h2slide {
         from {
         transform: translateY(70%);
-        -webkit-transform: translateY(70%);
-            -ms-transform: translateY(70%);
         opacity: 0.4;
         }
         to {
         transform: translateY(0);
-        -webkit-transform: translateY(0);
-            -ms-transform: translateY(0);
         opacity: 1;
         }
     }
@@ -231,7 +218,6 @@ nav a:active {
         bottom: 0;
         width: fit-content;
         animation: slide 0.6s ease-out;
-        -webkit-animation: slide 0.6s ease-out;
     }
 
     @keyframes slide {
@@ -247,7 +233,6 @@ nav a:active {
 /* about section paragraphs animation */
 .p-animation-triggered {
     animation: opacity 1s ease-in;
-    -webkit-animation: opacity 1s ease-in;
 }
 
 @keyframes opacity {
@@ -313,10 +298,7 @@ li:not(:last-child) {
         position: fixed;
         top: calc(40px + 0.8rem);
         right: 0;
-        -webkit-backdrop-filter: blur(2px);
-                backdrop-filter: blur(2px);
-        -webkit-transition: all 0.4s ease-out;
-        -o-transition: all 0.4s ease-out;
+        backdrop-filter: blur(2px);
         transition: all 0.4s ease-out;
     }
 
