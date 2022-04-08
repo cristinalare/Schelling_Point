@@ -1,3 +1,56 @@
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+
 /* Universal styles 
 =================== */
 
@@ -310,18 +363,36 @@ li:not(:last-child) {
 
     #mobile-icon {
         display: block;
+        width: 40px;
+        height: 40px;
         position: absolute;
         right: 0.8rem;
+        perspective: 100px;
+        cursor: pointer;
     }
 
-    #icon1,
-    #icon2.hidden-icon {
-        display: none;
+    .flip-icon {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
     }
 
-    #icon1.visible-icon,
-    #icon2 {
-        display: block;
+    .flip-icon.flip {
+        transform: rotateY(180deg);
+    }
+    
+    .open,
+    .close {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .close {
+        transform: rotateY(180deg);
     }
 }
 
@@ -485,7 +556,7 @@ h1 span::after {
     color: var(--purple-color);
 }
 
-.goal-container img {
+.goal-container svg {
     width: 40%; 
     height: auto;
 }
@@ -539,7 +610,7 @@ h1 span::after {
         width: auto;
     }
 
-    .goal-container img {
+    .goal-container svg {
         width: max(30%, 100px);
     }
 }
@@ -627,6 +698,11 @@ footer {
     margin-right: 5%;
 }
 
+.gitcoindao {
+    width: 40%;
+    height: auto;
+}
+
 .footer-description p,
 .footer-description a {
     color: #FFFFFF;
@@ -656,6 +732,15 @@ footer {
     align-items: center;
 }
 
+.greenpill,
+.sponsorship {
+    width: 10%;
+}
+
+.swag {
+    width: 9%;
+}
+
 @media only screen and (max-width: 1024px) {
     .footer-container {
         flex-direction: column;
@@ -672,11 +757,11 @@ footer {
         text-align: center;
     }
 
-    .footer-description img {
+    .footer-description svg {
         width: 12rem;
     }
 
-    footer img {
+    .footer-link svg {
         width: 2.3rem;
     }
 }
