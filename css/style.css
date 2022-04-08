@@ -596,6 +596,17 @@ h1 span::after {
     font-weight: 700;
 }
 
+.speaker-container .soon {
+    margin: 0;
+    text-indent: 0;
+    letter-spacing: 0.3em;
+}
+
+.soon span {
+    direction:rtl;
+    display: inline-block;
+    text-indent:-0.8em;
+}
 /* Footer section
 ================= */
 
