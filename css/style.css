@@ -54,6 +54,10 @@ a {
 /* Universal styles 
 =================== */
 
+.svgSprite {
+    display: none;
+}
+
 * {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
