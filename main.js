@@ -48,7 +48,7 @@
 //main headings animations
 
     const headings = document.querySelectorAll('.animated-h2');
-    const config2 = {
+    const config3 = {
         root: null,
         rootMargin: "0px",
         threshold: 1
@@ -61,9 +61,31 @@
             } else {
                 entry.target.classList.remove('h2-animation-triggered');
             }
-        }, config2);
+        }, config3);
     });
 
     headings.forEach(heading => {
         observer.observe(heading);
+    });
+
+    // avatars animations
+    const avatars = document.querySelectorAll('.avatar');
+    const config2 = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0
+    };
+
+    observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.intersectionRatio > 0) {
+                entry.target.classList.add('animated-avatar');
+            } else {
+                entry.target.classList.remove('animated-avatar');
+            }
+        }, config2);
+    });
+
+    avatars.forEach(avatar => {
+        observer.observe(avatar);
     });

@@ -54,8 +54,7 @@ body {
         margin: 0px;
         padding: 0px;
     }
-    #hero-version-2 {
-    }
+    
 
     .img_back{
     
@@ -85,12 +84,28 @@ header {
     display: flex;
     max-width: 100%;
     justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+    }
+
+    .schelling-nav {
+        flex-direction: column;
+    }
+    .header-nav-menu,
+    .text-menu {
+        flex-direction: column;
+    }
 }
 
 nav {
     display: flex;
     justify-items: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 a {
@@ -141,7 +156,21 @@ nav.schelling-nav ul li a:after {
 .greenpill{
     max-width: 100% !important;
     flex-direction: row !important;
-    justify-content: right;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .greenpill {
+        width: 80%;
+        height: 3rem;
+    }
+    .greenpill p.description {
+        font-size: 16px;
+        margin-right: 35px;
+    }
+    .greenpill img {
+        width: 15%;
+    }
 }
 .greenpill img{
     max-width: 35px;
@@ -150,12 +179,13 @@ nav.schelling-nav ul li a:after {
 }
 .greenpill p.description{
     background-color: green;
-    max-width: 25% !important;
     color: white;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 1em 1em;
     border-right: white 35px solid;
     cursor: pointer;
+    width: fit-content;
+
 }
 
 nav.schelling-nav ul li a:hover:after {
@@ -655,7 +685,7 @@ footer {
 .section-container {
     display: flex;
     align-items: center;
-    margin-top: 268px;
+    margin-top: 100px;
 
     /* padding: 56px; */
 }
@@ -697,7 +727,7 @@ footer {
     max-width: 775px;
     flex-direction: column;
     justify-items: left;
-    margin-left: 50px;
+    margin: auto;
 }
 
 .section-conainer_info .title {
@@ -759,9 +789,9 @@ footer {
 
 }
 
-.cta-buttons {
+/* .cta-buttons {
     margin-left: 50px;
-}
+} */
 
 .cta-hero-box {
     margin-top: 20px;
@@ -782,8 +812,7 @@ footer {
 .project-brand {
     display: flex;
 
-    padding-top: 154px;
-    padding-bottom: 154px;
+    padding-top: 150px;
     justify-content: center;
     align-items: center;
 }
@@ -824,8 +853,8 @@ hr {
 
 /* start hero-whith-background */
 .logo {
-    margin-top: 34px;
-    margin-left: 32px;
+    margin-top: 3px;
+    margin-left: 0px;
     flex: 1;
 }
 .nav-brand img {
@@ -841,7 +870,7 @@ hr {
 }
 
 #hero-version-2 {
-    height: 80vh;
+    min-height: 80vh;
 	padding: 1em;
 	background-size: 821px;
     background-repeat: no-repeat;
@@ -903,7 +932,7 @@ hr {
     }
 
     .section-conainer_info {
-        margin: 30px 0;
+        margin: auto;
         align-items: center;
     }
 }
@@ -930,7 +959,7 @@ hr {
     }
 }
 
-@media (max-width: 688px) {
+@media (max-width: 800px) {
     body {
         font-size: 80%;
     }
@@ -959,7 +988,7 @@ hr {
     }
 
     #hero-version-2 {
-        height: 120vh;
+        min-height: 120vh;
         background-size: 414px;
     }
 
@@ -1011,7 +1040,7 @@ hr {
     }
 
     #hero-version-2 {
-        height: 120vh;
+        min-height: 120vh;
         background-size: 414px;
     }
 
