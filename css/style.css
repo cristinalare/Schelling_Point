@@ -725,6 +725,75 @@ h1 span::after {
     display: inline-block;
     text-indent:-0.8em;
 }
+
+/* Sponsors section
+=================== */
+
+/* .bg-container {
+    position: relative;
+    height: 0;
+}
+.background {
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height:fit-content;
+} */
+
+.sponsors-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.top-sponsors svg {
+    height: 3rem;
+    width: auto;
+}
+
+svg.radicle {
+    height: 2.2rem;
+}
+
+.medium-sponsors svg {
+    height: 2.2rem;
+    width: auto;
+}
+.bottom-sponsors svg {
+    height: 1.75rem;
+    width: auto;
+}
+
+.top-sponsors,
+.medium-sponsors,
+.bottom-sponsors {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.medium-sponsors {
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 750px) {
+    .top-sponsors,
+    .bottom-sponsors {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .medium-sponsors { 
+        width: 100%;
+    }
+}
+
 /* Footer section
 ================= */
 
