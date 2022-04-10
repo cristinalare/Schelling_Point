@@ -751,6 +751,11 @@ h1 span::after {
     margin-top: 4rem;
 }
 
+.gitcoin-spons {
+    height: 4rem;
+    width: auto;
+}
+
 .top-sponsors svg {
     height: 3rem;
     width: auto;
