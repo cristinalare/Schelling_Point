@@ -212,6 +212,44 @@ nav a:active {
     }
 }
 
+/* fixed header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+main {
+    position: relative;
+    top: calc(1.2rem + 1.7em);
+} 
+/* mobile main offset */
+@media only screen and (max-width: 870px) {
+    main {
+        top: calc(40px + 0.8rem);
+    }
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border: 1px solid var(--grey-color);
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: var(--purple-color);
+}
+
 /* Animations */
 /* h1 animation */
 .scroller {
@@ -346,7 +384,7 @@ li:not(:last-child) {
     }
 
     header {
-        position: relative;
+        position: fixed;
         top: 0;
         right: 0;
         padding: 0.8rem;
@@ -408,7 +446,7 @@ li:not(:last-child) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 11% 0 17%;
+    padding: 1.4rem 11% 0 17%;
 }
 
 .hero-content {
@@ -482,7 +520,7 @@ h1 span::after {
 @media only screen and (max-width: 870px) {
     .hero {
         flex-direction: column-reverse;
-        padding: 2rem 0 3rem 0;
+        padding: 0 0 4rem 0;
     }
     
     .hero-content {
@@ -500,7 +538,7 @@ h1 span::after {
     .logo-animation {
         width: 80%;
         position: absolute;
-        top: 4rem;
+        top: 0;
     }
 
     .svg-container {
@@ -510,7 +548,7 @@ h1 span::after {
     .svg-container2 {
         position: relative;
         height: 0;
-        padding-bottom: 80%;
+        padding-bottom: 85%;
     }
 }
 
