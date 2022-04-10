@@ -112,8 +112,14 @@ h1 {
 
 h2,
 .h2 {
-    font-size: 1.875rem;
     color: var(--grey-color);
+}
+
+h2 {
+    font-size: 2.25rem;
+    padding: 3rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
 }
 
 .h2 {
@@ -563,9 +569,8 @@ h1 span::after {
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    text-align: center;
     width: 90%;
-    padding: 5rem 0;
+    padding: 3rem 0;
     margin: auto;
 }
 
@@ -675,7 +680,7 @@ h1 span::after {
     width: 80%;
     margin:auto;
     justify-content: center;
-    padding-block: 3rem;
+    padding-top: 5rem;
 }
 
 .speaker-container {
@@ -691,7 +696,7 @@ h1 span::after {
     border: 2px solid var(--purple-color);
     object-fit: cover;
     box-shadow: inset 0.05em 0.2em 5px var(--light-green-color);
-    transition: box-shadow 1.2s;
+    transition: box-shadow 1.5s;
 }
 
 .animated-avatar {
@@ -820,7 +825,7 @@ svg.radicle {
 ===================== */
 
 .afterparty-container {
-    margin-top: 4rem;
+    margin: 4rem 0;
 }
 
 .afterparty-location {
@@ -975,21 +980,13 @@ footer {
 }
 
 /* temporary */
-h2 { 
-    padding: 3rem 0;
-}
-
+.about,
 .speakers,
 .sponsors,
 .agenda,
 .afterparty {
     text-align: center;
-    margin-bottom: 3rem;
-
-}
-
-.afterparty {
-    margin-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .soon {
