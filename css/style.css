@@ -98,7 +98,8 @@ a {
 h1,
 h2,
 .h2,
-nav {
+nav,
+.loc-name {
     font-family: 'Space Mono', monospace;
     font-weight: 700;
 }
@@ -139,7 +140,8 @@ nav a:active {
 .button,
 .about-keywords,
 .goal-container p,
-.speaker-name {
+.speaker-name,
+.loc-address {
     font-family: 'Space Mono', monospace;
     font-weight: 400;
 }
@@ -729,24 +731,38 @@ h1 span::after {
 /* Sponsors section
 =================== */
 
-/* .bg-container {
-    position: relative;
+.bg-container {
     height: 0;
-}
-.background {
-    position: absolute;
-    top: -2rem;
-    left: 0;
-    z-index: -2;
+    display: block;
+    position: relative;
     width: 100%;
-    height:fit-content;
-} */
+}
+.bg-c2 {
+    position: absolute;
+    top: -120px;
+    left: 0;
+    width: 100%;
+    height: 1740px;
+    overflow: hidden;
+}
+.bg {
+    position: absolute;
+    display: block;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+    opacity: 0.5;
+    max-width: none;
+    transform: translate(-50%, 0);
+    text-align: center;   
+}
 
 .sponsors-container {
     display: flex;
     flex-direction: column;
     gap: 4rem;
     width: 85%;
+    max-width: 1500px;
     margin: auto;
     margin-top: 4rem;
 }
@@ -796,6 +812,76 @@ svg.radicle {
 
     .medium-sponsors { 
         width: 100%;
+    }
+}
+
+/* Afterparty section
+===================== */
+
+.afterparty-container {
+    margin-top: 4rem;
+}
+
+.afterparty-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.location {
+    text-align: left;
+}
+
+.loc-name {
+    color: var(--purple-color);
+    font-size: 1.75rem;
+}
+
+.loc-address {
+    transition: color 0.4s ease-out;
+}
+
+.afterparty-sponsors {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+    margin-top: 3rem;
+}
+
+.after-spon-1,
+.after-spon-2 {
+    display: flex;
+    gap: 3rem;
+}
+
+.afterparty-sponsors img,
+.afterparty-sponsors svg {
+    width: 8rem;
+    height: auto;
+}
+
+svg.entropy {
+    padding-top: 0.3rem;
+}
+img.connext {
+    width: 9.5rem;
+}
+
+.afterparty .soon {
+    width: 90%;
+}
+
+@media only screen and (max-width: 860px) {
+    .after-spon-1,
+    .after-spon-2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
     }
 }
 
