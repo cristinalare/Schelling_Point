@@ -270,42 +270,33 @@ main {
 
 .scroller > span {
     position: relative;
-    bottom: 0;
-    animation: h1slide 0.7s ease-out;
+    bottom: -1.5em;
+    animation: h1slide 0.9s ease-out forwards;
 }
 
 @keyframes h1slide {
     from {
-      bottom: -1em;
+      bottom: -1.5em;
+      opacity: 0;
     }
     to {
       bottom: 0em;
+      opacity: 1;
     }
 }
 /* animated main h2 headings */
-@supports (transform: translateY(70%)) {
-    .scroller-h2 {
+.scroller-h2 {
         overflow: hidden;
-    }
-
-    .animated-h2 {
+}
+.animated-h2 {
         transform: translateY(70%);
-    }
-    .h2-animation-triggered {
-        animation: h2slide 0.5s ease-in forwards;
-    }
-
-    @keyframes h2slide {
-        from {
-            transform: translateY(70%);
-            opacity: 0.4;
-        }
-
-        to {
-            transform: translateY(30%);
-            opacity: 1;
-        }
-    }
+        opacity: 0;
+        transition: transform 0.5s ease-in,
+            opacity 1.1s ease-in;
+}
+.h2-animation-triggered {
+        transform: translateY(30%);
+        opacity: 1;
 }
 
 /* nav animation */
@@ -336,17 +327,13 @@ main {
 }
 
 /* about section paragraphs animation */
-.p-animation-triggered {
-    animation: opacity 1s ease-in;
+.animated-p {
+    opacity: 0.05;
+    transition: opacity 0.8s ease-in;
 }
 
-@keyframes opacity {
-    from {
-        opacity: 0.05;
-    }
-    to {
-        opacity: 1;
-    }
+.p-animation-triggered {
+    opacity: 1;
 }
 
 /* Header section
@@ -852,7 +839,8 @@ svg.zora {
 }
 
 .loc-address {
-    transition: color 0.4s ease-out;
+    transition: color 0.4s ease-out,
+        opacity 0.8s ease-in;
 }
 
 .afterparty-sponsors {
