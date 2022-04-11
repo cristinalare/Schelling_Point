@@ -766,7 +766,7 @@ h1 span::after {
 .sponsors-container {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 5.5rem;
     width: 85%;
     max-width: 1500px;
     margin: auto;
@@ -796,12 +796,17 @@ svg.radicle {
     width: auto;
 }
 
+svg.zora {
+    height: 1.3rem;
+}
+
 .top-sponsors,
 .medium-sponsors,
 .bottom-sponsors {
     display: flex;
     gap: 2rem;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .medium-sponsors {
@@ -863,6 +868,7 @@ svg.radicle {
 .after-spon-2 {
     display: flex;
     gap: 3rem;
+    align-items: center;
 }
 
 .afterparty-sponsors img,
@@ -872,10 +878,15 @@ svg.radicle {
 }
 
 svg.entropy {
-    padding-top: 0.3rem;
+    margin-top: 0.3rem;
 }
 img.connext {
     width: 9.5rem;
+}
+
+.after-spon-1 .zora {
+    width: 6.6rem;
+    margin-top: 0.3rem;
 }
 
 .afterparty .soon {
