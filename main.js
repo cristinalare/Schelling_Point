@@ -27,8 +27,10 @@ const city = document.querySelector('.city');
 
 if (x.matches) {
     city.classList.add('center');
+    city.classList.remove('left');
 } else {
     city.classList.add('left');
+    city.classList.remove('center');
 }
 
 // about section paragraphs animation 

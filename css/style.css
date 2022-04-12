@@ -900,9 +900,13 @@ svg.zora {
     height: auto;
 }
 
-svg.entropy {
+img.entropy {
+    width: 6rem;
+    height: 2.1rem;
+    object-fit: cover;
     margin-top: 0.3rem;
 }
+
 img.connext {
     width: 9.5rem;
 }
