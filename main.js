@@ -22,6 +22,15 @@
     navContent.addEventListener('click', toggleMenu);
 
 
+// city guide underline centered on mobile 
+const city = document.querySelector('.city');
+
+if (x.matches) {
+    city.classList.add('center');
+} else {
+    city.classList.add('left');
+}
+
 // about section paragraphs animation 
 
     const plist = document.querySelectorAll('.animated-p');

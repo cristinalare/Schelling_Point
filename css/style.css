@@ -144,6 +144,7 @@ nav a:active {
 }
 
 .button,
+.link,
 .about-keywords,
 .goal-container p,
 .speaker-name,
@@ -157,19 +158,26 @@ nav a:active {
     line-height: 1.8rem;
 }
 
+.link,
 .button {
     font-size: 1.125rem;
-    padding: 0.9em 1.3em;
     width: fit-content;
     color: var(--light-green-color);
+}
+
+.footer-link .link,
+.about-buttons .link {
+    margin: 0.9em 1.3em;
+    padding-bottom: 0.4em;
+}
+
+/* buttons */
+.button {
+    padding: 0.9em 1.3em;
 } 
 
 .button.purple {
     background-color: var(--purple-color);
-}
-
-.link {
-    text-decoration: underline;
 }
 
 @media (hover: hover) {
@@ -182,18 +190,7 @@ nav a:active {
     background-color: var(--grey-color);
 }
 
-@media (hover: hover) {
-    .hero-content .button:hover,
-    .footer-link .button:hover {
-        color: var(--green-color);
-    }
-}
-
-.inactive {
-    pointer-events: none;
-    opacity: 0.5;
-}
-    
+/* links */
 .purple-link {
     color: var(--purple-color);
 }
@@ -202,12 +199,56 @@ nav a:active {
     color: var(--grey-color);
 }
 
+.green-link:active {
+    color: var(--green-color);
+}
+
+.link {
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 0.4em;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    height: 2px;
+    width: 40%;
+    background-color: var(--light-green-color);
+    transition: all 0.4s ease-out .1s;
+}
+
+.purple-link::after {
+    background-color: var(--purple-color);
+}
+
+.link.center::after {
+    left: 30%;
+}
+
+.link.left::after {
+    left: 0;
+}
+
 @media (hover: hover) {
-    .purple-link:hover {
-        color: var(--grey-color);
+    .link.center:hover::after {
+        width: 100%;
+        left: 0;
+        transition: 0.5s ease all;
+    }
+    .link.left:hover::after {
+        width: 100%;
+        transition: 0.5s ease all;
     }
 }
 
+.inactive {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* responsive fonts */
 @media only screen and (max-width: 500px) {
     html {
         font-size: 14px;
@@ -271,7 +312,7 @@ main {
 .scroller > span {
     position: relative;
     bottom: -1.5em;
-    animation: h1slide 0.9s ease-out forwards;
+    animation: h1slide 0.9s ease-out 0.1s forwards;
 }
 
 @keyframes h1slide {
@@ -313,7 +354,7 @@ main {
         position: relative;
         bottom: 0;
         width: fit-content;
-        animation: slide 0.6s ease-out;
+        animation: slide 0.6s ease-out 0.1s;
     }
 
     @keyframes slide {
@@ -460,18 +501,9 @@ h1 span::after {
     color:#ffffff;
 }
 
-.hero-content .button {
-    padding: 0;
-}
-
-.hero-content .button:active {
-    color: var(--green-color);
-}
-
 .logo-animation {
     width: 57%; 
     height: auto;
-    
 }
 
 .svg-container {
@@ -595,6 +627,10 @@ h1 span::after {
 .goal-container svg {
     width: 40%; 
     height: auto;
+}
+
+.wiki {
+    padding-bottom: 0.2em;
 }
 
 .about-keywords {
@@ -839,8 +875,7 @@ svg.zora {
 }
 
 .loc-address {
-    transition: color 0.4s ease-out,
-        opacity 0.8s ease-in;
+    line-height: 2rem;
 }
 
 .afterparty-sponsors {
