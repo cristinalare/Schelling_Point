@@ -79,6 +79,7 @@ a {
     --light-green-color: #B3FFED;
     --green-color: #02E2AC;
     --grey-color: #0E0333; 
+    --light-purple-color: #E8E1FF;
 }
 
 #mobile-icon {
@@ -99,7 +100,9 @@ h1,
 h2,
 .h2,
 nav,
-.loc-name {
+.loc-name,
+.title,
+.stage {
     font-family: 'Space Mono', monospace;
     font-weight: 700;
 }
@@ -840,13 +843,105 @@ svg.zora {
 @media only screen and (max-width: 750px) {
     .top-sponsors,
     .bottom-sponsors {
-    flex-wrap: wrap;
-    justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .medium-sponsors { 
         width: 100%;
     }
+}
+
+/* Agenda section
+================= */
+.agenda {
+    padding-bottom: 3rem;
+}
+.agenda h2 {
+    text-align: center;
+}
+.agenda-container {
+    margin-top: 7rem;
+    display: flex;
+}
+
+.mainstage,
+.workshops {
+    width: 50%;
+}
+
+.mainstage {
+    border-right: 2px solid var(--purple-color);
+}
+
+.stage {
+    font-size: 1.5rem;
+    text-align: center;
+    vertical-align: center;
+    padding-block: 1.2rem;
+    letter-spacing: 0.25em;
+    position: sticky;
+    top: calc(1.2rem + 2em);
+    color: white;
+    background-color: var(--grey-color);
+} 
+/* mobile stage offset */
+@media only screen and (max-width: 870px) {
+    .stage {
+        top: calc(40px + 1.5rem);
+    }
+}
+
+.green-bg {
+    background-color: var(--light-green-color);
+}
+.purple-bg {
+    background-color: var(--light-purple-color);
+}
+
+.talk {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 0.5rem;
+}
+.talk-hour {
+    font-weight: bold;
+    width: 27%;
+    text-align: right;
+    line-height: 1.6rem;
+    font-size: 1rem;
+}
+
+.talk-description {
+    width: 73%;
+}
+
+.title {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--purple-color);
+    padding-bottom: 0.5rem;
+}
+
+.name {
+    line-height: 1.6rem;
+}
+
+.offset {
+    padding-top: 1.1rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .agenda-container {
+        flex-direction: column;
+        gap: 6rem;
+    }
+    
+    .mainstage,
+    .workshops {
+        width: 100%;
+        border-right: none;
+    }  
 }
 
 /* Afterparty section
@@ -1021,7 +1116,6 @@ footer {
 .about,
 .speakers,
 .sponsors,
-.agenda,
 .afterparty {
     text-align: center;
     padding-bottom: 3rem;
