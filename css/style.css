@@ -904,12 +904,21 @@ svg.zora {
     gap: 3rem;
     padding: 1rem 0.5rem;
 }
-.talk-hour {
+.talk-hour,
+.sticky-hour {
     font-weight: bold;
     width: 27%;
     text-align: right;
     line-height: 1.6rem;
     font-size: 1rem;
+}
+
+.sticky-hour {
+    position: sticky;
+    top: 30vh;
+    height: fit-content;
+    width: fit-content;
+   
 }
 
 .talk-description {
