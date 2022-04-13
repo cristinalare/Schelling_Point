@@ -888,9 +888,20 @@ svg.zora {
 ================= */
 .agenda {
     padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 .agenda h2 {
+    direction:rtl;
+    text-indent: -0.3em;
+}
+
+.agenda h2,
+.down-agenda {
     text-align: center;
+    margin: auto;
 }
 .agenda-container {
     margin-top: 7rem;
@@ -916,7 +927,7 @@ svg.zora {
     top: calc(1.2rem + 2em);
     color: white;
     background-color: var(--grey-color);
-    z-index: 20;
+    z-index: 9;
 } 
 /* mobile stage offset */
 @media only screen and (max-width: 870px) {
@@ -948,9 +959,10 @@ svg.zora {
 
 .sticky-hour {
     position: sticky;
-    top: 30vh;
+    text-align: right;
+    top: 32vh;
     height: fit-content;
-    width: fit-content;
+    width: auto;
 }
 
 .talk-description {
