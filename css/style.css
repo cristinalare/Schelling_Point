@@ -141,6 +141,12 @@ nav a {
     color: #ffffff;
 }
 
+.twitter-nav {
+    padding-top: 0.2rem;
+    width: 1.5rem;
+    height: auto;
+}
+
 nav a:hover,
 nav a:active {
     color: var(--green-color);
@@ -430,6 +436,10 @@ li:not(:last-child) {
 
     nav a {
         font-size: 2rem;
+    }
+
+    .twitter-nav {
+        width: 2.4rem;
     }
 
     li:not(:last-child) {
@@ -758,6 +768,7 @@ h1 span::after {
     background-color: white;
     padding: 1%;
     transition: background-color 0.8s;
+    color: #03A9F4;
 }
 
 @media (hover: hover) {
