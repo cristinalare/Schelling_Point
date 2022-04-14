@@ -861,14 +861,19 @@ h1 span::after {
     width: auto;
 }
 
-svg.radicle {
-    height: 2.2rem;
+svg.radicle.top {
+    height: 2.7rem;
+    padding-bottom: 0.6rem;
 }
 
 .medium-sponsors svg {
     height: 2.2rem;
     width: auto;
 }
+svg.jumpcrypto {
+    height: 2.4rem;
+}
+
 .bottom-sponsors svg {
     height: 1.75rem;
     width: auto;
@@ -888,7 +893,7 @@ svg.zora {
 }
 
 .medium-sponsors {
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -903,7 +908,12 @@ svg.zora {
         width: 100%;
     }
 }
-
+@media only screen and (max-width: 500px) {
+    .medium-sponsors { 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 /* Agenda section
 ================= */
 .agenda {
