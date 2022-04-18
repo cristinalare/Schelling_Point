@@ -22,15 +22,20 @@
     navContent.addEventListener('click', toggleMenu);
 
 
-// city guide underline centered on mobile 
-const city = document.querySelector('.city');
+// hero p underline centered on mobile 
+const p = document.querySelectorAll('.mobile-center');
 
 if (x.matches) {
-    city.classList.add('center');
-    city.classList.remove('left');
+    p.forEach(parag => {
+        parag.classList.add('center');
+        parag.classList.remove('left');
+    });
+    
 } else {
-    city.classList.add('left');
-    city.classList.remove('center');
+    p.forEach(parag => {
+        parag.classList.add('left');
+        parag.classList.remove('center');
+    });
 }
 
 // about section paragraphs animation 
