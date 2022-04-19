@@ -903,28 +903,15 @@ svg.zora {
     align-items: center;
 }
 
-.medium-sponsors {
-    width: 70%;
-    margin: auto;
-}
-
 @media only screen and (max-width: 750px) {
     .top-sponsors,
-    .bottom-sponsors {
+    .bottom-sponsors,
+    .medium-sponsors {
         flex-wrap: wrap;
         justify-content: center;
     }
+}
 
-    .medium-sponsors { 
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .medium-sponsors { 
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
 /* Agenda section
 ================= */
 .agenda {
