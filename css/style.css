@@ -934,15 +934,21 @@ svg.zora {
 .agenda-container {
     margin-top: 5rem;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainstage,
+.workshops,
+.unconf {
+    width: 33.33%;
+    height: fit-content;
 }
 
 .mainstage,
 .workshops {
-    width: 50%;
-}
-
-.mainstage {
     border-right: 2px solid var(--purple-color);
+    
 }
 
 .stage {
@@ -969,6 +975,9 @@ svg.zora {
 }
 .purple-bg {
     background-color: hsla(254, 100%, 94%, 0.6);
+}
+.black-bg {
+    background-color:#0e033333;
 }
 
 .talk {
@@ -999,6 +1008,22 @@ svg.zora {
 .name {
     line-height: 1.7rem;
 }
+
+@media only screen and (max-width: 1130px) {
+    .unconf,
+    .workshops {
+        width: 50%;
+    }
+
+    .mainstage .talk {
+        padding: 1rem 25%;
+    }
+    .mainstage {
+        width: 100%;
+        border-right: none;
+    }
+}
+
 @media only screen and (min-width: 850px) {
     .title {
         font-size: 1.25rem;
@@ -1018,10 +1043,14 @@ svg.zora {
     }
     
     .mainstage,
-    .workshops {
+    .workshops,
+    .unconf {
         width: 100%;
         border-right: none;
     }  
+    .mainstage .talk {
+        padding: 1rem 0.5rem;
+    }
 }
 
 /* Afterparty section
