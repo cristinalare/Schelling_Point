@@ -973,19 +973,20 @@ svg.zora {
 
 .talk {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     padding: 1rem 0.5rem;
 }
 .talk-hour {
     font-weight: bold;
-    width: 27%;
-    text-align: right;
-    line-height: 1.6rem;
+    width: 12%;
+    text-align: center;
     font-size: 1rem;
+    line-height: 1.2rem;
+    padding-top: 0.4rem;
 }
 
 .talk-description {
-    width: 73%;
+    width: 88%;
 }
 
 .title {
@@ -998,7 +999,18 @@ svg.zora {
 .name {
     line-height: 1.7rem;
 }
-
+@media only screen and (min-width: 850px) {
+    .title {
+        font-size: 1.25rem;
+    }
+    .name {
+        line-height: 1.6rem;
+        font-size: 1.125rem;
+    }
+    .talk-hour {
+        padding-top: 0.25rem;
+    }
+}
 @media only screen and (max-width: 850px) {
     .agenda-container {
         flex-direction: column;
