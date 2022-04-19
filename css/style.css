@@ -989,21 +989,12 @@ svg.zora {
     gap: 3rem;
     padding: 1rem 0.5rem;
 }
-.talk-hour,
-.sticky-hour {
+.talk-hour {
     font-weight: bold;
     width: 27%;
     text-align: right;
     line-height: 1.6rem;
     font-size: 1rem;
-}
-
-.sticky-hour {
-    position: sticky;
-    text-align: right;
-    top: 32vh;
-    height: fit-content;
-    width: auto;
 }
 
 .talk-description {
@@ -1019,10 +1010,6 @@ svg.zora {
 
 .name {
     line-height: 1.7rem;
-}
-
-.offset {
-    padding-top: 1.1rem;
 }
 
 @media only screen and (max-width: 850px) {
