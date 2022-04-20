@@ -158,7 +158,8 @@ nav a:active {
 .goal-container p,
 .speaker-name,
 .loc-address,
-.hero-content p {
+.hero-content p,
+.skip-btn {
     font-family: 'Space Mono', monospace;
     font-weight: 400;
 }
@@ -223,7 +224,8 @@ nav a:active {
   padding-bottom: 0.4em;
 }
 
-.speaker-link {
+.speaker-link,
+.skip-btn {
     text-decoration: none;
     color: var(--grey-color);
     padding-bottom: 0.15em;
@@ -236,8 +238,12 @@ nav a:active {
 }
 
 @media (hover: hover) {
-    .speaker-link:hover {
+    .speaker-link:hover,
+    .skip-btn:hover {
         background-size: 100% 2px;
+    }
+    .skip-btn:hover {
+        color: var(--grey-color);
     }
 }
 
@@ -288,6 +294,9 @@ nav a:active {
 @media only screen and (max-width: 500px) {
     html {
         font-size: 14px;
+    }
+    .skip-btn {
+        font-size: 0.8rem;
     }
 }
 
@@ -513,6 +522,18 @@ li:not(:last-child) {
         transform: rotateY(180deg);
     }
 }
+
+.skip-btn {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 1rem;
+    background-color: rgba(179,255,237,.6);
+    padding: 0.5em 0.7em;
+    color: var(--purple-color);
+    text-align: center;
+}
+
 
 /* Hero section
 =============== */
@@ -754,6 +775,25 @@ h1 span::after {
     width: 200px;
 }
 
+@media only screen and (max-width: 580px) {
+    .speakers-container {
+        width: 95%;
+        gap: 3rem;
+    }
+    .speaker-container {
+        width: 40%;
+        height: auto;
+    }
+    .avatar {
+        height: 120px;
+        width: 120px;
+    }
+    .twitter {
+        width: 25px;
+        height: 25px;
+    }
+}
+
 .avatar {
     border-radius: 50%;
     border: 2px solid var(--purple-color);
@@ -943,6 +983,7 @@ svg.zora {
 .unconf {
     width: 33.33%;
     height: fit-content;
+    border-bottom: 2px solid var(--purple-color);
 }
 
 .mainstage,

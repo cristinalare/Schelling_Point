@@ -37,6 +37,21 @@ if (x.matches) {
         parag.classList.remove('center');
     });
 }
+// remove skip-btn on agenda 
+let agenda = document.getElementById('agenda');
+let skip = document.querySelector('.skip-btn');
+
+observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.intersectionRatio > 0) {
+            skip.style.display = 'none';
+        } else {
+            skip.style.display = 'block';
+        }
+    });
+});
+  
+observer.observe(agenda);
 
 // about section paragraphs animation 
 
