@@ -206,7 +206,8 @@ nav a:active {
     color: var(--purple-color);
 }
 
-.purple-link:active {
+.purple-link:active,
+.skip.btn:active {
     color: var(--grey-color);
 }
 
