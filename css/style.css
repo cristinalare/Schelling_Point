@@ -533,6 +533,7 @@ li:not(:last-child) {
     padding: 0.5em 0.7em;
     color: var(--purple-color);
     text-align: center;
+    z-index: 1;
 }
 
 
@@ -609,7 +610,7 @@ h1 span::after {
 @media only screen and (max-width: 870px) {
     .hero {
         flex-direction: column-reverse;
-        padding: 0 0 4rem 0;
+        padding: 0 0 1rem 0;
     }
     
     .hero-content {
@@ -639,6 +640,41 @@ h1 span::after {
         height: 0;
         padding-bottom: 85%;
     }
+}
+
+/* Video section
+=============== */
+
+.video {
+    text-align: center;
+    width: 100%;
+    background-color: var(--purple-color);
+}
+.videoh2 {
+    color: var(--green-color);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.max-video {
+    max-width: 711px;
+    max-height: calc(400px+8rem);
+    padding-block: 4rem;
+    margin: 0 auto;
+}
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.video-frame {
+    border-radius: 8px;
+    max-width: 711px;
+    max-height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* About section
