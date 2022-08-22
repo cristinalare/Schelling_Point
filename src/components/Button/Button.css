@@ -1,0 +1,17 @@
+.btn {
+    background-color: var(--grey-color);
+    border-radius: 4px;
+    padding: 0.7em;
+    color: var(--light-sun-color);
+    margin: 0 auto;
+    text-align: center;
+    transition: color 0.4s ease-out,
+        background-color 0.4s ease-out;
+}
+.btn:hover {
+    background-color: var(--sun-color);
+    color: var(--grey-color);
+}
+.cta {
+    width: 20rem;
+}

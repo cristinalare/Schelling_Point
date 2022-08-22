@@ -1,0 +1,37 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about-keywords {
+    max-width: 55rem;
+    line-height: 120%;
+}
+
+.keywords-separation {
+    color: var(--green-color);
+}
+
+@media (hover: none) {
+    .keywords-link {
+        text-decoration: underline;
+    }
+}
+
+@media (hover: hover) {
+    .keywords-link {
+        display: inline;
+        background-image: linear-gradient(var(--green-color), var(--green-color));
+        background-size: 0% 2px;
+        background-repeat: no-repeat;
+        transition: background-size 0.4s;
+        background-position: 0 85%;
+    }
+
+    .keywords-link:hover {
+        background-size: 100% 2px;
+    } 
+}
+
+/* width: max(30%, 40ch); */

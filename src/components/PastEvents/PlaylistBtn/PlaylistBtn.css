@@ -1,0 +1,36 @@
+.playlist-btn {
+    background-color: var(--grey-color);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 2rem;
+    position: relative;
+}
+
+.playlist-btn span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.icon {
+    color: #EAE4FF;
+    fill: #0E0333;
+    stroke: #6F3FF5;
+    max-width: 100%;
+    height: auto;
+}
+.icon,
+.playlist-btn {
+    transition: all 1s ease-out;
+}
+.playlist-btn:hover .icon {
+    transform: rotate(180deg);
+    color: var(--grey-color);
+    fill: var(--sun-color);
+    stroke: var(--grey-color);
+}
+.playlist-btn:hover {
+    background-color: var(--sun-color);
+    color: var(--grey-color);
+}
