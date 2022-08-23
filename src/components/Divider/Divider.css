@@ -1,6 +1,6 @@
 
 .divider-img {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     left: 0;
     right: 0;
@@ -10,7 +10,7 @@
 }
 
 .divider {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     left: 0;
     right: 0;

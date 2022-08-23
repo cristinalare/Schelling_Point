@@ -15,3 +15,11 @@
 .cta {
     width: 20rem;
 }
+@media only screen and (max-width: 37.5rem) { /*600px */
+    .cta {
+        width: 12rem;
+    }
+    .btn {
+        padding: 1em;
+    }
+}

@@ -17,6 +17,11 @@
   gap: 5%;
   padding-top: 4.5%;
   position: relative;
+  opacity: 0;
+  transform: translateY(-200px);
+}
+.hidden {
+  display: none;
 }
 
 .hero-bg {

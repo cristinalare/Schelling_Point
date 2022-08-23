@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import useWindowDimensions from '../../helpers/useWindowDimensions';
+// import { useState, useEffect } from 'react';
+// import useWindowDimensions from '../../helpers/useWindowDimensions';
 
 import './Divider.css';
 import { useParallax } from 'react-scroll-parallax';
@@ -10,18 +10,18 @@ import divider3 from './divider3.svg';
 import divider4 from './divider4.svg';
 
 function Divider ({end}) {
-    const { width, height } = useWindowDimensions();
-    const [onDesktop, setOnDesktop] = useState();
-    useEffect(() => {
-        // 960px
-        window.matchMedia("(min-width: 60rem)").matches ? setOnDesktop(true) : setOnDesktop(false);
-    }, [width]);
+    // const { width, height } = useWindowDimensions();
+    // const [onDesktop, setOnDesktop] = useState();
+    // useEffect(() => {
+    //     // 960px
+    //     window.matchMedia("(min-width: 60rem)").matches ? setOnDesktop(true) : setOnDesktop(false);
+    // }, [width]);
     
     
-    const div1 = useParallax({ disabled: !onDesktop, rotate: [0, 174], translateY: [0, 80], targetElement: end.current, shouldAlwaysCompleteAnimation: true, easing: 'easeInCubic'}).ref;
-    const div2 = useParallax({ disabled: !onDesktop, rotate: [0, 177], translateY: [0, 80], targetElement: end.current, shouldAlwaysCompleteAnimation: true, easing: 'easeInQuad'}).ref;
-    const div3 = useParallax({ disabled: !onDesktop, rotate: [0, 180], translateY: [0, 80], targetElement: end.current, shouldAlwaysCompleteAnimation: true, easing: 'easeOutBack'}).ref;
-    const div4 = useParallax({ disabled: !onDesktop, translateX: [0, 1], rotate: [0, 229], targetElement: end.current, shouldAlwaysCompleteAnimation: true }).ref;
+    const div1 = useParallax({ disabled: true, rotate: [0, 174], translateY: [0, 80], targetElement: end.current, shouldAlwaysCompleteAnimation: true, easing: 'easeInCubic'}).ref;
+    const div2 = useParallax({ disabled: true, rotate: [0, 177], translateY: [0, 80], targetElement: end.current, shouldAlwaysCompleteAnimation: true, easing: 'easeInQuad'}).ref;
+    const div3 = useParallax({ disabled: true, rotate: [0, 180], translateY: [0, 80], targetElement: end.current, shouldAlwaysCompleteAnimation: true, easing: 'easeOutBack'}).ref;
+    const div4 = useParallax({ disabled: true, translateX: [0, 1], rotate: [0, 229], targetElement: end.current, shouldAlwaysCompleteAnimation: true }).ref;
    
     return (
         <div className="divider">

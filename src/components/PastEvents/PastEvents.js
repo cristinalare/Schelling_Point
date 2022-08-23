@@ -3,6 +3,7 @@ import './PastEvents.css';
 import PastEventsImg from './PastEventsImg';
 import { Parallax } from 'react-scroll-parallax';
 import spAms from './sp-amsterdam.mp4';
+import videoPoster from './video-poster.jpeg';
 import PlaylistBtn from './PlaylistBtn/PlaylistBtn';
 
 const gsap = window.gsap;
@@ -27,19 +28,10 @@ function PastEvents() {
          return () => gradientAnimation.kill();
     }, []);
 
-    // const onMouseOver = () => {
-    //     tl.play(0);
-    // }
-    // const onMouseLeave = () => {
-    //     tl.reverse();
-    // }
-
-    const videoRef = useRef();
-
     return (
         <div className='past-events'>
-            <Parallax className='past-events-video' opacity={[0, 2]} startScroll={100} scale={[0.8, 1.2]} speed={8} onEnter={() => videoRef.current.play()} onExit={() => videoRef.current.pause()}>
-                <video ref={videoRef} controls  disablePictureInPicture controlsList="nodownload noplaybackrate" muted preload="none" width="640" height="360">
+            <Parallax className='past-events-video' opacity={[0, 2]} startScroll={100} scale={[0.8, 1.2]} speed={8}>
+                <video poster={videoPoster} controls disablePictureInPicture controlsList="nodownload noplaybackrate" preload="none" width="640" height="360">
                     <source src={spAms} type="video/mp4"></source>
                     Your browser does not support the video tag.
                 </video>

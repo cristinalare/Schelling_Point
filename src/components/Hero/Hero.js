@@ -1,4 +1,4 @@
-import { useRef, useLayoutEffect } from 'react';
+import { useRef, useLayoutEffect, useState } from 'react';
 import './Hero.css';
 import heroBg from './hero-bg.png';
 import { Parallax } from 'react-scroll-parallax';
@@ -11,23 +11,27 @@ gsap.registerPlugin(CustomEase);
 function Hero () {
     const ctaRef = useRef();
     const heroContentRef = useRef();
+    const [isLoaded, setIsLoaded] = useState(false);
 
     useLayoutEffect(() => {
+        setIsLoaded(true);
         // CTA button animation
-        const tl = gsap.timeline({repeat:-1, defaults: {duration: 2.5, ease: CustomEase.create("custom", "M0,0,C0,0,0.064,0.902,0.074,1,0.164,1,1,1,1,1")}});
+        const tl = gsap.timeline({repeat:-1, defaults: {duration: 1.5, ease:  CustomEase.create("custom", "M0,0,C0.14,0,0.242,0.438,0.272,0.561,0.313,0.728,0.53,0.98,0.552,1,0.57,1,0.707,0.995,0.726,0.998,0.829,1.01,1,1,1,1")}});
         tl
             .to(ctaRef.current, { text: {delimiter: "", value: "speak"}})
             .to(ctaRef.current, { text: {delimiter: "", value: "volunteer"}})
             .to(ctaRef.current, { text: { delimiter: "", value: "sponsor"}})
-            .to(ctaRef.current, { text: { delimiter: "", value: "perform"}});
+            .to(ctaRef.current, { text: { delimiter: "", value: "attend"}});
 
         // hero content fade in animation
-        const mainAnimation = gsap.from(heroContentRef.current, {
+        const mainAnimation = gsap.fromTo(heroContentRef.current, {
             opacity: 0,
-            y: -300,
-            duration: 2,
-            ease: "power3.out"
-        })
+            y: -200
+        },{
+            opacity: 1,
+            y: 0,
+            duration: 2
+        });
 
         // clean up
         return () => {
@@ -42,7 +46,7 @@ function Hero () {
                 <Parallax shouldAlwaysCompleteAnimation={true} className="hero-bg">
                     <img src={heroBg} alt="" width="471" height="854" fetchpriority="high"/>
                 </Parallax>
-                <div ref={heroContentRef} className='hero-content'>
+                <div ref={heroContentRef} className={isLoaded ? 'hero-content' : 'hero-content hidden'}>
                     <div className="hero-title ">
                         <Parallax shouldAlwaysCompleteAnimation={true} translateY={[0, 3]} translateX={[0, 4]} >
                             <h1 className='main-title'>schelling<br/>point<br/><span className='thin'>bogotá</span></h1>
