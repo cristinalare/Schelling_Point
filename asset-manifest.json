@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Schelling_Point/static/css/main.f1b81fd9.css",
+    "main.js": "/Schelling_Point/static/js/main.10708d57.js",
+    "static/media/sp-amsterdam.mp4": "/Schelling_Point/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
+    "static/media/footer-bg.png": "/Schelling_Point/static/media/footer-bg.e49b88ed48e723bc4df0.png",
+    "static/media/video-poster.jpeg": "/Schelling_Point/static/media/video-poster.7d2c434bbd4ec586fc4f.jpeg",
+    "static/media/hero-bg.png": "/Schelling_Point/static/media/hero-bg.81523b8e5bd30ff88721.png",
+    "static/media/title-bg.png": "/Schelling_Point/static/media/title-bg.d8312f7ff2fcec512c8b.png",
+    "static/media/gitcoin-community.svg": "/Schelling_Point/static/media/gitcoin-community.355c136663bf86e28da698aa19713515.svg",
+    "index.html": "/Schelling_Point/index.html",
+    "static/media/flower-bg.svg": "/Schelling_Point/static/media/flower-bg.384622914d520ef40abf321dadf62ea6.svg",
+    "static/media/divider4.svg": "/Schelling_Point/static/media/divider4.ff355a99e00b299e5e6825d980df82e4.svg",
+    "static/media/divider2.svg": "/Schelling_Point/static/media/divider2.d1b9ecf47487b23b7e14bb85e8178ec0.svg",
+    "static/media/divider3.svg": "/Schelling_Point/static/media/divider3.9d00b056a846a17a5db4109d8f58c035.svg",
+    "static/media/divider1.svg": "/Schelling_Point/static/media/divider1.19c225a02a66bc6b040fb417b7416ec8.svg",
+    "main.f1b81fd9.css.map": "/Schelling_Point/static/css/main.f1b81fd9.css.map",
+    "main.10708d57.js.map": "/Schelling_Point/static/js/main.10708d57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1b81fd9.css",
+    "static/js/main.10708d57.js"
+  ]
+}
