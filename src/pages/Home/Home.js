@@ -11,7 +11,7 @@ import { useRef } from "react";
 
 function Home() {
     const sectionTitles = [
-        {name: 'About', component: <About />, disabled: false}, 
+        // {name: 'About', component: <About />, disabled: false}, 
         {name:'Speakers', component: <Speakers />, disabled: true },
         {name:'Sponsors', component: <Sponsors />, disabled: true},
         {name:'Agenda', component: <Agenda />, disabled: true},
@@ -26,6 +26,9 @@ function Home() {
             <Hero />
             <div className="sections">
                 <div ref={endRef}>
+                    <div className="section">
+                        <About />
+                    </div>
                 {
                     sectionTitles.map((sectionTitle, index) => (
                         !sectionTitle.disabled &&

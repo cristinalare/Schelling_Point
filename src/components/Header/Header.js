@@ -12,7 +12,7 @@ function Header () {
     };
 
     const menuItems = [
-        {name: 'About', disabled: false}, 
+        // {name: 'About', disabled: false}, 
         {name: 'Speakers', disabled: true},
         {name: 'Sponsors', disabled: true}, 
         {name: 'Agenda', disabled: true}, 

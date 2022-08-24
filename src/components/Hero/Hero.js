@@ -1,4 +1,4 @@
-import { useRef, useLayoutEffect, useState } from 'react';
+import { useRef, useLayoutEffect } from 'react';
 import './Hero.css';
 import heroBg from './hero-bg.png';
 import { Parallax } from 'react-scroll-parallax';
@@ -10,11 +10,8 @@ gsap.registerPlugin(CustomEase);
 
 function Hero () {
     const ctaRef = useRef();
-    const heroContentRef = useRef();
-    const [isLoaded, setIsLoaded] = useState(false);
 
     useLayoutEffect(() => {
-        setIsLoaded(true);
         // CTA button animation
         const tl = gsap.timeline({repeat:-1, defaults: {duration: 1.5, ease:  CustomEase.create("custom", "M0,0,C0.14,0,0.242,0.438,0.272,0.561,0.313,0.728,0.53,0.98,0.552,1,0.57,1,0.707,0.995,0.726,0.998,0.829,1.01,1,1,1,1")}});
         tl
@@ -24,18 +21,17 @@ function Hero () {
             .to(ctaRef.current, { text: { delimiter: "", value: "attend"}});
 
         // hero content fade in animation
-        const mainAnimation = gsap.fromTo(heroContentRef.current, {
-            opacity: 0,
-            y: -200
-        },{
-            opacity: 1,
-            y: 0,
-            duration: 2
-        });
+        // const mainAnimation = gsap.fromTo(heroContentRef.current, {
+        //     opacity: 0,
+        //     y: -200
+        // },{
+        //     opacity: 1,
+        //     y: 0,
+        //     duration: 2
+        // });
 
         // clean up
         return () => {
-            mainAnimation.kill();
             tl.kill();
         }
     }, []);
@@ -46,8 +42,8 @@ function Hero () {
                 <Parallax shouldAlwaysCompleteAnimation={true} className="hero-bg">
                     <img src={heroBg} alt="" width="471" height="854" fetchpriority="high"/>
                 </Parallax>
-                <div ref={heroContentRef} className={isLoaded ? 'hero-content' : 'hero-content hidden'}>
-                    <div className="hero-title ">
+                <div className='hero-content'>
+                    <div className="hero-title">
                         <Parallax shouldAlwaysCompleteAnimation={true} translateY={[0, 3]} translateX={[0, 4]} >
                             <h1 className='main-title'>schelling<br/>point<br/><span className='thin'>bogotá</span></h1>
                         </Parallax>
@@ -65,7 +61,7 @@ function Hero () {
 export default Hero ;
 
 // previous hero
-{/* // preload hero image
+/* // preload hero image
     // useEffect(() => {
     //     const img = new Image();
     //     img.src = spAnimation;
@@ -84,4 +80,4 @@ export default Hero ;
         </div>
         <img src={spAnimation} alt="schelling point animated logo" width='500' height='500' />
     </div>
-</div> */}
+</div> */
