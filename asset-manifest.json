@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1b81fd9.css",
+    "main.css": "/static/css/main.ba4c103b.css",
     "main.js": "/static/js/main.dcfb8dcf.js",
     "static/media/sp-amsterdam.mp4": "/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
     "static/media/footer-bg.png": "/static/media/footer-bg.e49b88ed48e723bc4df0.png",
@@ -14,11 +14,11 @@
     "static/media/divider2.svg": "/static/media/divider2.d1b9ecf47487b23b7e14bb85e8178ec0.svg",
     "static/media/divider3.svg": "/static/media/divider3.9d00b056a846a17a5db4109d8f58c035.svg",
     "static/media/divider1.svg": "/static/media/divider1.19c225a02a66bc6b040fb417b7416ec8.svg",
-    "main.f1b81fd9.css.map": "/static/css/main.f1b81fd9.css.map",
+    "main.ba4c103b.css.map": "/static/css/main.ba4c103b.css.map",
     "main.dcfb8dcf.js.map": "/static/js/main.dcfb8dcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1b81fd9.css",
+    "static/css/main.ba4c103b.css",
     "static/js/main.dcfb8dcf.js"
   ]
 }
