@@ -14,6 +14,7 @@
 }
 .cta {
     width: 20rem;
+    z-index: 9;
 }
 @media only screen and (max-width: 37.5rem) { /*600px */
     .cta {
