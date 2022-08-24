@@ -1,0 +1,179 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body, 
+header {
+    max-width: 120rem;
+    margin: auto;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--purple-color);
+    color: var(--light-sun-color);
+}
+
+main {
+    position: relative;
+    top: calc(33px + 1.7rem + 1.7rem); /* header's height: padding + logo */
+}
+
+:root {
+    --grey-color: #0E0333; 
+    --purple-color: #6F3FF5;
+    --light-purple-color: #EAE4FF;
+    --green-color: #02E2AC;
+    --light-green-color: #B3FFED;
+    --sun-color: #FFE921;
+    --light-sun-color: #FFF8BC;
+}
+
+.yellow {
+    color: var(--sun-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border: 1px solid var(--grey-color);
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: var(--purple-color);
+}
+
+/* typography */
+html {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    color: var(--light-sun-color);
+}
+
+:root {
+    --font-xxs: 0.875rem; /*14px */
+    --font-xs: 1.375rem; /*22px */
+    --font-s: 1.75rem; /*28px */
+    --font-m: 2rem; /* 32px */
+    --font-l: 3rem; /* 48px */
+    --font-xl: 4rem; /* 64px */
+    --font-xxl: 5rem; /*80px */
+}
+.main-xxl,
+.main-xl,
+.main-l,
+.main-m,
+.main-s,
+.main-xs,
+.main-xxs {
+    font-family: 'Kanit', sans-serif;
+    
+}
+.main-xxl {
+    font-size: var(--font-xxl);
+    font-weight: 900;
+}
+.main-xl {
+    font-size: var(--font-xl);
+}
+.main-l {
+    font-size: var(--font-l);
+    font-weight: 800;
+}
+.main-m {
+    font-size: var(--font-m);
+    font-weight: 800;
+}
+/* cta */
+.main-s {
+    font-size: var(--font-s);
+    font-weight: 800;
+}
+/* nav */
+.main-xxs {
+    font-size: var(--font-xxs);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+/* .body-l {
+    font-size: var(--font-l);
+}
+.body-m {
+    font-size: var(--font-m);
+}
+.body-s {
+    font-size: var(--font-s);
+} */
+
+/* responsive fonts */
+
+@media only screen and (max-width: 62.5rem) { /*1000px */
+    .main-xxl {
+        font-size: var(--font-xl);
+    }
+    .main-xl {
+        font-size: var(--font-l);
+    }
+    .main-l {
+        font-size: var(--font-m);
+    }
+    .main-s {
+        font-size: var(--font-xs);
+    }
+}
+
+@media only screen and (max-width: 48rem) { /*780px */
+    .main-xxl {
+        font-size: var(--font-l);
+    }
+    .main-xl {
+        font-size: var(--font-m);
+    }
+    .main-l {
+        font-size: var(--font-s);
+    }
+    
+}
+
+@media only screen and (max-width: 37.5rem) { /*600px */
+    .main-xxl {
+        font-size: var(--font-m);
+    }
+    .main-xl {
+        font-size: var(--font-s);
+    }
+    .main-l {
+        font-size: var(--font-xs);
+    }
+    /* logo */
+    .main-s {
+        font-size: var(--font-xxs);
+    }
+}
