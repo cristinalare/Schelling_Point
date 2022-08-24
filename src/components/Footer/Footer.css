@@ -1,0 +1,17 @@
+footer {
+    position: relative;
+    z-index: -10;
+    margin-top: 4rem;
+}
+.footer-bg {
+    width: 100%;
+    height: auto;
+    transform: translateY(3px);
+}
+.footer-gitcoin {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}

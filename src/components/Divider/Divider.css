@@ -1,0 +1,32 @@
+
+.divider-img {
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    max-width: none;
+}
+
+.divider {
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    z-index: -1;
+}
+
+.divider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    /* transform-origin:  23.7% 50%; */
+}
+.line {
+    opacity: 0.4;
+}
