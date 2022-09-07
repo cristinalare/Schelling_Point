@@ -149,7 +149,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 48rem) { /*780px */
+@media only screen and (max-width: 53.12rem) { /*850px */
     .main-xxl {
         font-size: var(--font-l);
     }
@@ -176,4 +176,9 @@ html {
     .main-s {
         font-size: var(--font-xxs);
     }
+}
+@media only screen and (max-width: 28.12rem) { /*450px */
+  .main-xxl {
+    font-size: var(--font-s);
+  }
 }

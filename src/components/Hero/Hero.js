@@ -50,7 +50,7 @@ function Hero () {
                         <h1 className='shadow-title'>schelling<br/>point<br/><span className='thin'>bogotá</span></h1>
                     </div>
                     <div className="hero-date"><span className='thin'>10</span><br/>oct<br/>22</div>
-                    <div className="hero-location">gran<br/><span className='thin'>américas</span><br/>pavilion</div>
+                    <div className="hero-location">gran carpa<br/><span className='thin'>américas</span><br/>corferias</div>
                 </div>
             </div>
             <Button text='Apply to ' link='https://forms.gle/wEZ7NfettKHKna7k6' ctaRef={ctaRef} />
