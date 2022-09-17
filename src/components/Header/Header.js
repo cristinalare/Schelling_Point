@@ -14,7 +14,7 @@ function Header () {
     const menuItems = [
         // {name: 'About', disabled: false}, 
         {name: 'Speakers', disabled: true},
-        {name: 'Sponsors', disabled: true}, 
+        {name: 'Sponsors', disabled: false}, 
         {name: 'Agenda', disabled: true}, 
         {name: 'Afterparty', disabled: true}, 
         {name:'Past Events', disabled: false}];
@@ -43,7 +43,7 @@ function Header () {
                             smooth='easeOutCubic'
                             spy={true} 
                             to={menuItem.name}
-                            offset={-20}
+                            offset={-90}
                             activeClass='active-nav'
                             className={menuItem.disabled ? 'disabled' : undefined }>
                                 {menuItem.name}

@@ -2,6 +2,7 @@ import flower1 from './flower1.svg';
 import flower2 from './flower2.svg';
 import flower3 from './flower3.svg';
 import './Flower.css';
+import { Parallax } from 'react-scroll-parallax';
 
 function Flower () {
     return (

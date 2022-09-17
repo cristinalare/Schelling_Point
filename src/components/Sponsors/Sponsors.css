@@ -1,0 +1,56 @@
+#Sponsors {
+  background-color: var(--light-sun-color);
+}
+#Sponsors .section-content {
+  margin: 0;
+}
+
+.sponsors-line {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.Core,
+.Art {
+  display: inline-flex;
+}
+.sponsors-line:not(:last-child) {
+  padding-bottom: 1.5rem;
+}
+
+.line-title {
+  color: var(--grey-color);
+  width: 5ch;
+  text-align: right;
+}
+.line-logos {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+
+.sponsor-img {
+  background-color: var(--purple-color);
+  max-width: unset;
+}
+
+@media only screen and (max-width: 62.5rem) { /*1000px */
+  .sponsor-img {
+    height: 50px;
+    width: auto;
+  }
+  .sponsor-img.protocol {
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 37.5rem) { /*600px */
+  .sponsor-img {
+    height: 35px;
+    width: auto;
+  }
+  .sponsor-img.protocol {
+    height: 51px;
+  }
+}

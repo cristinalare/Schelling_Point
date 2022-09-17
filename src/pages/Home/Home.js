@@ -12,9 +12,9 @@ import { useRef } from "react";
 function Home() {
     const sectionTitles = [
         // {name: 'About', component: <About />, disabled: false}, 
-        {name:'Speakers', component: <Speakers />, disabled: true },
-        {name:'Sponsors', component: <Sponsors />, disabled: true},
         {name:'Agenda', component: <Agenda />, disabled: true},
+        {name:'Speakers', component: <Speakers />, disabled: true },
+        {name:'Sponsors', component: <Sponsors />, disabled: false},
         {name:'Afterparty', component: <Afterparty />, disabled: true},
         {name: 'Past Events', component: <PastEvents />, disabled: false}
     ];

@@ -159,6 +159,9 @@ html {
     .main-l {
         font-size: var(--font-s);
     }
+    .main-m {
+      font-size: var(--font-s);
+    }
     
 }
 
@@ -171,6 +174,9 @@ html {
     }
     .main-l {
         font-size: var(--font-xs);
+    }
+    .main-m {
+      font-size: var(--font-xs);
     }
     /* logo */
     .main-s {

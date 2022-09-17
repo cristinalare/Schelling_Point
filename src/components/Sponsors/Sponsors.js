@@ -1,44 +1,68 @@
+import Sponsor from './Sponsor';
+import './Sponsors.css';
+import anoma from './logos/anoma.svg';
+import celo from './logos/celo.svg';
+import fuel from './logos/fuel.svg';
+import lukso from './logos/lukso.svg';
+import protocol from './logos/protocol.svg';
+import radicle from './logos/radicle.svg';
+import w3e from './logos/w3e.svg';
 
 function Sponsors () {
+    const champ = [{
+      name: 'protocol',
+      logo: protocol
+    }];
+    const lead = [
+      {
+        name: 'lukso',
+        logo: lukso
+      },
+      {
+        name: 'radicle',
+        logo: radicle
+      },
+    ];
+    const core = [
+      {
+        name: 'anoma',
+        logo: anoma
+      },
+      {
+        name: 'celo',
+        logo: celo
+      },
+    ];
+    const art = [{
+      name: 'fuel',
+      logo: fuel
+    }];
+
+    const node = [{
+      name: 'w3e',
+      logo: w3e
+    }];
+    const lines = [
+      {title: 'Champ', list: champ, weight: '800', opacity: '1'},
+      {title: 'Lead', list: lead, weight: '700', opacity: '0.8'},
+      {title: 'Core', list: core, weight: '600', opacity: '0.6'},
+      {title: 'Art', list: art, weight: '600', opacity: '0.6'},
+      {title: 'Node', list: node, weight: '500', opacity: '0.4'}
+    ];
+
     return (
-        <div className="sponsors" id="sponsors">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
-            Nam eget nulla nec nibh hendrerit ullamcorper.<br/>
-            Aenean elementum sem non commodo convallis.<br/>
-            Donec blandit lorem ac tincidunt viverra.<br/>
-            Ut dignissim leo interdum magna efficitur, eu ornare lacus sollicitudin.<br/>
-            Cras consectetur lorem at ante dapibus tincidunt vitae sit amet ipsum.<br/>
-            Maecenas hendrerit turpis in euismod ornare.<br/>
-            Phasellus nec tellus in leo sagittis tincidunt.<br/>
-            Morbi feugiat neque ut convallis ullamcorper.<br/>
-            Nam luctus urna nec elit interdum viverra.<br/>
-            Sed non justo hendrerit turpis tincidunt consectetur id eget libero.<br/>
-            Suspendisse pretium diam eu nisl sagittis venenatis.<br/>
-            Ut sit amet urna sit amet ex malesuada condimentum.<br/>
-            Vestibulum euismod quam vel dictum ullamcorper.<br/>
-            Vestibulum et mi in ex pulvinar posuere.<br/>
-            In congue felis non mattis tincidunt.<br/>
-            Maecenas pellentesque elit vel odio varius porta.<br/>
-            Vestibulum quis dui ornare, dapibus diam nec, lacinia eros.<br/>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
-            Nam eget nulla nec nibh hendrerit ullamcorper.<br/>
-            Aenean elementum sem non commodo convallis.<br/>
-            Donec blandit lorem ac tincidunt viverra.<br/>
-            Ut dignissim leo interdum magna efficitur, eu ornare lacus sollicitudin.<br/>
-            Cras consectetur lorem at ante dapibus tincidunt vitae sit amet ipsum.<br/>
-            Maecenas hendrerit turpis in euismod ornare.<br/>
-            Phasellus nec tellus in leo sagittis tincidunt.<br/>
-            Morbi feugiat neque ut convallis ullamcorper.<br/>
-            Nam luctus urna nec elit interdum viverra.<br/>
-            Sed non justo hendrerit turpis tincidunt consectetur id eget libero.<br/>
-            Suspendisse pretium diam eu nisl sagittis venenatis.<br/>
-            Ut sit amet urna sit amet ex malesuada condimentum.<br/>
-            Vestibulum euismod quam vel dictum ullamcorper.<br/>
-            Vestibulum et mi in ex pulvinar posuere.<br/>
-            In congue felis non mattis tincidunt.<br/>
-            Maecenas pellentesque elit vel odio varius porta.<br/>
-            Vestibulum quis dui ornare, dapibus diam nec, lacinia eros.
-        </div>
+      <div className="sponsors" id="sponsors">
+        {lines.map(line => (
+          <div className={`sponsors-line ${line.title}`} key={line.title}>
+            <p className="line-title main-m"  style={{ fontWeight: line.weight}}>{line.title}</p>
+            <div className="line-logos" style={{opacity: line.opacity}}>
+              {line.list.map(sponsor => (
+                <Sponsor logo={sponsor.logo} name={sponsor.name} key={sponsor.name} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
     );
 }
 

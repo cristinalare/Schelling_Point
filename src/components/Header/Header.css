@@ -9,7 +9,8 @@ header {
     z-index: 10;
     padding: 1.7rem;
     color: var(--light-sun-color);
-    backdrop-filter: blur(10px);
+    background-color: var(--purple-color);
+    /* backdrop-filter: blur(10px); */
 }
 
 /* logo */
