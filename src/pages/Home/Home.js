@@ -4,7 +4,7 @@ import Speakers from "../../components/Speakers/Speakers";
 import Sponsors from '../../components/Sponsors/Sponsors'
 import Agenda from '../../components/Agenda/Agenda';
 import Afterparty from '../../components/Afterparty/Afterparty';
-import Divider from "../../components/Divider/Divider";
+// import Divider from "../../components/Divider/Divider";
 import SectionTemplate from "../../components/SectionTemplate/SectionTemplate";
 import PastEvents from "../../components/PastEvents/PastEvents";
 import { useRef } from "react";
@@ -22,7 +22,7 @@ function Home() {
     const endRef = useRef();
     return (
         <div>
-            <Divider end={endRef} />
+            {/* <Divider end={endRef} /> */}
             <Hero />
             <div className="sections">
                 <div ref={endRef}>

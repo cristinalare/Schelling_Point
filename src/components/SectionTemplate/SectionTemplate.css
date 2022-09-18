@@ -1,17 +1,25 @@
+.sections {
+  padding-top: 4rem;
+}
+
 .section {
     padding: 0rem 10% 5rem 10%;
 }
+
 .section-content {
     margin: 0 5rem;
 }
 
 @media only screen and (max-width: 48rem) { /*780px */
-    .section {
-        padding: 0 6% 2rem 6%;
-    }
-    .section-content {
-        margin: 0;
-    }
+  .sections {
+    padding-top: 0;
+  }
+  .section {
+    padding: 0 6% 2rem 6%;
+  }
+  .section-content {
+      margin: 0;
+  }
 }
 
 /* left to 600px */

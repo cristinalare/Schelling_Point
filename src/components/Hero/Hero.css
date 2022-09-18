@@ -3,10 +3,19 @@
   flex-direction: column;
   justify-content: center; 
   gap: 4rem;
+  
 }
 .hero-container {
   position: relative;
+  padding-top: 7vh;
 }
+.hero-divider {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 11% + 3vh));
+}
+
 .hero .thin {
   font-weight: 400;
 }
@@ -32,6 +41,9 @@
   }
   .hero-content {
     padding-top: 6rem;
+  }
+  .hero-divider {
+    transform: translate(-50%, calc(-50% + 11% + 8vh));
   }
 }
 

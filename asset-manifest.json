@@ -1,32 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.385f1e76.css",
-    "main.js": "/static/js/main.8b941af9.js",
+    "main.css": "/static/css/main.70730965.css",
+    "main.js": "/static/js/main.39e5c846.js",
     "static/media/sp-amsterdam.mp4": "/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
     "static/media/footer-bg.png": "/static/media/footer-bg.e49b88ed48e723bc4df0.png",
-    "static/media/section-divider.png": "/static/media/section-divider.8f2b660df43e2919cace.png",
     "static/media/video-poster.jpeg": "/static/media/video-poster.7d2c434bbd4ec586fc4f.jpeg",
     "static/media/hero-bg.png": "/static/media/hero-bg.81523b8e5bd30ff88721.png",
     "static/media/title-bg.png": "/static/media/title-bg.d8312f7ff2fcec512c8b.png",
+    "static/media/section-divider.jpg": "/static/media/section-divider.0654e4557d340088adce.jpg",
     "static/media/gitcoin-community.svg": "/static/media/gitcoin-community.2e9c1cd988c2b97b7d42db39afcd5d7c.svg",
     "static/media/protocol.svg": "/static/media/protocol.85e2a8944361e79ee61d32e249f28218.svg",
     "index.html": "/index.html",
     "static/media/radicle.svg": "/static/media/radicle.b0b268cf9a674ee9edc0bdf81924cc19.svg",
     "static/media/anoma.svg": "/static/media/anoma.8be9e9fb59bf34965272a60b674234e9.svg",
     "static/media/celo.svg": "/static/media/celo.5f91ea714a7a41f7a19ab9f433212234.svg",
-    "static/media/flower-bg.svg": "/static/media/flower-bg.5c067768260a1d3e372afb9924cc89e1.svg",
     "static/media/fuel.svg": "/static/media/fuel.b67a2f079a1664acd1cbd40d61874d6b.svg",
     "static/media/w3e.svg": "/static/media/w3e.8e41e49368544316b1dc3934433c92be.svg",
     "static/media/lukso.svg": "/static/media/lukso.15d93f33e4dbf636da785484d72d2782.svg",
-    "static/media/divider4.svg": "/static/media/divider4.ff355a99e00b299e5e6825d980df82e4.svg",
-    "static/media/divider2.svg": "/static/media/divider2.d1b9ecf47487b23b7e14bb85e8178ec0.svg",
-    "static/media/divider3.svg": "/static/media/divider3.9d00b056a846a17a5db4109d8f58c035.svg",
-    "static/media/divider1.svg": "/static/media/divider1.19c225a02a66bc6b040fb417b7416ec8.svg",
-    "main.385f1e76.css.map": "/static/css/main.385f1e76.css.map",
-    "main.8b941af9.js.map": "/static/js/main.8b941af9.js.map"
+    "static/media/divider.svg": "/static/media/divider.dd409ceb9ef95bb1e4e2fd4303ad4588.svg",
+    "main.70730965.css.map": "/static/css/main.70730965.css.map",
+    "main.39e5c846.js.map": "/static/js/main.39e5c846.js.map"
   },
   "entrypoints": [
-    "static/css/main.385f1e76.css",
-    "static/js/main.8b941af9.js"
+    "static/css/main.70730965.css",
+    "static/js/main.39e5c846.js"
   ]
 }
