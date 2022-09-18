@@ -2,7 +2,6 @@ import Sponsor from './Sponsor';
 import './Sponsors.css';
 import anoma from './logos/anoma.svg';
 import celo from './logos/celo.svg';
-import fuel from './logos/fuel.svg';
 import lukso from './logos/lukso.svg';
 import protocol from './logos/protocol.svg';
 import radicle from './logos/radicle.svg';
@@ -33,10 +32,6 @@ function Sponsors () {
         logo: celo
       },
     ];
-    const art = [{
-      name: 'fuel',
-      logo: fuel
-    }];
 
     const node = [{
       name: 'w3e',
@@ -46,7 +41,7 @@ function Sponsors () {
       {title: 'Champ', list: champ, weight: '800', opacity: '1'},
       {title: 'Lead', list: lead, weight: '700', opacity: '0.8'},
       {title: 'Core', list: core, weight: '600', opacity: '0.6'},
-      {title: 'Art', list: art, weight: '600', opacity: '0.6'},
+      // {title: 'Art', list: art, weight: '600', opacity: '0.6'},
       {title: 'Node', list: node, weight: '500', opacity: '0.4'}
     ];
 

@@ -10,10 +10,10 @@
   align-items: center;
   gap: 2rem;
 }
-.Core,
+/* .Core,
 .Art {
   display: inline-flex;
-}
+} */
 .sponsors-line:not(:last-child) {
   padding-bottom: 1.5rem;
 }
