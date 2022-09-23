@@ -1,5 +1,5 @@
 #Sponsors {
-  background-color: var(--light-sun-color);
+  background-color: white;
 }
 #Sponsors .section-content {
   margin: 0;
@@ -8,14 +8,12 @@
 .sponsors-line {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
+  gap: 3rem;
 }
-/* .Core,
-.Art {
-  display: inline-flex;
-} */
+
 .sponsors-line:not(:last-child) {
-  padding-bottom: 1.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .line-title {
@@ -25,32 +23,35 @@
 }
 .line-logos {
   display: flex;
-  gap: 1.5rem;
-  justify-content: flex-start;
+  gap: 5.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .sponsor-img {
-  background-color: var(--purple-color);
   max-width: unset;
 }
 
 @media only screen and (max-width: 62.5rem) { /*1000px */
   .sponsor-img {
-    height: 50px;
-    width: auto;
-  }
-  .sponsor-img.protocol {
-    height: 70px;
-  }
-}
-
-@media only screen and (max-width: 37.5rem) { /*600px */
-  .sponsor-img {
     height: 35px;
     width: auto;
   }
   .sponsor-img.protocol {
-    height: 51px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 37.5rem) { /*600px */
+  .line-logos {
+    gap: 2.5rem;
+  }
+  .sponsor-img {
+    height: 25px;
+    width: auto;
+  }
+  .sponsor-img.protocol {
+    height: 45px;
   }
 }

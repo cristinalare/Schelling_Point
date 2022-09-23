@@ -66,25 +66,3 @@ function Hero () {
 }
 
 export default Hero ;
-
-// previous hero
-/* // preload hero image
-    // useEffect(() => {
-    //     const img = new Image();
-    //     img.src = spAnimation;
-    // }, []);
-   
-    //   const ref1 = useParallax({ rotate: [0, 160] }).ref;
-    //   const ref2 = useParallax({ rotate: [0, 160] }).ref;
-
-<div>
-    <div className="hero">
-        <div className='hero-title'>
-            <Parallax shouldAlwaysCompleteAnimation={true} translateY={[0, 2]} translateX={[0, 2]} >
-                <h1 className='main-title'>Schelling<br/>Point<br/>Bogota</h1>
-            </Parallax>
-            <h1 className='shadow-title'>Schelling<br/>Point<br/>Bogota</h1>
-        </div>
-        <img src={spAnimation} alt="schelling point animated logo" width='500' height='500' />
-    </div>
-</div> */
