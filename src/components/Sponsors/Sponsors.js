@@ -5,7 +5,7 @@ import celo from './logos/celo.svg';
 import lukso from './logos/lukso.svg';
 import protocol from './logos/protocol.svg';
 import radicle from './logos/radicle.svg';
-import w3e from './logos/w3e.svg';
+import supermodular from './logos/supermodular2.svg';
 
 function Sponsors () {
     const champ = [{
@@ -32,8 +32,8 @@ function Sponsors () {
         logo: anoma
       },
       {
-        name: 'w3e',
-        logo: w3e
+        name: 'supermodular',
+        logo: supermodular
       }
     ];
 
