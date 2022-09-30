@@ -22,10 +22,11 @@ main {
 
 :root {
     --grey-color: #0E0333; 
+    --light-grey-color: #0401100D;
     --purple-color: #6F3FF5;
     --light-purple-color: #EAE4FF;
     --green-color: #02E2AC;
-    --light-green-color: #B3FFED;
+    --light-green-color: #D7FFF6;
     --sun-color: #FFE921;
     --light-sun-color: #FFF8BC;
 }

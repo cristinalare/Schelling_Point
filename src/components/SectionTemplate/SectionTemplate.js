@@ -11,7 +11,7 @@ const SectionTemplate = ({title, index, children}) => {
         {(title === 'Sponsors' || title === 'Past Events') &&
           <SectionDivider rotate={title === 'Past Events' ? true : false} />
         }
-        <Element id={title} className="section">
+        <Element id={title.split(' ')[0]} className="section">
           <SectionTitle title={title} index={index} />
           <div className="section-content">
               {children}

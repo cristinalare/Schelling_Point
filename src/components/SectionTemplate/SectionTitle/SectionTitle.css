@@ -1,6 +1,9 @@
+.section-title-wrapper {
+  padding: 0 10%;
+}
 .section-title-container {
     position: relative;
-    padding-block: 4rem;
+    padding: 4rem 0;
     width: fit-content;
     
 }

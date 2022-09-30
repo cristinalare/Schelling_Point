@@ -6,6 +6,10 @@ import lukso from './logos/lukso.svg';
 import protocol from './logos/protocol.svg';
 import radicle from './logos/radicle.svg';
 import supermodular from './logos/supermodular2.svg';
+import filecoin from './logos/filecoin.svg';
+import opolis from './logos/opolis.svg';
+import superrare from './logos/superrare.png';
+import ethlatam from './logos/ethlatam.svg';
 
 function Sponsors () {
     const champ = [{
@@ -32,17 +36,39 @@ function Sponsors () {
         logo: anoma
       },
       {
-        name: 'supermodular',
-        logo: supermodular
-      }
+        name: 'opolis',
+        logo: opolis
+      },
     ];
 
-    // const node = [];
+    const node = [
+      {
+        name: 'superrare',
+        logo: superrare
+      },
+      {
+        name: 'filecoin',
+        logo: filecoin
+      },
+      {
+        name: 'supermodular',
+        logo: supermodular
+      },
+    ];
+
+    const extra = [
+      {
+        name: 'ethlatam',
+        logo: ethlatam
+      }
+    ]
+
     const lines = [
       {title: 'Champ', list: champ, weight: '800'},
       {title: 'Lead', list: lead, weight: '700'},
       {title: 'Core', list: core, weight: '600'},
-      // {title: 'Node', list: node, weight: '500'}
+      {title: 'Node', list: node, weight: '500'},
+      {title: 'Extra', list: extra},
     ];
 
     return (

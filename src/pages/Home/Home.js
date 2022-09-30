@@ -12,9 +12,9 @@ import { useRef } from "react";
 function Home() {
     const sectionTitles = [
         // {name: 'About', component: <About />, disabled: false}, 
-        {name:'Agenda', component: <Agenda />, disabled: true},
         {name:'Speakers', component: <Speakers />, disabled: true },
         {name:'Sponsors', component: <Sponsors />, disabled: false},
+        {name:'Agenda', component: <Agenda />, disabled: false},
         {name:'Afterparty', component: <Afterparty />, disabled: true},
         {name: 'Past Events', component: <PastEvents />, disabled: false}
     ];
@@ -26,7 +26,7 @@ function Home() {
             <Hero />
             <div className="sections">
                 <div ref={endRef}>
-                    <div className="section">
+                    <div className="section" id="About">
                         <About />
                     </div>
                 {
