@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5f40b31.css",
-    "main.js": "/static/js/main.439e2752.js",
+    "main.css": "/static/css/main.eb253619.css",
+    "main.js": "/static/js/main.0914af6a.js",
     "static/media/sp-amsterdam.mp4": "/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
     "static/media/footer-bg.png": "/static/media/footer-bg.e49b88ed48e723bc4df0.png",
     "static/media/video-poster.jpeg": "/static/media/video-poster.7d2c434bbd4ec586fc4f.jpeg",
@@ -15,14 +15,14 @@
     "index.html": "/index.html",
     "static/media/celo.svg": "/static/media/celo.cc75fbc925efc8612ce62e438ea1bbde.svg",
     "static/media/opolis.svg": "/static/media/opolis.c257eee229c2df99dad318bf9f02a59e.svg",
-    "static/media/ethlatam.svg": "/static/media/ethlatam.20c518fcb8d27101524e60b026cc10fa.svg",
     "static/media/lukso.svg": "/static/media/lukso.cfcebfd47b06fad75f092b32caef2fa8.svg",
+    "static/media/ethlatam.svg": "/static/media/ethlatam.a2f272789dd52db596a63afbf4c31c04.svg",
     "static/media/divider.svg": "/static/media/divider.dd409ceb9ef95bb1e4e2fd4303ad4588.svg",
-    "main.f5f40b31.css.map": "/static/css/main.f5f40b31.css.map",
-    "main.439e2752.js.map": "/static/js/main.439e2752.js.map"
+    "main.eb253619.css.map": "/static/css/main.eb253619.css.map",
+    "main.0914af6a.js.map": "/static/js/main.0914af6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5f40b31.css",
-    "static/js/main.439e2752.js"
+    "static/css/main.eb253619.css",
+    "static/js/main.0914af6a.js"
   ]
 }
