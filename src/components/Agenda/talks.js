@@ -97,7 +97,7 @@ export const talksMain = [
   },
   {
     time: '4:15 PM',
-    title: 'TBD',
+    title: 'Onboarding Latam users and builders in the future of Web3',
     name: 'Pablo Sabbatella',
     calendar: ''
   },
