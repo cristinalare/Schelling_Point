@@ -26,7 +26,7 @@ export const talksMain = [
   {
     time: '11:00 AM',
     title: 'Creating welcoming, diverse, and sustainable developer communities',
-    name: 'Kasia Sitkiewicz, Thibault Imbert, Sam Richardson, Abbey, Nader Dabit',
+    name: 'Kasia Sitkiewicz, Camila Ramos, Nader Dabit',
     calendar: ''
   },
   {
@@ -37,7 +37,7 @@ export const talksMain = [
   },
   {
     time: '11:55 AM',
-    title: 'TALK',
+    title: 'Plurality: Technology for Collaborative Diversity and Democracy',
     name: 'Glen Weyl',
     calendar: ''
   },
@@ -226,7 +226,7 @@ export const talksFTC = [
 export const talksDeSci = [
   {
     time: '10:00 AM',
-    title: 'KICKOFF',
+    title: 'Kickoff',
     name: '',
     calendar: ''
   },
@@ -237,55 +237,43 @@ export const talksDeSci = [
     calendar: ''
   },
   {
-    time: '12:00 PM',
+    time: '12:10 PM',
     title: 'LUNCH',
     name: '',
     calendar: ''
   },
   {
-    time: '1:00 PM',
-    title: 'DESCI KICKOFF',
+    time: '12:55 PM',
+    title: 'Infrastructure Workshop (Andros Wong, Aleksandra Smilek, Daniel Uribe, Michael Fischer)',
     name: '',
     calendar: ''
   },
   {
-    time: '1:15 PM',
-    title: 'INFRAstructure workshop',
+    time: '1:50 PM',
+    title: 'BioDAOs Workshop (Paul Kohlhaas, Tyler Golato)',
     name: '',
     calendar: ''
   },
   {
-    time: '2:15 PM',
-    title: 'BREAK',
-    name: '',
-    calendar: ''
-  },
-  {
-    time: '2:20 PM',
-    title: 'BIO Workshop',
+    time: '2:35 PM',
+    title: 'DeSci in LatAm (Carolina Menchaca, Gonza)',
     name: '',
     calendar: ''
   },
   {
     time: '3:20 PM',
-    title: 'HEALTH Workshop',
+    title: 'Health Workshop (Laura Minquini, Oksana Stanevich)',
     name: '',
     calendar: ''
   },
   {
-    time: '4:20 PM',
-    title: 'BREAK',
+    time: '4:05 PM',
+    title: `Promise & Peril Area`,
     name: '',
     calendar: ''
   },
   {
-    time: '4:25 PM',
-    title: 'Promise & Peril Area',
-    name: '',
-    calendar: ''
-  },
-  {
-    time: '4:55 PM',
+    time: '4:50 PM',
     title: 'Closing Remarks',
     name: '',
     calendar: ''
