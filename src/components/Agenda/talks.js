@@ -129,25 +129,25 @@ export const talksPlurality = [
     calendar: ''
   },
   {
-    time: '13:00 PM',
+    time: '1:00 PM',
     title: 'Exploring a potential wormhole between Quadratic Funding and Quantum Mechanics',
     name: 'Michael Freedman ◖ Microsoft',
     calendar: ''
   },
   {
-    time: '14:00 PM',
+    time: '2:00 PM',
     title: 'Building Plural Tech — Lightning Presentations & Panel',
     name: 'Kevin Owocki ◖ supermodular, Christine Vandevoorde ◖ govrn.io, Aaron Soskin ◖ govrn.io, Guo Liu ◖ Matters Lab',
     calendar: ''
   },
   {
-    time: '15:30 PM',
+    time: '3:30 PM',
     title: 'Plural Publics',
     name: 'Shrey Jaineth ◖ Microsoft',
     calendar: ''
   },
   {
-    time: '16:00 PM',
+    time: '4:00 PM',
     title: 'Deep Dive on DeSoc',
     name: 'Puja Ohlhaver ◖ Flashbots, Special Guest',
     calendar: ''
