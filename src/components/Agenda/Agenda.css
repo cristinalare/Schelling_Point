@@ -62,9 +62,11 @@
   font-size: 1rem;
   line-height: 120%;
   padding: 0 8%;
+}
+.agenda-item-title a {
   transition: all 0.3s ease-out;
 }
-a.agenda-item-title:hover {
+.agenda-item-title a:hover {
   color: var(--purple-color);
 }
 
