@@ -14,7 +14,7 @@ export const talksMain = [
   {
     time: '10:20 AM',
     title: 'Attention is all you need',
-    name: 'Kevin Owocki ◖ Gitcoin',
+    name: 'Kevin Owocki ◖ supermodular',
     calendar: ''
   },
   {
