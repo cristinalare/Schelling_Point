@@ -107,6 +107,12 @@ export const talksMain = [
     name: 'Aaron Soskin',
     calendar: ''
   },
+  {
+    time: '4:55 PM',
+    title: `Regenerative Employment is the Future of Work`,
+    name: 'John Paller',
+    calendar: ''
+  },
 ];
 
 export const talksPlurality = [
