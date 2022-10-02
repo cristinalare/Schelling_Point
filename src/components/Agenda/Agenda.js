@@ -13,7 +13,7 @@ function Agenda () {
             <Stage stageTitle='Funding the Commons Pop Up' talksArray={talksFTC} classes='agenda-item-2' />
           </div>
           <div className="agenda-items-group group-2">
-            <Stage stageTitle='Plurality Tent' talksArray={talksPlurality} classes='agenda-item-3' />
+            <Stage stageTitle='Plurality Zone' talksArray={talksPlurality} classes='agenda-item-3' />
             <div className="last-talks agenda-item-4">
               <StageContent stageTitle='DeSci Space' talksArray={talksDeSci} />
               <StageContent stageTitle='Wellness Hub' talksArray={talksWellness} />
