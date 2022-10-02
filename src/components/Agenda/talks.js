@@ -26,7 +26,7 @@ export const talksMain = [
   {
     time: '11:00 AM',
     title: 'Creating welcoming, diverse, and sustainable developer communities',
-    name: 'Kasia Sitkiewicz ◖ Gitcoin, Camila Ramos ◖ Fuel Labs, Nader Dabit ◖ DevDAO, Xochitl Cazador ◖ Celo',
+    name: 'Kasia Sitkiewicz ◖ Github, Camila Ramos ◖ Fuel Labs, Nader Dabit ◖ DevDAO, Xochitl Cazador ◖ Celo',
     calendar: ''
   },
   {
