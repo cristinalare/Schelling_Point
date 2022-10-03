@@ -13,8 +13,8 @@ export const talksMain = [
   },
   {
     time: '10:20 AM',
-    title: 'Attention is all you need',
-    name: 'Kevin Owocki ◖ supermodular',
+    title: 'SuperModularity',
+    name: 'Kevin Owocki ◖ supermodular.xyz',
     calendar: ''
   },
   {
@@ -137,7 +137,7 @@ export const talksPlurality = [
   {
     time: '2:00 PM',
     title: 'Building Plural Tech — Lightning Presentations & Panel',
-    name: 'Kevin Owocki ◖ supermodular, Christine Vandevoorde ◖ govrn.io, Aaron Soskin ◖ govrn.io, Guo Liu ◖ Matters Lab',
+    name: 'Kevin Owocki ◖ supermodular.xyz, Christine Vandevoorde ◖ govrn.io, Aaron Soskin ◖ govrn.io, Guo Liu ◖ Matters Lab',
     calendar: ''
   },
   {
@@ -164,7 +164,7 @@ export const talksFTC = [
   {
     time: '10:45 AM',
     title: 'Hypercerts: the Data layer for impact markets',
-    name: 'Holke Brammer ◖ Protocol Labs and Kevin Owocki ◖ supermodular',
+    name: 'Holke Brammer ◖ Protocol Labs and Kevin Owocki ◖ supermodular.xyz',
     calendar: ''
   },
   {

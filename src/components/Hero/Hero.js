@@ -60,7 +60,7 @@ function Hero () {
               <div className="hero-location">gran carpa<br/><span className='thin'>américas</span><br/>corferias</div>
           </div>
         </div>
-        <Button text='Apply to ' link='https://forms.gle/wEZ7NfettKHKna7k6' ctaRef={ctaRef} />
+        {/* <Button text='Apply to ' link='https://forms.gle/wEZ7NfettKHKna7k6' ctaRef={ctaRef} /> */}
       </div>
     );
 }
