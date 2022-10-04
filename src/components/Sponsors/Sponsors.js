@@ -10,6 +10,7 @@ import filecoin from './logos/filecoin.svg';
 import opolis from './logos/opolis.svg';
 import superrare from './logos/superrare.png';
 import ethlatam from './logos/ethlatam.svg';
+import karpatkey from './logos/karpatkey.svg';
 
 function Sponsors () {
     const champ = [{
@@ -18,16 +19,20 @@ function Sponsors () {
     }];
     const lead = [
       {
-        name: 'lukso',
-        logo: lukso
-      },
-      {
         name: 'radicle',
         logo: radicle
       },
       {
+        name: 'lukso',
+        logo: lukso
+      },
+      {
         name: 'celo',
         logo: celo
+      },
+      {
+        name: 'karpatkey',
+        logo: karpatkey
       },
     ];
     const core = [

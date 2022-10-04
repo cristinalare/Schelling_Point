@@ -57,20 +57,20 @@
   }
 }
 
-@media only screen and (max-width: 37.5rem) { /*600px */
+@media only screen and (max-width: 45rem) { /*720px */
   .sponsor-img.protocol {
-    height: 42px;
+    height: 40px;
   }
   .Lead .sponsor-img {
-    height: 22px;
+    height: 20px;
     width: auto;
   }
   .Core .sponsor-img {
-    height: 20px;
+    height: 18px;
     width: auto;
   }
   .Node .sponsor-img {
-    height: 20px;
+    height: 17px;
     width: auto;
   }
   .Extra .sponsor-img {
@@ -78,6 +78,6 @@
     width: auto;
   }
   .line-logos {
-    gap: 2rem;
+    gap: 1.5rem;
   }
 }

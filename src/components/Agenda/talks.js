@@ -288,9 +288,45 @@ export const talksDeSci = [
 
 export const talksWellness = [
   {
-    time: 'TBA',
-    title: '',
+    time: 'All day',
+    title: 'Natural Aromatherapy',
+    name: '',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010%2F20221011&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Natural%20Aromatherapy'
+  },
+  {
+    time: '9:00 AM',
+    title: 'Morning meditation session with muscular movements - Session 1',
+    name: '',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T140000Z%2F20221010T143000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Morning%20meditation%20session%20with%20muscular%20movements%20-%20Session%201'
+  },
+  {
+    time: '9:30 AM',
+    title: 'Morning meditation session with muscular movements - Session 2',
+    name: '',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T143000Z%2F20221010T150000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Morning%20meditation%20session%20with%20muscular%20movements%20-%20Session%202'
+  },
+  {
+    time: '11:00 AM',
+    title: 'Crystal bowl and sound meditation',
     name: '',
     calendar: ''
   },
-]
+  {
+    time: '12:00 - 17:30 PM',
+    title: 'Colombian Cacao Tasting',
+    name: '',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T170000Z%2F20221010T223000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Colombian%20Cacao%20Tasting'
+  },
+  {
+    time: '14:30 PM',
+    title: 'Cacao Mindful-eating Tasting',
+    name: '',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T193000Z%2F20221010T200000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Cacao%20Mindful-eating%20Tasting'
+  },
+  {
+    time: '15:00 PM',
+    title: 'Self-massage points',
+    name: '',
+    calendar: ''
+  },
+];
