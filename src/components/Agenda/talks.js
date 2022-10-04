@@ -12,7 +12,7 @@ export const talksMain = [
     calendar: ''
   },
   {
-    time: '10:20 AM',
+    time: '10:30 AM',
     title: 'SuperModularity',
     name: 'Kevin Owocki ◖ supermodular.xyz',
     calendar: ''
@@ -24,91 +24,91 @@ export const talksMain = [
     calendar: ''
   },
   {
-    time: '11:00 AM',
+    time: '11:10 AM',
     title: 'Creating welcoming, diverse, and sustainable developer communities',
     name: 'Kasia Sitkiewicz ◖ Github, Camila Ramos ◖ Fuel Labs, Nader Dabit ◖ DevDAO, Xochitl Cazador ◖ Celo',
     calendar: ''
   },
   {
-    time: '11:30 AM',
+    time: '11:40 AM',
     title: 'Why no one is using Blockchain?!',
     name: 'Fabian Vogelsteller ◖ LUKSO',
     calendar: ''
   },
   {
-    time: '11:55 AM',
+    time: '12:05 AM',
     title: 'Plurality: Technology for Collaborative Diversity and Democracy',
     name: 'Glen Weyl ◖ RadicalxChange',
     calendar: ''
   },
   {
-    time: '12:15 PM',
+    time: '12:25 PM',
     title: 'LUNCH',
     name: '',
     calendar: ''
   },
   {
-    time: '12:55 PM',
+    time: '1:05 PM',
     title: 'Using social capital to coordinate digital economies',
     name: 'Danny Zuckerman ◖ Ceramic',
     calendar: ''
   },
   {
-    time: '1:15 PM',
+    time: '1:25 PM',
     title: 'Decentralized social media - a public good?',
     name: 'Manasi Vora ◖ Skynet',
     calendar: ''
   },
   {
-    time: '1:35 PM',
+    time: '1:45 PM',
     title: 'Cryoto Artistry and Collective Transformation',
     name: 'Shivani Mitra ◖ MOCA, Julian Brangold ◖ CruptoArg, Stefany Cuervo ◖ Colombian Artist, Bertie Lumsden ◖ ArtDAO, Rico Serna ◖ Chimbites',
     calendar: ''
   },
   {
-    time: '2:05 PM',
+    time: '2:15 PM',
     title: 'Communication is a Public Good',
     name: 'Harsh Rajat ◖ EPNS',
     calendar: ''
   },
   {
-    time: '2:25 PM',
+    time: '2:35 PM',
     title: 'Open source as a public good',
     name: 'Jahed Momand ◖ Cerulean Ventures, Linda Xie ◖ Scalar Capital, Awa Lefteris Karapetsas ◖ Rotki, Scott Moore ◖ Gitcoin, Awa Sun Yin ◖ Anoma',
     calendar: ''
   },
   {
-    time: '2:55 PM',
+    time: '3:05 PM',
     title: 'Data Dating',
     name: 'Evin McMullen ◖ Disco',
     calendar: ''
   },
   {
-    time: '3:20 PM',
+    time: '3:30 PM',
     title: 'You Just DAO-ed it, now what?',
     name: 'Denison Bertram ◖ Tally, James Waugh ◖ fireeyes, Kris Decoodt ◖ Gitcoin, Simona Pop ◖ Schelling Point',
     calendar: ''
   },
   {
-    time: '3:55 PM',
-    title: `Introducing Re:Generate`,
+    time: '4:00 PM',
+    title: 'Building Decentralised communities',
     name: 'Rahul Kothari ◖ Reddit',
     calendar: ''
   },
   {
-    time: '4:15 PM',
+    time: '4:20 PM',
     title: 'Onboarding Latam users and builders in the future of Web3',
     name: 'Pablo Sabbatella ◖ ',
     calendar: ''
   },
   {
-    time: '4:35 PM',
+    time: '4:40 PM',
     title: `Hot DAO Coordination Autumn - Let's figure out how your DAO actually coordinates`,
     name: 'Aaron Soskin ◖ govrn.io',
     calendar: ''
   },
   {
-    time: '4:55 PM',
+    time: '5:00 PM',
     title: `Regenerative Employment is the Future of Work`,
     name: 'John Paller ◖ Opolis',
     calendar: ''
