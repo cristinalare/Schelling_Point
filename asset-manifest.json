@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4981a15b.css",
-    "main.js": "/static/js/main.ad14cfb9.js",
+    "main.css": "/static/css/main.49620dee.css",
+    "main.js": "/static/js/main.dc2b8351.js",
     "static/media/sp-amsterdam.mp4": "/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
     "static/media/footer-bg.png": "/static/media/footer-bg.e49b88ed48e723bc4df0.png",
     "static/media/video-poster.jpeg": "/static/media/video-poster.7d2c434bbd4ec586fc4f.jpeg",
@@ -18,12 +18,13 @@
     "static/media/opolis.svg": "/static/media/opolis.c257eee229c2df99dad318bf9f02a59e.svg",
     "static/media/lukso.svg": "/static/media/lukso.cfcebfd47b06fad75f092b32caef2fa8.svg",
     "static/media/ethlatam.svg": "/static/media/ethlatam.a2f272789dd52db596a63afbf4c31c04.svg",
+    "static/media/karpatkey.svg": "/static/media/karpatkey.bbd8e1712b3daf426e86274ca3052b28.svg",
     "static/media/divider.svg": "/static/media/divider.dd409ceb9ef95bb1e4e2fd4303ad4588.svg",
-    "main.4981a15b.css.map": "/static/css/main.4981a15b.css.map",
-    "main.ad14cfb9.js.map": "/static/js/main.ad14cfb9.js.map"
+    "main.49620dee.css.map": "/static/css/main.49620dee.css.map",
+    "main.dc2b8351.js.map": "/static/js/main.dc2b8351.js.map"
   },
   "entrypoints": [
-    "static/css/main.4981a15b.css",
-    "static/js/main.ad14cfb9.js"
+    "static/css/main.49620dee.css",
+    "static/js/main.dc2b8351.js"
   ]
 }
