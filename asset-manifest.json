@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba4d37cd.css",
-    "main.js": "/static/js/main.34cdb737.js",
+    "main.css": "/static/css/main.4981a15b.css",
+    "main.js": "/static/js/main.3d7b2296.js",
     "static/media/sp-amsterdam.mp4": "/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
     "static/media/footer-bg.png": "/static/media/footer-bg.e49b88ed48e723bc4df0.png",
     "static/media/video-poster.jpeg": "/static/media/video-poster.7d2c434bbd4ec586fc4f.jpeg",
     "static/media/hero-bg.png": "/static/media/hero-bg.81523b8e5bd30ff88721.png",
     "static/media/title-bg.png": "/static/media/title-bg.d8312f7ff2fcec512c8b.png",
+    "static/media/peregrin-logo.svg": "/static/media/peregrin-logo.1f176b5ecde88a54a40feff099dd406c.svg",
     "static/media/filecoin.svg": "/static/media/filecoin.65f5553a41ada28ad034ce219045e815.svg",
     "static/media/protocol.svg": "/static/media/protocol.ab36fb34f7ba5db2d5bb335a709a89b4.svg",
     "static/media/supermodular2.svg": "/static/media/supermodular2.364b679e3e50ec756eaa2bc69966266a.svg",
@@ -18,11 +19,11 @@
     "static/media/lukso.svg": "/static/media/lukso.cfcebfd47b06fad75f092b32caef2fa8.svg",
     "static/media/ethlatam.svg": "/static/media/ethlatam.a2f272789dd52db596a63afbf4c31c04.svg",
     "static/media/divider.svg": "/static/media/divider.dd409ceb9ef95bb1e4e2fd4303ad4588.svg",
-    "main.ba4d37cd.css.map": "/static/css/main.ba4d37cd.css.map",
-    "main.34cdb737.js.map": "/static/js/main.34cdb737.js.map"
+    "main.4981a15b.css.map": "/static/css/main.4981a15b.css.map",
+    "main.3d7b2296.js.map": "/static/js/main.3d7b2296.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba4d37cd.css",
-    "static/js/main.34cdb737.js"
+    "static/css/main.4981a15b.css",
+    "static/js/main.3d7b2296.js"
   ]
 }

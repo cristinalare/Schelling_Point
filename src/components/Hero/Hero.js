@@ -1,8 +1,7 @@
-import { useRef, useLayoutEffect, useEffect } from 'react';
+import { useEffect } from 'react';
 import './Hero.css';
 import heroBg from './hero-bg.png';
 import { Parallax } from 'react-scroll-parallax';
-import Button from '../Button/Button';
 import divider from './divider.svg';
 
 const gsap = window.gsap;
@@ -10,7 +9,7 @@ const CustomEase = window.CustomEase;
 gsap.registerPlugin(CustomEase);
 
 function Hero () {
-    const ctaRef = useRef();
+    // const ctaRef = useRef();
 
     // preload hero bg
     useEffect(() => {
@@ -18,13 +17,13 @@ function Hero () {
         img.src = heroBg;
     }, []);
 
-    useLayoutEffect(() => {
+    // useLayoutEffect(() => {
         // CTA button animation
-        const tl = gsap.timeline({repeat:-1, defaults: {duration: 1.2, ease:  CustomEase.create("custom", "M0,0,C0.14,0,0.242,0.438,0.272,0.561,0.313,0.728,0.53,0.98,0.552,1,0.57,1,0.707,0.995,0.726,0.998,0.829,1.01,1,1,1,1")}});
-        tl
-            .to(ctaRef.current, { text: {delimiter: "", value: "volunteer"}})
-            .to(ctaRef.current, { text: { delimiter: "", value: "sponsor"}})
-            .to(ctaRef.current, { text: { delimiter: "", value: "attend"}});
+        // const tl = gsap.timeline({repeat:-1, defaults: {duration: 1.2, ease:  CustomEase.create("custom", "M0,0,C0.14,0,0.242,0.438,0.272,0.561,0.313,0.728,0.53,0.98,0.552,1,0.57,1,0.707,0.995,0.726,0.998,0.829,1.01,1,1,1,1")}});
+        // tl
+        //     .to(ctaRef.current, { text: {delimiter: "", value: "volunteer"}})
+        //     .to(ctaRef.current, { text: { delimiter: "", value: "sponsor"}})
+        //     .to(ctaRef.current, { text: { delimiter: "", value: "attend"}});
 
         // hero content fade in animation
         // const mainAnimation = gsap.fromTo(heroContentRef.current, {
@@ -37,10 +36,10 @@ function Hero () {
         // });
 
         // clean up
-        return () => {
-            tl.kill();
-        }
-    }, []);
+        // return () => {
+        //     tl.kill();
+        // }
+    // }, []);
 
     return (
       <div className='hero main-xxl'>

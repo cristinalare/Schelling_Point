@@ -50,7 +50,7 @@ export const talksMain = [
   {
     time: '12:55 PM',
     title: 'Using social capital to coordinate digital economies',
-    name: 'Danny Zuckerman ◖ ',
+    name: 'Danny Zuckerman ◖ Ceramic',
     calendar: ''
   },
   {
@@ -143,7 +143,7 @@ export const talksPlurality = [
   {
     time: '3:30 PM',
     title: 'Plural Publics',
-    name: 'Shrey Jaineth ◖ Microsoft',
+    name: 'Shrey Jain ◖ Microsoft',
     calendar: ''
   },
   {
@@ -250,32 +250,32 @@ export const talksDeSci = [
   },
   {
     time: '12:55 PM',
-    title: 'Infrastructure Workshop (Andros Wong, Aleksandra Smilek, Daniel Uribe, Michael Fischer)',
-    name: '',
+    title: 'Infrastructure Workshop',
+    name: 'Andros Wong ◖ Wonder, Aleksandra Smilek ◖ Foresight, Daniel Uribe ◖ Genobank, Michael Fischer ◖ CurateDAO',
     calendar: ''
   },
   {
     time: '1:50 PM',
-    title: 'BioDAOs Workshop (Paul Kohlhaas, Tyler Golato)',
-    name: '',
+    title: 'BioDAOs Workshop',
+    name: 'Paul Kohlhaas ◖ Molecule, Tyler Golato ◖Molecule',
     calendar: ''
   },
   {
     time: '2:35 PM',
-    title: 'DeSci in LatAm (Carolina Menchaca, Gonza)',
-    name: '',
+    title: 'DeSci in LatAm',
+    name: 'Carolina Menchaca ◖ DeSci.World',
     calendar: ''
   },
   {
-    time: '3:20 PM',
-    title: 'Health Workshop (Laura Minquini, Oksana Stanevich)',
-    name: '',
+    time: '3:15 PM',
+    title: 'Health Workshop',
+    name: 'Laura Minquini ◖ AthenaDAO, Oksana Stanevich ◖ MD, Researcher',
     calendar: ''
   },
   {
-    time: '4:05 PM',
+    time: '4:00 PM',
     title: `Promise & Peril Area`,
-    name: '',
+    name: 'Vincent Weisser ◖ vitaDAO, Eugene Leventhal ◖ SCRF',
     calendar: ''
   },
   {
