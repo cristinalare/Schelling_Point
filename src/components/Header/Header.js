@@ -1,4 +1,4 @@
-import { useState} from "react";
+import { useEffect, useState} from "react";
 import './Header.css';
 import Scroll from 'react-scroll';
 import MobileIcon from "./MobileIcon/MobileIcon";
@@ -6,10 +6,19 @@ let Link = Scroll.Link;
 
 function Header () {
     const [activeMenu, setActiveMenu] = useState(false);
-
+    const [isTransparentBg, setIsTransparentBg] = useState(true);
     const toggleMenu = () => {
         setActiveMenu(!activeMenu);
     };
+
+    useEffect(() => {
+      const changeBg = () => {
+        window.scrollY > 200 ? setIsTransparentBg(false) : setIsTransparentBg(true);
+      };
+      
+      window.addEventListener('scroll', changeBg);
+      return () => window.removeEventListener('scroll', changeBg);
+    }, []);
 
     const menuItems = [
         // {name: 'About', disabled: false}, 
@@ -20,7 +29,7 @@ function Header () {
         {name:'Past Events', disabled: false}];
 
     return (
-        <header className='main-xxs'>
+        <header className='main-xxs' style={{ backgroundColor: `${isTransparentBg ? 'transparent' : 'var(--purple-color)'}`}}>
             <button className="logo">
                 <div onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})} className="main-s">
                     schelling point
@@ -38,14 +47,14 @@ function Header () {
                     {menuItems.map((menuItem, index) => (
                         <li className="menu-item" key={index}>
                             <Link 
-                            onClick={() => activeMenu && toggleMenu()}
-                            key={index} 
-                            smooth='easeOutCubic'
-                            spy={true} 
-                            to={menuItem.name}
-                            offset={-90}
-                            activeClass='active-nav'
-                            className={menuItem.disabled ? 'disabled' : undefined }>
+                              onClick={() => activeMenu && toggleMenu()}
+                              key={index} 
+                              smooth='easeOutCubic'
+                              spy={true} 
+                              to={menuItem.name}
+                              offset={-90}
+                              activeClass='active-nav'
+                              className={menuItem.disabled ? 'disabled' : undefined }>
                                 {menuItem.name}
                             </Link>
                         </li>

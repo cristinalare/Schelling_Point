@@ -2,7 +2,6 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import './About.css';
-// import flowerBg from './new-flower.svg';
 
 
 function About () {
@@ -33,8 +32,4 @@ function About () {
     );
 }
 
-// svg icon
-// <svg role="img" title="event icon" viewBox="0 0 140 140" width="140" height="140" alt="event icon">
-/* <use href={sprite + "#event1"}></use>  
-</svg> */
 export default About ;
