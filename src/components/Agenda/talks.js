@@ -309,7 +309,7 @@ export const talksWellness = [
     time: '11:00 AM',
     title: 'Crystal bowl and sound meditation',
     name: '',
-    calendar: ''
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T160000Z%2F20221010T163000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Crystal%20bowl%20and%20sound%20meditation'
   },
   {
     time: '12:00 - 17:30 PM',
@@ -325,8 +325,8 @@ export const talksWellness = [
   },
   {
     time: '15:00 PM',
-    title: 'Self-massage points',
+    title: 'Body work DYI coaching',
     name: '',
-    calendar: ''
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T200000Z%2F20221010T203000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Body%20work%20DYI%20coaching'
   },
 ];
