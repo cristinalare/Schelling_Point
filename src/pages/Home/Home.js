@@ -15,7 +15,7 @@ function Home() {
         {name:'Speakers', component: <Speakers />, disabled: true },
         {name:'Sponsors', component: <Sponsors />, disabled: false},
         {name:'Agenda', component: <Agenda />, disabled: false},
-        {name:'Afterparty', component: <Afterparty />, disabled: true},
+        {name:'Afterparty', component: <Afterparty />, disabled: false},
         {name: 'Past Events', component: <PastEvents />, disabled: false}
     ];
 

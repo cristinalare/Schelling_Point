@@ -8,8 +8,8 @@ const SectionTemplate = ({title, index, children}) => {
 
     return (
       <>
-        {(title === 'Sponsors' || title === 'Past Events') &&
-          <SectionDivider rotate={title === 'Past Events' ? true : false} />
+        {(title === 'Sponsors' || title === 'Afterparty') &&
+          <SectionDivider rotate={title === 'Afterparty' ? true : false} />
         }
         <Element id={title.split(' ')[0]} className="section">
           <SectionTitle title={title} index={index} />

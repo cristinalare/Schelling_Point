@@ -10,12 +10,19 @@
     margin: 0 5rem;
 }
 
+#Afterparty .section-content {
+  margin: 0;
+}
+
 @media only screen and (max-width: 48rem) { /*780px */
   .sections {
     padding-top: 0;
   }
   .section {
     padding: 0 6% 2rem 6%;
+  }
+  #Afterparty.section {
+    padding: 0 0 2rem 0;
   }
   .section-content {
       margin: 0;

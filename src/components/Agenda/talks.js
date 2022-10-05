@@ -91,7 +91,7 @@ export const talksMain = [
   },
   {
     time: '4:00 PM',
-    title: 'Building Decentralised communities',
+    title: 'Decentralised Digital Communities: How, Why and When?',
     name: 'Rahul Kothari ◖ Reddit',
     calendar: ''
   },
@@ -156,75 +156,87 @@ export const talksPlurality = [
 
 export const talksFTC = [
   {
-    time: '10:30 AM',
+    time: '10:20 AM',
     title: 'Intro',
     name: 'Evan Miyazono ◖ Protocol Labs',
     calendar: ''
   },
   {
-    time: '10:45 AM',
+    time: '10:35 AM',
     title: 'Hypercerts: the Data layer for impact markets',
     name: 'Holke Brammer ◖ Protocol Labs and Kevin Owocki ◖ supermodular.xyz',
     calendar: ''
   },
   {
-    time: '11:10 AM',
-    title: 'Investing in Network goods: new ecosystem funding paradigms',
-    name: 'Joanna Liang ◖ JSquare, Anna Kryukova ◖ Celo, Ken Ng ◖ Uniswap Foundation, Scott Moore ◖ Gitcoin',
+    time: '11:00 AM',
+    title: 'Investing in Network Goods: new ecosystem funding paradigms',
+    name: 'Joanna Liang ◖ JSquare, Anna Kryukova ◖ Celo, Scott Moore ◖ Gitcoin',
     calendar: ''
   },
   {
-    time: '11:50 AM',
-    title: 'Impact Evaluator learnings and theory',
-    name: 'Matt Frehlich ◖ Protocol Labs',
+    time: '11:40 AM',
+    title: 'Fireside chat with cLabs Marek Olszewski',
+    name: 'Marek Olszewski ◖ Celo/cLabs',
     calendar: ''
   },
   {
-    time: '12:15 PM',
+    time: '12:05 PM',
     title: 'Radicle Drips - the latest mechanism design',
     name: 'Andrew Dickson ◖ Radicle',
     calendar: ''
   },
   {
-    time: '12:40 PM',
-    title: 'Celo tokenomics - learnings and next steps for nature-backed currencies',
-    name: 'Marek Olszekski ◖ Celo/cLabs',
+    time: '12:30 PM',
+    title: 'Impact Evaluators: Existential risks and opportunities',
+    name: 'Matthew Frehlich ◖ Protocol Labs',
     calendar: ''
   },
   {
-    time: '1:05 PM',
-    title: 'DAO allocation patterns',
-    name: 'Danielo Lessi ◖ , Daphne Charles ◖ Kiwi Labs, Pooja Shah ◖ Tephra Labs',
+    time: '12:55 PM',
+    title: 'BREAK',
+    name: '',
     calendar: ''
   },
   {
-    time: '1:35 PM',
-    title: 'Funding Structures',
-    name: 'Rene Pinnell ◖ Artizen Fund, Vaughn Mackenzie ◖ WeGift/JAAK',
+    time: '1:10 PM',
+    title: 'Complex Products: Where DAOs and funding mechanisms fall short',
+    name: 'Daphne Charles ◖ Kiwi Labs, Pooja Shah ◖ Tephra Labs, Juan Guillen ◖ MakerDAO',
     calendar: ''
   },
   {
-    time: '2:35 PM',
-    title: 'Impact Markets',
+    time: '1:50 PM',
+    title: 'Workshops: Funding Structures',
+    name: 'Rene Pinnell ◖ Artizen Fund, Vaughn McKenzie-Landell ◖ Butter',
+    calendar: ''
+  },
+  {
+    time: '2:45 PM',
+    title: 'BREAK',
+    name: '',
+    calendar: ''
+  },
+  {
+    time: '3:00 PM',
+    title: 'Workshops: Impact Markets',
     name: 'Holke Brammer ◖ Protocol Labs, Rhys Lindmark ◖ Roote/Web3 & Society, Manu Alzuru ◖ DoinGud',
     calendar: ''
   },
   {
-    time: '3:35 PM',
-    title: 'Funding Mechanisms',
+    time: '3:55 PM',
+    title: 'Workshops: Funding Mechanisms',
     name: 'Marcus Aurelius ◖ KlimaDAO, Livia De ◖ Commons Stack',
     calendar: ''
   },
   {
-    time: '4:35 PM',
-    title: 'Matchmaking',
-    name: 'TBD',
+    time: '4:50 PM',
+    title: 'End of Day',
+    name: 'Evan Miyazono ◖ Protocol Labs',
     calendar: ''
   },
   {
-    time: '5:05 PM',
-    title: 'End of Day',
-    name: 'Evan Miyazono ◖ Protocol Labs',
+    time: '5:00 PM',
+    title: 'Matchmaking',
+    name: 'TBD',
     calendar: ''
   },
 ];
@@ -325,7 +337,7 @@ export const talksWellness = [
   },
   {
     time: '15:00 PM',
-    title: 'Body work DYI coaching',
+    title: 'Body work DIY coaching',
     name: '',
     calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T200000Z%2F20221010T203000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Body%20work%20DYI%20coaching'
   },

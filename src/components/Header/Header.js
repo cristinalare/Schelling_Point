@@ -16,7 +16,7 @@ function Header () {
         {name: 'Speakers', disabled: true},
         {name: 'Sponsors', disabled: false}, 
         {name: 'Agenda', disabled: false}, 
-        {name: 'Afterparty', disabled: true}, 
+        {name: 'Afterparty', disabled: false}, 
         {name:'Past Events', disabled: false}];
 
     return (

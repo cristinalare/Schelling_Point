@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.49620dee.css",
-    "main.js": "/static/js/main.c3c24d90.js",
+    "main.css": "/static/css/main.f4e9bfbf.css",
+    "main.js": "/static/js/main.53f8045e.js",
     "static/media/sp-amsterdam.mp4": "/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
+    "static/media/afterparty-poster@2x.jpg": "/static/media/afterparty-poster@2x.ef4785a455db81bbb1a1.jpg",
     "static/media/footer-bg.png": "/static/media/footer-bg.e49b88ed48e723bc4df0.png",
+    "static/media/afterparty-poster@1x.jpg": "/static/media/afterparty-poster@1x.c0dea739f7766d53cca4.jpg",
     "static/media/video-poster.jpeg": "/static/media/video-poster.7d2c434bbd4ec586fc4f.jpeg",
     "static/media/hero-bg.png": "/static/media/hero-bg.81523b8e5bd30ff88721.png",
+    "static/media/afterparty-poster-mobile@2x.jpg": "/static/media/afterparty-poster-mobile@2x.20317b6fc8a343310e0d.jpg",
+    "static/media/afterparty-poster-mobile@1x.jpg": "/static/media/afterparty-poster-mobile@1x.907b95f4888a789999b4.jpg",
     "static/media/title-bg.png": "/static/media/title-bg.d8312f7ff2fcec512c8b.png",
     "static/media/peregrin-logo.svg": "/static/media/peregrin-logo.1f176b5ecde88a54a40feff099dd406c.svg",
     "static/media/filecoin.svg": "/static/media/filecoin.65f5553a41ada28ad034ce219045e815.svg",
@@ -20,11 +24,11 @@
     "static/media/ethlatam.svg": "/static/media/ethlatam.a2f272789dd52db596a63afbf4c31c04.svg",
     "static/media/karpatkey.svg": "/static/media/karpatkey.bbd8e1712b3daf426e86274ca3052b28.svg",
     "static/media/divider.svg": "/static/media/divider.dd409ceb9ef95bb1e4e2fd4303ad4588.svg",
-    "main.49620dee.css.map": "/static/css/main.49620dee.css.map",
-    "main.c3c24d90.js.map": "/static/js/main.c3c24d90.js.map"
+    "main.f4e9bfbf.css.map": "/static/css/main.f4e9bfbf.css.map",
+    "main.53f8045e.js.map": "/static/js/main.53f8045e.js.map"
   },
   "entrypoints": [
-    "static/css/main.49620dee.css",
-    "static/js/main.c3c24d90.js"
+    "static/css/main.f4e9bfbf.css",
+    "static/js/main.53f8045e.js"
   ]
 }
