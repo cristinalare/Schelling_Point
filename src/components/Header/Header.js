@@ -48,10 +48,10 @@ function Header () {
                         <li className="menu-item" key={index}>
                             <Link 
                               onClick={() => activeMenu && toggleMenu()}
-                              key={index} 
+                              key={`nav-${index}`} 
                               smooth='easeOutCubic'
                               spy={true} 
-                              to={menuItem.name}
+                              to={menuItem.name.split(' ')[0]}
                               offset={-90}
                               activeClass='active-nav'
                               className={menuItem.disabled ? 'disabled' : undefined }>
