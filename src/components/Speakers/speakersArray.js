@@ -224,7 +224,7 @@ export const speakersArray = [
   },
   {
     name: 'Pablo\nSabbatella',
-    company: '',
+    company: 'Defy Education',
     twitter: 'https://twitter.com/pablosabbatella',
     avatar: pabloS
   },

@@ -18,7 +18,7 @@ export const talksMain = [
     calendar: ''
   },
   {
-    time: '10:40 AM',
+    time: '10:50 AM',
     title: 'Designing DevDAOs',
     name: 'Abbey Titcomb ◖ Radicle',
     calendar: ''
@@ -98,7 +98,7 @@ export const talksMain = [
   {
     time: '4:20 PM',
     title: 'Onboarding Latam users and builders in the future of Web3',
-    name: 'Pablo Sabbatella ◖ ',
+    name: 'Pablo Sabbatella ◖ Defy Education',
     calendar: ''
   },
   {
@@ -111,6 +111,12 @@ export const talksMain = [
     time: '5:00 PM',
     title: `Regenerative Employment is the Future of Work`,
     name: 'John Paller ◖ Opolis',
+    calendar: ''
+  },
+  {
+    time: '5:20 PM',
+    title: `Drop - Special Announcement`,
+    name: '',
     calendar: ''
   },
 ];
@@ -163,8 +169,8 @@ export const talksFTC = [
   },
   {
     time: '10:35 AM',
-    title: 'Hypercerts: the Data layer for impact markets',
-    name: 'Holke Brammer ◖ Protocol Labs and Kevin Owocki ◖ supermodular.xyz',
+    title: 'Radicle Drips - the latest mechanism design',
+    name: 'Andrew Dickson ◖ Radicle',
     calendar: ''
   },
   {
@@ -181,8 +187,8 @@ export const talksFTC = [
   },
   {
     time: '12:05 PM',
-    title: 'Radicle Drips - the latest mechanism design',
-    name: 'Andrew Dickson ◖ Radicle',
+    title: 'Rewarding impact with Hypercerts.xyz',
+    name: 'Holke Brammer ◖ Protocol Labs and Kevin Owocki ◖ supermodular.xyz',
     calendar: ''
   },
   {
@@ -305,7 +311,7 @@ export const talksDeSci = [
   {
     time: '4:00 PM',
     title: `Promise & Peril Area`,
-    name: 'Vincent Weisser ◖ vitaDAO, Eugene Leventhal ◖ SCRF',
+    name: 'Vincent Weisser ◖ vitaDAO, Renée Davis ◖ SCRF, TalentDAO',
     calendar: ''
   },
   {
