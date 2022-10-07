@@ -22,7 +22,7 @@ function Header () {
 
     const menuItems = [
         // {name: 'About', disabled: false}, 
-        {name: 'Speakers', disabled: true},
+        {name: 'Speakers', disabled: false},
         {name: 'Sponsors', disabled: false}, 
         {name: 'Agenda', disabled: false}, 
         {name: 'Afterparty', disabled: false}, 

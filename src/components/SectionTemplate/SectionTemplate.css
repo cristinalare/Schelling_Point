@@ -24,6 +24,9 @@
   #Afterparty.section {
     padding: 0 0 2rem 0;
   }
+  #Speakers.section {
+    padding: 0 2% 2rem 2%;
+  }
   .section-content {
       margin: 0;
   }

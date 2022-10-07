@@ -1,16 +1,23 @@
+#Speakers {
+  background-color: white;
+}
+#Speakers .section {
+  padding: 0 2% 2rem 2%;
+}
 .speakers-container {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    width: 85%;
+    width: 88%;
     margin: auto;
     justify-content: center;
-    
+    max-height: 800px;
+    overflow-y: scroll;
 }
 
-@media only screen and (max-width: 36.25rem) {
+@media only screen and (max-width: 70rem) {
     .speakers-container {
         width: 95%;
-        gap: 4rem;
+        gap: 2rem;
     }
 }

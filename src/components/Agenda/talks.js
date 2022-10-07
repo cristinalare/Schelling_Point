@@ -287,7 +287,7 @@ export const talksDeSci = [
   {
     time: '1:50 PM',
     title: 'BioDAOs Workshop',
-    name: 'Paul Kohlhaas ◖ Molecule, Tyler Golato ◖Molecule',
+    name: 'Paul Kohlhaas ◖ Molecule, Tyler Golato ◖ Molecule',
     calendar: ''
   },
   {
