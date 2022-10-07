@@ -250,8 +250,26 @@ export const talksDeSci = [
   },
   {
     time: '10:10 AM',
-    title: 'Climate Workshops & Talks',
-    name: '',
+    title: `Web3's role in enhancing Climate Action`,
+    name: 'Erin Murphy ◖ Topl, Ester Fonseca ◖ Carbonfi, John Hoopes ◖ Toucan, Ryan Christoffersen ◖ Regen, Lea Bauer ◖ Flow, Marc Johnson ◖ Moderator',
+    calendar: ''
+  },
+  {
+    time: '10:55 AM',
+    title: 'Filecoin Green: Global Carbon Ledger',
+    name: 'Alan Ransil ◖ Filecoin Green',
+    calendar: ''
+  },
+  {
+    time: '10:20 AM',
+    title: 'Overview: Climate Policy Landscape',
+    name: 'John Hoopes ◖ Toucan',
+    calendar: ''
+  },
+  {
+    time: '11:45 AM',
+    title: 'KokoDAO: Reducing Deforestation in Colombia',
+    name: 'Ana Maria Mahecha ◖ KokoDAO',
     calendar: ''
   },
   {
