@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ff69057.css",
-    "main.js": "/static/js/main.e54725db.js",
+    "main.css": "/static/css/main.9d282361.css",
+    "main.js": "/static/js/main.41032517.js",
     "static/media/sp-amsterdam.mp4": "/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
     "static/media/afterparty-poster@2x.jpg": "/static/media/afterparty-poster@2x.ef4785a455db81bbb1a1.jpg",
     "static/media/footer-bg.png": "/static/media/footer-bg.e49b88ed48e723bc4df0.png",
@@ -82,11 +82,11 @@
     "static/media/ethlatam.svg": "/static/media/ethlatam.a2f272789dd52db596a63afbf4c31c04.svg",
     "static/media/karpatkey.svg": "/static/media/karpatkey.bbd8e1712b3daf426e86274ca3052b28.svg",
     "static/media/divider.svg": "/static/media/divider.dd409ceb9ef95bb1e4e2fd4303ad4588.svg",
-    "main.7ff69057.css.map": "/static/css/main.7ff69057.css.map",
-    "main.e54725db.js.map": "/static/js/main.e54725db.js.map"
+    "main.9d282361.css.map": "/static/css/main.9d282361.css.map",
+    "main.41032517.js.map": "/static/js/main.41032517.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ff69057.css",
-    "static/js/main.e54725db.js"
+    "static/css/main.9d282361.css",
+    "static/js/main.41032517.js"
   ]
 }

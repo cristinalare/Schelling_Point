@@ -132,7 +132,7 @@ export const talksPlurality = [
     time: '12:05 AM',
     title: '[ MAIN STAGE ] Plurality: Technology for Collaborative Diversity and Democracy',
     name: 'Glen Weyl ◖ RadicalxChange',
-    calendar: ''
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T170500Z%2F20221010T172500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=%5B%20MAIN%20STAGE%20%5D%20Plurality%3A%20Technology%20for%20Collaborative%20Diversity%20and%20Democracy%20%28Glen%20Weyl%20%E2%97%96%20RadicalxChange%29'
   },
   {
     time: '1:00 PM',
