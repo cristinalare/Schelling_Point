@@ -58,6 +58,7 @@ import androsW from './avatars/androsW.jpg';
 import aleksandraS from './avatars/aleksandraS.jpg';
 import danielU from './avatars/danielU.jpg';
 import annaK from './avatars/annaK.jpg';
+import scottM from './avatars/scottM.jpeg';
 
 export const speakersArray = [
   {
@@ -184,7 +185,7 @@ export const speakersArray = [
     name: 'Scott\nMoore',
     company: 'Gitcoin',
     twitter: 'https://twitter.com/notscottmoore',
-    avatar: ''
+    avatar: scottM
   },
   {
     name: 'Awa\nSun Yin',

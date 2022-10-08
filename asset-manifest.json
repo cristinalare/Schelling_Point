@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.636741fb.css",
-    "main.js": "/static/js/main.e11be3ea.js",
+    "main.css": "/static/css/main.7ff69057.css",
+    "main.js": "/static/js/main.e54725db.js",
     "static/media/sp-amsterdam.mp4": "/static/media/sp-amsterdam.043cae33d34fb493cd2f.mp4",
     "static/media/afterparty-poster@2x.jpg": "/static/media/afterparty-poster@2x.ef4785a455db81bbb1a1.jpg",
     "static/media/footer-bg.png": "/static/media/footer-bg.e49b88ed48e723bc4df0.png",
@@ -31,6 +31,7 @@
     "static/media/camilaR.jpg": "/static/media/camilaR.cb9b24c3aaf4c125bee3.jpg",
     "static/media/christineV.jpg": "/static/media/christineV.8befa9837fcebba81222.jpg",
     "static/media/kasiaS.jpg": "/static/media/kasiaS.20577fffbea5794ab5f0.jpg",
+    "static/media/scottM.jpeg": "/static/media/scottM.406bf50a9e1775e1a3f9.jpeg",
     "static/media/eugeneL.jpg": "/static/media/eugeneL.8a6cf68db43deedbb6e8.jpg",
     "static/media/rhysL.jpg": "/static/media/rhysL.f29db163bb3d15a7d4d8.jpg",
     "static/media/johnH.jpg": "/static/media/johnH.ecb5fbbd193ef6235a96.jpg",
@@ -81,11 +82,11 @@
     "static/media/ethlatam.svg": "/static/media/ethlatam.a2f272789dd52db596a63afbf4c31c04.svg",
     "static/media/karpatkey.svg": "/static/media/karpatkey.bbd8e1712b3daf426e86274ca3052b28.svg",
     "static/media/divider.svg": "/static/media/divider.dd409ceb9ef95bb1e4e2fd4303ad4588.svg",
-    "main.636741fb.css.map": "/static/css/main.636741fb.css.map",
-    "main.e11be3ea.js.map": "/static/js/main.e11be3ea.js.map"
+    "main.7ff69057.css.map": "/static/css/main.7ff69057.css.map",
+    "main.e54725db.js.map": "/static/js/main.e54725db.js.map"
   },
   "entrypoints": [
-    "static/css/main.636741fb.css",
-    "static/js/main.e11be3ea.js"
+    "static/css/main.7ff69057.css",
+    "static/js/main.e54725db.js"
   ]
 }

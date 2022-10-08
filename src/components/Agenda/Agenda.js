@@ -6,7 +6,7 @@ import { talksDeSci, talksFTC, talksMain, talksPlurality, talksWellness } from '
 function Agenda () {
   return (
     <div className="agenda" id="agenda">
-        <p className="agenda-description">Click on a title in order to add it to your calendar</p>
+        <p className="agenda-description">◖ Click on a title in order to add it to your calendar</p>
         <div className="agenda-items">
           <div className="agenda-items-group group-1">
             <Stage stageTitle='Schelling Point Stage' talksArray={talksMain} classes='agenda-item-1' />
