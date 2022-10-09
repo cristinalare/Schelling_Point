@@ -59,6 +59,8 @@ import aleksandraS from './avatars/aleksandraS.jpg';
 import danielU from './avatars/danielU.jpg';
 import annaK from './avatars/annaK.jpg';
 import scottM from './avatars/scottM.jpeg';
+import jonnyH from './avatars/jonnyH.jpg';
+import carlF from './avatars/carlF.jpg';
 
 export const speakersArray = [
   {
@@ -194,10 +196,16 @@ export const speakersArray = [
     avatar: awaS
   },
   {
-    name: 'Evin\nMcMullen',
+    name: 'Jonny\nHowle',
     company: 'Disco',
-    twitter: 'https://twitter.com/provenauthority',
-    avatar: evinM
+    twitter: 'https://twitter.com/jonnyhowle?s=21&t=72YDAmCKDGGXlTNLzYtxIQ',
+    avatar: jonnyH
+  },
+  {
+    name: 'Carl\nFairclough',
+    company: 'Disco',
+    twitter: 'https://twitter.com/carlfairclough?s=21&t=72YDAmCKDGGXlTNLzYtxIQ',
+    avatar: carlF
   },
   {
     name: 'Dennison\nBertram',
@@ -487,10 +495,10 @@ export const speakersArray = [
     twitter: 'https://twitter.com/vincentweisser',
     avatar: vincentW
   },
-  {
-    name: 'Eugene\nLeventhal',
-    company: 'SCRF',
-    twitter: 'https://twitter.com/bbeats1',
-    avatar: eugeneL
-  },
+  // {
+  //   name: 'Eugene\nLeventhal',
+  //   company: 'SCRF',
+  //   twitter: 'https://twitter.com/bbeats1',
+  //   avatar: eugeneL
+  // },
 ];

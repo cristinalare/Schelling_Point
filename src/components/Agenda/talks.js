@@ -80,8 +80,8 @@ export const talksMain = [
   {
     time: '3:05 PM',
     title: 'Data Dating',
-    name: 'Evin McMullen ◖ Disco',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T200500Z%2F20221010T203000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Data%20Dating%20%28Evin%20McMullen%20%E2%97%96%20Disco%29'
+    name: 'Jonny Howle ◖ Disco, Carl Fairclough ◖ Disco',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T200500Z%2F20221010T203000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Data%20Dating%20%28Jonny%20Howle%20%E2%97%96%20Disco%2C%20Carl%20Fairclough%20%E2%97%96%20Disco%29'
   },
   {
     time: '3:30 PM',
