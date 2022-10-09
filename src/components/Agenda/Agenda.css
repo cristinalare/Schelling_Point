@@ -12,7 +12,7 @@
 }
 
 .agenda-description {
-  padding: 2rem 0 2rem 7%;
+  padding: 2rem;
   background-color: var(--light-grey-color);
   color: var(--purple-color);
   border-radius: 60px;

@@ -59,18 +59,18 @@
 
 @media only screen and (max-width: 45rem) { /*720px */
   .sponsor-img.protocol {
-    height: 40px;
+    height: 37px;
   }
   .Lead .sponsor-img {
-    height: 20px;
-    width: auto;
-  }
-  .Core .sponsor-img {
     height: 18px;
     width: auto;
   }
+  .Core .sponsor-img {
+    height: 16px;
+    width: auto;
+  }
   .Node .sponsor-img {
-    height: 17px;
+    height: 15px;
     width: auto;
   }
   .Extra .sponsor-img {
@@ -78,6 +78,6 @@
     width: auto;
   }
   .line-logos {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 }

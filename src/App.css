@@ -185,6 +185,6 @@ html {
 }
 @media only screen and (max-width: 28.12rem) { /*450px */
   .main-xxl {
-    font-size: var(--font-s);
+    font-size: var(--font-xs);
   }
 }
