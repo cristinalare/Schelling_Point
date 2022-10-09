@@ -175,33 +175,33 @@ export const talksFTC = [
   },
   {
     time: '11:00 AM',
-    title: 'Investing in Network Goods: new ecosystem funding paradigms',
-    name: 'Joanna Liang ◖ JSquare, Anna Kryukova ◖ Celo, Scott Moore ◖ Gitcoin',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T160000Z%2F20221010T164000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Investing%20in%20Network%20Goods%3A%20new%20ecosystem%20funding%20paradigms%20%28Joanna%20Liang%20%E2%97%96%20JSquare%2C%20Anna%20Kryukova%20%E2%97%96%20Celo%2C%20Scott%20Moore%20%E2%97%96%20Gitcoin%29'
-  },
-  {
-    time: '11:40 AM',
-    title: 'FiatConnect & Connect the World - Using Competitions to Bootstrap Public Goods',
-    name: 'Marek Olszewski ◖ Celo/cLabs',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T164000Z%2F20221010T170500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=FiatConnect%20%26%20Connect%20the%20World%20-%20Using%20Competitions%20to%20Bootstrap%20Public%20Goods%20%28Marek%20Olszewski%20%E2%97%96%20Celo%2FcLabs%29'
-  },
-  {
-    time: '12:05 PM',
     title: 'Rewarding impact with Hypercerts.xyz',
     name: 'Holke Brammer ◖ Protocol Labs and Kevin Owocki ◖ supermodular.xyz',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T170500Z%2F20221010T173000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Rewarding%20impact%20with%20Hypercerts.xyz%20%28Holke%20Brammer%20%E2%97%96%20Protocol%20Labs%20and%20Kevin%20Owocki%20%E2%97%96%20supermodular.xyz%29'
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T160000Z%2F20221010T162500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Rewarding%20impact%20with%20Hypercerts.xyz%20%28Holke%20Brammer%20%E2%97%96%20Protocol%20Labs%20and%20Kevin%20Owocki%20%E2%97%96%20supermodular.xyz%29'
+  },
+  {
+    time: '11:25 AM',
+    title: 'FiatConnect & Connect the World - Using Competitions to Bootstrap Public Goods',
+    name: 'Marek Olszewski ◖ Celo/cLabs',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T162500Z%2F20221010T165000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=FiatConnect%20%26%20Connect%20the%20World%20-%20Using%20Competitions%20to%20Bootstrap%20Public%20Goods%20%28Marek%20Olszewski%20%E2%97%96%20Celo%2FcLabs%29'
+  },
+  {
+    time: '11:50 AM',
+    title: 'Investing in Network Goods: new ecosystem funding paradigms',
+    name: 'Anna Kryukova ◖ Celo, Scott Moore ◖ Gitcoin, Abbey Titcomb ◖ Radicle',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T165000Z%2F20221010T173000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Investing%20in%20Network%20Goods%3A%20new%20ecosystem%20funding%20paradigms%20%28Anna%20Kryukova%20%E2%97%96%20Celo%2C%20Scott%20Moore%20%E2%97%96%20Gitcoin%2C%20Abbey%20Titcomb%20%E2%97%96%20Radicle%29'
   },
   {
     time: '12:30 PM',
-    title: 'Impact Evaluators: Existential risks and opportunities',
-    name: 'Matthew Frehlich ◖ Protocol Labs',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T173000Z%2F20221010T175500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Impact%20Evaluators%3A%20Existential%20risks%20and%20opportunities%20%28Matthew%20Frehlich%20%E2%97%96%20Protocol%20Labs%29'
-  },
-  {
-    time: '12:55 PM',
     title: 'BREAK',
     name: '',
     calendar: ''
+  },
+  {
+    time: '12:45 PM',
+    title: 'Impact Evaluators: Existential risks and opportunities',
+    name: 'Matthew Frehlich ◖ Protocol Labs',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T173000Z%2F20221010T175500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Impact%20Evaluators%3A%20Existential%20risks%20and%20opportunities%20%28Matthew%20Frehlich%20%E2%97%96%20Protocol%20Labs%29'
   },
   {
     time: '1:10 PM',
@@ -211,9 +211,9 @@ export const talksFTC = [
   },
   {
     time: '1:50 PM',
-    title: 'Workshops: Funding Structures',
-    name: 'Rene Pinnell ◖ Artizen Fund, Vaughn McKenzie-Landell ◖ Butter',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T185000Z%2F20221010T194500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Workshops%3A%20Funding%20Structures%20%28Rene%20Pinnell%20%E2%97%96%20Artizen%20Fund%2C%20Vaughn%20McKenzie-Landell%20%E2%97%96%20Butter%29'
+    title: 'Workshops: Funding Mechanisms',
+    name: 'Marcus Aurelius ◖ KlimaDAO, Livia De ◖ Commons Stack',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T185000Z%2F20221010T194500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Workshops%3A%20Funding%20Mechanisms%20%28Marcus%20Aurelius%20%E2%97%96%20KlimaDAO%2C%20Livia%20De%20%E2%97%96%20Commons%20Stack%29'
   },
   {
     time: '2:45 PM',
@@ -229,9 +229,9 @@ export const talksFTC = [
   },
   {
     time: '3:55 PM',
-    title: 'Workshops: Funding Mechanisms',
-    name: 'Marcus Aurelius ◖ KlimaDAO, Livia De ◖ Commons Stack',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T205500Z%2F20221010T215000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Workshops%3A%20Funding%20Mechanisms%20%28Marcus%20Aurelius%20%E2%97%96%20KlimaDAO%2C%20Livia%20De%20%E2%97%96%20Commons%20Stack%29'
+    title: 'Workshops: Funding Structures',
+    name: 'Rene Pinnell ◖ Artizen Fund, Vaughn McKenzie-Landell ◖ Butter',
+    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T205500Z%2F20221010T215000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Workshops%3A%20Funding%20Structures%20%28Rene%20Pinnell%20%E2%97%96%20Artizen%20Fund%2C%20Vaughn%20McKenzie-Landell%20%E2%97%96%20Butter%29'
   },
   {
     time: '4:50 PM',
