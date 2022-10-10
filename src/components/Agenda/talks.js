@@ -6,12 +6,6 @@ export const talksMain = [
     calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T150000Z%2F20221010T151000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Welcome%20to%20Schelling%20Point%20%28Simona%20Pop%29',
   },
   {
-    time: '10:10 AM',
-    title: 'Schelling Point Kick Off',
-    name: 'Special Guest',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T151000Z%2F20221010T153000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Schelling%20Point%20Kick%20Off%20%28Special%20Guest%29'
-  },
-  {
     time: '10:30 AM',
     title: 'SuperModularity',
     name: 'Kevin Owocki ◖ supermodular.xyz',
