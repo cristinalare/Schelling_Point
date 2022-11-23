@@ -3,37 +3,42 @@ export const talksMain = [
     time: '10:00 AM',
     title: 'Welcome to Schelling Point',
     name: `Simona Pop ◖ SP Content Curator`,
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T150000Z%2F20221010T151000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Welcome%20to%20Schelling%20Point%20%28Simona%20Pop%29',
+  },
+  {
+    time: '10:00 AM',
+    title: 'Schelling Point Kickoff',
+    name: 'Vitalik Buterin',
+    link: 'https://youtu.be/K8tEQui7zEo'
   },
   {
     time: '10:30 AM',
     title: 'SuperModularity',
     name: 'Kevin Owocki ◖ supermodular.xyz',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T153000Z%2F20221010T155000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=SuperModularity%20%28Kevin%20Owocki%20%E2%97%96%20supermodular.xyz%29'
+    link: 'https://youtu.be/Z5TQpYDPv_M'
   },
   {
     time: '10:50 AM',
     title: 'Designing for Resilience: Decentralized Governance in Open-Source Ecosystems',
     name: 'Abbey Titcomb ◖ Radicle',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T155000Z%2F20221010T161000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Designing%20for%20Resilience%3A%20Decentralized%20Governance%20in%20Open-Source%20Ecosystems%20%28Abbey%20Titcomb%20%E2%97%96%20Radicle%29'
+    link: 'https://youtu.be/9rlApiC-KSI'
   },
   {
     time: '11:10 AM',
     title: 'Creating welcoming, diverse, and sustainable developer communities',
     name: 'Kasia Sitkiewicz ◖ Github, Camila Ramos ◖ Fuel Labs, Nader Dabit ◖ DevDAO, Eric Nakagawa ◖ Celo',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T161000Z%2F20221010T164000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Creating%20welcoming%2C%20diverse%2C%20and%20sustainable%20developer%20communities%20%28Kasia%20Sitkiewicz%20%E2%97%96%20Github%2C%20Camila%20Ramos%20%E2%97%96%20Fuel%20Labs%2C%20Nader%20Dabit%20%E2%97%96%20DevDAO%2C%20Eric%20Nakagawa%20%E2%97%96%20Celo%29'
+    link: 'https://youtu.be/5T0qLIrIx5E'
   },
   {
     time: '11:40 AM',
     title: 'Why no one is using Blockchain?!',
     name: 'Fabian Vogelsteller ◖ LUKSO',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T164000Z%2F20221010T170500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Why%20no%20one%20is%20using%20Blockchain%3F%21%20%28Fabian%20Vogelsteller%20%E2%97%96%20LUKSO%29'
+    link: 'https://youtu.be/uNo1CdT4Bwc'
   },
   {
     time: '12:05 PM',
     title: 'Plurality: Technology for Collaborative Diversity and Democracy',
     name: 'Glen Weyl ◖ RadicalxChange',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T170500Z%2F20221010T172500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Plurality%3A%20Technology%20for%20Collaborative%20Diversity%20and%20Democracy%20%28Glen%20Weyl%20%E2%97%96%20RadicalxChange%29'
+    link: 'https://youtu.be/utOQVWbZI7Q'
   },
   {
     time: '12:25 PM',
@@ -45,67 +50,67 @@ export const talksMain = [
     time: '1:05 PM',
     title: 'Using social capital to coordinate digital economies',
     name: 'Danny Zuckerman ◖ Ceramic',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T180500Z%2F20221010T182500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Using%20social%20capital%20to%20coordinate%20digital%20economies%20%28Danny%20Zuckerman%20%E2%97%96%20Ceramic%29'
+    link: 'https://youtu.be/wbnxPtAGgYA'
   },
   {
     time: '1:25 PM',
     title: 'Decentralized social media - a public good?',
     name: 'Manasi Vora ◖ Skynet',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T182500Z%2F20221010T184500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Decentralized%20social%20media%20-%20a%20public%20good%3F%20%28Manasi%20Vora%20%E2%97%96%20Skynet%29'
+    link: 'https://youtu.be/INifI8fv7IU'
   },
   {
     time: '1:45 PM',
     title: 'Cryoto Artistry and Collective Transformation',
     name: 'Shivani Mitra ◖ MOCA, Julian Brangold ◖ CruptoArg, Stefany Cuervo ◖ Colombian Artist, Bertie Lumsden ◖ ArtDAO, Rico Serna ◖ Chimbites',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T184500Z%2F20221010T191500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Cryoto%20Artistry%20and%20Collective%20Transformation%20%28Shivani%20Mitra%20%E2%97%96%20MOCA%2C%20Julian%20Brangold%20%E2%97%96%20CruptoArg%2C%20Stefany%20Cuervo%20%E2%97%96%20Colombian%20Artist%2C%20Bertie%20Lumsden%20%E2%97%96%20ArtDAO%2C%20Rico%20Serna%20%E2%97%96%20Chimbites%29'
+    link: 'https://youtu.be/rPrcCe754a8'
   },
   {
     time: '2:15 PM',
     title: 'Communication is a Public Good',
     name: 'Harsh Rajat ◖ EPNS',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T191500Z%2F20221010T193500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Communication%20is%20a%20Public%20Good%20%28Harsh%20Rajat%20%E2%97%96%20EPNS%29'
+    link: 'https://youtu.be/Diln2WBL7a0'
   },
   {
     time: '2:35 PM',
     title: 'Open source as a public good',
     name: 'Jahed Momand ◖ Cerulean Ventures, Linda Xie ◖ Scalar Capital, Awa Lefteris Karapetsas ◖ Rotki, Scott Moore ◖ Gitcoin, Awa Sun Yin ◖ Anoma',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T193500Z%2F20221010T200500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Open%20source%20as%20a%20public%20good%20%28Jahed%20Momand%20%E2%97%96%20Cerulean%20Ventures%2C%20Linda%20Xie%20%E2%97%96%20Scalar%20Capital%2C%20Awa%20Lefteris%20Karapetsas%20%E2%97%96%20Rotki%2C%20Scott%20Moore%20%E2%97%96%20Gitcoin%2C%20Awa%20Sun%20Yin%20%E2%97%96%20Anoma%29'
+    link: 'https://youtu.be/I_JMDUo09Z0'
   },
   {
     time: '3:05 PM',
     title: 'Data Dating',
     name: 'Jonny Howle ◖ Disco, Carl Fairclough ◖ Disco',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T200500Z%2F20221010T203000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Data%20Dating%20%28Jonny%20Howle%20%E2%97%96%20Disco%2C%20Carl%20Fairclough%20%E2%97%96%20Disco%29'
+    link: 'https://youtu.be/A4YiszKrZ1E'
   },
   {
     time: '3:30 PM',
     title: 'You Just DAO-ed it, now what?',
     name: 'Denison Bertram ◖ Tally, James Waugh ◖ fireeyes, Kris Decoodt ◖ Gitcoin, Simona Pop ◖ Schelling Point',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T203000Z%2F20221010T210000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=You%20Just%20DAO-ed%20it%2C%20now%20what%3F%20%28Denison%20Bertram%20%E2%97%96%20Tally%2C%20James%20Waugh%20%E2%97%96%20fireeyes%2C%20Kris%20Decoodt%20%E2%97%96%20Gitcoin%2C%20Simona%20Pop%20%E2%97%96%20Schelling%20Point%29'
+    link: 'https://youtu.be/vG-qedhMkQs'
   },
   {
     time: '4:00 PM',
     title: 'Decentralised Digital Communities: How, Why and When?',
     name: 'Rahul Kothari ◖ Reddit',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T210000Z%2F20221010T212000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Decentralised%20Digital%20Communities%3A%20How%2C%20Why%20and%20When%3F%20%28Rahul%20Kothari%20%E2%97%96%20Reddit%29'
+    link: 'https://youtu.be/lRNi00aQuaI'
   },
   {
     time: '4:20 PM',
     title: 'Onboarding Latam users and builders in the future of Web3',
     name: 'Pablo Sabbatella ◖ Defy Education',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T212000Z%2F20221010T214000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Onboarding%20Latam%20users%20and%20builders%20in%20the%20future%20of%20Web3%20%28Pablo%20Sabbatella%20%E2%97%96%20Defy%20Education%29'
+    link: 'https://youtu.be/WAtVrEUqqWc'
   },
   {
     time: '4:40 PM',
     title: `Hot DAO Coordination Autumn - Let's figure out how your DAO actually coordinates`,
     name: 'Aaron Soskin ◖ govrn.io',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T214000Z%2F20221010T220000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Hot%20DAO%20Coordination%20Autumn%20-%20Let%27s%20figure%20out%20how%20your%20DAO%20actually%20coordinates%20%28Aaron%20Soskin%20%E2%97%96%20govrn.io%29'
+    link: 'https://youtu.be/45Mrnf37AB8'
   },
   {
     time: '5:00 PM',
     title: `Regenerative Employment is the Future of Work`,
-    name: 'John Paller ◖ Opolis',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T220000Z%2F20221010T222000Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=Regenerative%20Employment%20is%20the%20Future%20of%20Work%20%28John%20Paller%20%E2%97%96%20Opolis%29'
+    name: 'Josh Lapidus ◖ Opolis',
+    link: 'https://youtu.be/I376WFv01LU'
   },
   {
     time: '5:20 PM',
@@ -126,7 +131,7 @@ export const talksPlurality = [
     time: '12:05 AM',
     title: '[ MAIN STAGE ] Plurality: Technology for Collaborative Diversity and Democracy',
     name: 'Glen Weyl ◖ RadicalxChange',
-    calendar: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221010T170500Z%2F20221010T172500Z&details=&location=gran%20carpa%20am%C3%A9ricas%20corferias&text=%5B%20MAIN%20STAGE%20%5D%20Plurality%3A%20Technology%20for%20Collaborative%20Diversity%20and%20Democracy%20%28Glen%20Weyl%20%E2%97%96%20RadicalxChange%29'
+    link: 'https://youtu.be/utOQVWbZI7Q'
   },
   {
     time: '1:00 PM',

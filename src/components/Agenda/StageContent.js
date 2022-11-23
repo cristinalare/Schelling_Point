@@ -8,9 +8,9 @@ function StageContent({stageTitle, talksArray}) {
         {talksArray.map((talk, index) => (
           <div className="agenda-item-talk" key={`${index}-${talk.name}`}>
             <p className="agenda-item-hour">{talk.time}</p>
-            { talk.calendar.length > 0 ? (
+            { talk.link ? (
               <p className="agenda-item-title">
-                <a href={talk.calendar} target="_blank" rel="noreferrer">
+                <a href={talk.link} target="_blank" rel="noreferrer">
                   {talk.title}&nbsp;
                   { talk.name.length > 0 && (<span>&#40;{talk.name}&#41;</span>) }
                 </a>
