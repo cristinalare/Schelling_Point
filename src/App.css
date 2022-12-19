@@ -38,6 +38,7 @@ body {
 }
 
 main {
+  overflow-x: hidden; 
   position: relative;
   top: var(--header-height); /* header's height: padding + logo */
 }

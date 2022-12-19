@@ -10,23 +10,6 @@ const ScrollTrigger = window.ScrollTrigger;
 gsap.registerPlugin(ScrollTrigger);
 
 function PastEvents() {
-
-    const gradientTarget = useRef();
-    const flower = useRef();
-    
-    useEffect(() => {
-        const gradientAnimation = gsap.timeline({scrollTrigger: {
-            scrub: true,
-            trigger: flower.current,
-            start: 'top 70%',
-            end: '+=70%'
-        }});
-        gradientAnimation.to(gradientTarget.current, {
-            attr: {r: 1.8}
-        });
-         return () => gradientAnimation.kill();
-    }, []);
-
     return (
       <div className='past-events'>
         <Parallax className='past-events-video' opacity={[0, 2]} startScroll={100} scale={[0.8, 1.2]} speed={8}>

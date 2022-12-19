@@ -1,6 +1,4 @@
-// import BloomingFlower from '../deco/BloomingFlower/BloomingFlower';
 import React from 'react';
-import { useInView } from 'react-intersection-observer';
 import './About.css';
 import aboutBg from './about-bg.svg';
 import { Parallax } from 'react-scroll-parallax';
