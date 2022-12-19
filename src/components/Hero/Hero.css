@@ -4,7 +4,7 @@
   justify-content: center; 
   height: calc(100vh - var(--header-height));
   margin: 0 10%;
-  padding-bottom: var(--header-height);
+  padding-bottom: var(--header-height);  
 }
 
 .hero-container {

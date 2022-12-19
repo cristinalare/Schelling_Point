@@ -24,7 +24,7 @@ function Home() {
         <div>
             {/* <Divider end={endRef} /> */}
             <Hero />
-            <div className="sections">
+            <div className="sections" style={{ overflowX: 'hidden' }}>
                 <div ref={endRef}>
                     <div className="section" id="About">
                         <About />
