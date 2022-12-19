@@ -21,12 +21,17 @@ video {
     align-items: center;
     gap: 4%;
     max-width: 100%;
+
 }
 
-.past-events-flower {
-    max-width: 100%;
-    height: auto;
-    /* padding: 0 3%;
-    max-width: 100%;
-    height: auto; */
+@media only screen and (max-width: 37.5rem) { /* 600px */
+  .past-events-playlists {
+    flex-direction: column;
+    gap: 2.5%;
+    row-gap: 0%;
+  }
+  .past-events-playlists > * {
+    max-width: 70%;
+  }
 }
+

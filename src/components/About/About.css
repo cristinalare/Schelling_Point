@@ -4,7 +4,7 @@
     position: relative;
 }
 
-.flower-bg {
+.about-bg {
     margin: auto;
     max-width: 100%;
     height: auto;
@@ -18,67 +18,18 @@
     width: 100%;
 }
 .description {
-    font-size: 2.5rem;
-    font-weight: 400;
     margin-top: 1rem;
-}
-
-@media only screen and (max-width: 45rem) {
-    .description {
-        font-size: 1.3rem;
-    }
 }
 /* width: max(30%, 40ch); */
 
-.f1 {
-  animation: 2.5s linear both a0_t, 2.5s linear both a0_d; animation-play-state: paused;
-}
-.f2 {
-  animation: 2.5s linear both a1_t, 2.5s linear both a1_d; animation-play-state: paused;
-}
-.f3 {
-  animation: 2.5s linear both a2_t, 2.5s linear both a2_d; animation-play-state: paused;
-}
-.f4 {
-  animation: 2.5s linear both a3_t, 2.5s linear both a3_d; animation-play-state: paused;
-}
-.f5 {
-  animation: 2.5s linear both a4_d; animation-play-state: paused;
-}
-.f6 {
-  animation: 2.5s linear both a5_t, 2.5s linear both a5_d; animation-play-state: paused;
-}
-.f7 {
-  animation: 2.5s linear both a6_t, 2.5s linear both a6_d; animation-play-state: paused;
-}
-.f8 {
-  animation: 2.5s linear both a7_t, 2.5s linear both a7_d; animation-play-state: paused;
-}
-.f9 {
-  animation: 2.5s linear both a8_t, 2.5s linear both a8_d; animation-play-state: paused;
+@media only screen and (max-width: 43.75rem) { /*700px */
+  .main-xxl.joy {
+    font-size: 3rem;
+  }
 }
 
-.in-view {
-  animation-play-state: running;
+@media only screen and (max-width: 31.25rem) { /*500px */
+  .main-xxl.joy {
+    font-size: 2rem;
+  }
 }
-.not-in-view {
-  animation: 2.5s linear backwards paused;
-}
-
-@keyframes a0_t { 0% { transform: translate(219.2px,296.6px) rotate(120deg) translate(-219.2px,-296.6px); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { transform: translate(219.2px,296.6px) rotate(49.5deg) translate(-219.2px,-296.6px); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 100% { transform: translate(219.2px,296.6px) rotate(0deg) translate(-219.2px,-296.6px); } }
-@keyframes a0_d { 0% { d: path('M210.8,283.7C228.5,275.1,233.6,288.3,233.6,288.3C233.6,288.3,243.2,296.6,228.5,310.6C219.2,315.7,210.8,304,210.8,304C210.8,304,194.1,288.3,210.8,283.7Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M164.9,294.8C194.1,278.6,225.1,293.2,225.1,293.2C225.1,293.2,222.5,326.2,194.6,344.6C168.8,359.4,136.5,345.4,136.5,345.4C136.5,345.4,136.1,309.3,164.9,294.8Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 100% { d: path('M132.7,302.6C169.9,281.1,219.2,296.6,219.2,296.6C219.2,296.6,208,347.1,170.7,368.6C133.5,390.1,84.2,374.5,84.2,374.5C84.2,374.5,95.4,324.1,132.7,302.6Z'); } }
-@keyframes a1_t { 0% { transform: translate(219.2px,296.6px) rotate(90deg) translate(-219.2px,-296.6px); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { transform: translate(219.2px,296.6px) rotate(37.2deg) translate(-219.2px,-296.6px); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 96% { transform: translate(219.2px,296.6px) rotate(0deg) translate(-219.2px,-296.6px); } 100% { transform: translate(219.2px,296.6px) rotate(0deg) translate(-219.2px,-296.6px); } }
-@keyframes a1_d { 0% { d: path('M219.2,280.7C237.6,280.7,236.4,296.6,236.4,296.6C236.4,296.6,237.6,311.6,219.2,311.6C201.2,311.6,205.2,296.6,205.2,296.6C205.2,296.6,205.2,280.7,219.2,280.7Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M167.2,264.7C203.5,264.7,226.3,296.6,226.3,296.6C226.3,296.6,203.5,328.2,167.2,328.2C131.1,328.2,109.5,296.6,109.5,296.6C109.5,296.6,132.7,264.7,167.2,264.7Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 96% { d: path('M130.7,253.4C179.6,253.4,219.2,296.6,219.2,296.6C219.2,296.6,179.5,339.9,130.7,339.9C81.8,339.9,42.1,296.6,42.1,296.6C42.1,296.6,81.8,253.4,130.7,253.4Z'); } 100% { d: path('M130.7,253.4C179.6,253.4,219.2,296.6,219.2,296.6C219.2,296.6,179.5,339.9,130.7,339.9C81.8,339.9,42.1,296.6,42.1,296.6C42.1,296.6,81.8,253.4,130.7,253.4Z'); } }
-@keyframes a2_t { 0% { transform: translate(219.3px,296.6px) rotate(60deg) translate(-219.3px,-296.6px); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { transform: translate(219.3px,296.6px) rotate(24.8deg) translate(-219.3px,-296.6px); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 92% { transform: translate(219.3px,296.6px) rotate(0deg) translate(-219.3px,-296.6px); } 100% { transform: translate(219.3px,296.6px) rotate(0deg) translate(-219.3px,-296.6px); } }
-@keyframes a2_d { 0% { d: path('M225.5,282.7C243.7,296.6,230.9,307.6,230.9,307.6C230.9,307.6,225.5,317.2,211.3,310.1C197.1,296.6,206.7,287.8,206.7,287.8C206.7,287.8,211.3,274.6,225.5,282.7Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M179.8,228.5C219.6,252.9,224,301.2,224,301.2C224,301.2,179.1,318.6,140.9,297C102.8,272.8,97.1,225.4,97.1,225.4C97.1,225.4,141.6,206.5,179.8,228.5Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 92% { d: path('M147.7,190.5C202.7,222.2,219.2,296.6,219.2,296.6C219.2,296.6,146.5,319.6,91.5,287.8C36.5,256,20,181.6,20,181.6C20,181.6,92.7,158.7,147.7,190.5Z'); } 100% { d: path('M147.7,190.5C202.7,222.2,219.2,296.6,219.2,296.6C219.2,296.6,146.5,319.6,91.5,287.8C36.5,256,20,181.6,20,181.6C20,181.6,92.7,158.7,147.7,190.5Z'); } }
-@keyframes a3_t { 0% { transform: translate(219px,296.6px) rotate(30deg) translate(-219px,-296.6px); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { transform: translate(219px,296.6px) rotate(12.4deg) translate(-219px,-296.6px); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 88% { transform: translate(219px,296.6px) rotate(0deg) translate(-219px,-296.6px); } 100% { transform: translate(219px,296.6px) rotate(0deg) translate(-219px,-296.6px); } }
-@keyframes a3_d { 0% { d: path('M233.1,286.8C240.7,307.1,226.8,311.1,226.8,311.1C226.8,311.1,210.7,316.8,205.1,305.2C198.7,286.8,215,281.6,215,281.6C215,281.6,226.5,277.2,233.1,286.8Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M219,207.2C243.4,252.3,222.3,302.6,222.3,302.6C222.3,302.6,165.9,293.9,142.4,252.4C118.5,208,140.6,157.2,140.6,157.2C140.6,157.2,195.1,166.4,219,207.2Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 88% { d: path('M209.1,151.2C245.3,213.9,219.2,296.6,219.2,296.6C219.2,296.6,134.4,277.9,98.3,215.2C62.1,152.6,88.2,69.8,88.2,69.8C88.2,69.8,173,88.6,209.1,151.2Z'); } 100% { d: path('M209.1,151.2C245.3,213.9,219.2,296.6,219.2,296.6C219.2,296.6,134.4,277.9,98.3,215.2C62.1,152.6,88.2,69.8,88.2,69.8C88.2,69.8,173,88.6,209.1,151.2Z'); } }
-@keyframes a4_d { 0% { d: path('M236.1,296.6C236.1,310.1,219.2,314.1,219.2,314.1C219.2,314.1,202.7,308.1,202.7,296.6C202.7,281.7,219.2,281.7,219.2,281.7C219.2,281.7,229.5,281.7,236.1,296.6Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M265.8,215.5C265.8,265.9,219.2,303.9,219.2,303.9C219.2,303.9,172.8,265,172.8,215.5C172.8,164.6,219.2,128.3,219.2,128.3C219.2,128.3,263.1,164.6,265.8,215.5Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 84% { d: path('M286.7,158.5C286.7,234.8,219.2,296.6,219.2,296.6C219.2,296.6,151.7,234.8,151.7,158.5C151.7,82.2,219.2,20.4,219.2,20.4C219.2,20.4,286.7,82.3,286.7,158.5Z'); } 100% { d: path('M286.7,158.5C286.7,234.8,219.2,296.6,219.2,296.6C219.2,296.6,151.7,234.8,151.7,158.5C151.7,82.2,219.2,20.4,219.2,20.4C219.2,20.4,286.7,82.3,286.7,158.5Z'); } }
-@keyframes a5_t { 0% { transform: translate(219.3px,296.7px) rotate(-30deg) translate(-219.3px,-296.7px); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { transform: translate(219.3px,296.7px) rotate(-12.4deg) translate(-219.3px,-296.7px); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 80% { transform: translate(219.3px,296.7px) rotate(0deg) translate(-219.3px,-296.7px); } 100% { transform: translate(219.3px,296.7px) rotate(0deg) translate(-219.3px,-296.7px); } }
-@keyframes a5_d { 0% { d: path('M229.3,309.6C219.2,317.9,209.2,309.6,209.2,309.6C209.2,309.6,197.4,299,209.2,285C222.2,276,227.8,285,227.8,285C227.8,285,244.2,296.7,229.3,309.6Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M294.3,254.2C268.9,294.4,215,302,215,302C215,302,194.9,249,221,206.4C247.6,166,299.6,158.6,299.6,158.6C299.6,158.6,321.8,212.1,294.3,254.2Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 80% { d: path('M340.1,215.2C303.9,277.9,219.2,296.6,219.2,296.6C219.2,296.6,193.1,213.9,229.3,151.2C265.4,88.6,350.2,69.8,350.2,69.8C350.2,69.8,376.3,152.6,340.1,215.2Z'); } 100% { d: path('M340.1,215.2C303.9,277.9,219.2,296.6,219.2,296.6C219.2,296.6,193.1,213.9,229.3,151.2C265.4,88.6,350.2,69.8,350.2,69.8C350.2,69.8,376.3,152.6,340.1,215.2Z'); } }
-@keyframes a6_t { 0% { transform: translate(218.6px,296.3px) rotate(-60deg) translate(-218.6px,-296.3px); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { transform: translate(218.6px,296.3px) rotate(-24.8deg) translate(-218.6px,-296.3px); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 76% { transform: translate(218.6px,296.3px) rotate(0deg) translate(-218.6px,-296.3px); } 100% { transform: translate(218.6px,296.3px) rotate(0deg) translate(-218.6px,-296.3px); } }
-@keyframes a6_d { 0% { d: path('M226.5,313.1C211.8,313.1,204.7,306.5,204.7,306.5C204.7,306.5,193.6,296.3,211.8,280.7C231.6,275.1,236.1,296.3,236.1,296.3C236.1,296.3,241.7,301.5,226.5,313.1Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M297.2,298.3C258.8,316.9,213.2,300.7,213.2,300.7C213.2,300.7,218.3,252.8,258.1,227.7C298.6,206.8,343.2,229,343.2,229C343.2,229,335.8,274.8,297.2,298.3Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 76% { d: path('M346.9,287.8C291.9,319.6,219.2,296.6,219.2,296.6C219.2,296.6,235.7,222.2,290.7,190.5C345.7,158.7,418.4,181.6,418.4,181.6C418.4,181.6,401.9,256,346.9,287.8Z'); } 100% { d: path('M346.9,287.8C291.9,319.6,219.2,296.6,219.2,296.6C219.2,296.6,235.7,222.2,290.7,190.5C345.7,158.7,418.4,181.6,418.4,181.6C418.4,181.6,401.9,256,346.9,287.8Z'); } }
-@keyframes a7_t { 0% { transform: translate(219.2px,296.6px) rotate(-90deg) translate(-219.2px,-296.6px); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { transform: translate(219.2px,296.6px) rotate(-37.2deg) translate(-219.2px,-296.6px); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 72% { transform: translate(219.2px,296.6px) rotate(0deg) translate(-219.2px,-296.6px); } 100% { transform: translate(219.2px,296.6px) rotate(0deg) translate(-219.2px,-296.6px); } }
-@keyframes a7_d { 0% { d: path('M229.9,309.4C204.7,320.3,202,296.6,202,296.6C202,296.6,205.3,276.4,222.5,280.3C236.1,283.6,236.4,296.6,236.4,296.6C236.4,296.6,236.7,295.7,229.9,309.4Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M275.6,327.3C236.5,331.8,212.1,296.6,212.1,296.6C212.1,296.6,236.7,262.9,272.5,264.5C306.9,265.8,330.2,296.6,330.2,296.6C330.2,296.6,307.1,321.7,275.6,327.3Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 72% { d: path('M307.7,339.9C258.8,339.9,219.2,296.6,219.2,296.6C219.2,296.6,258.8,253.4,307.7,253.4C356.6,253.4,396.2,296.6,396.2,296.6C396.2,296.6,356.6,339.9,307.7,339.9Z'); } 100% { d: path('M307.7,339.9C258.8,339.9,219.2,296.6,219.2,296.6C219.2,296.6,258.8,253.4,307.7,253.4C356.6,253.4,396.2,296.6,396.2,296.6C396.2,296.6,356.6,339.9,307.7,339.9Z'); } }
-@keyframes a8_t { 0% { transform: translate(218.9px,296.7px) rotate(-120deg) translate(-218.9px,-296.7px); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { transform: translate(218.9px,296.7px) rotate(-49.5deg) translate(-218.9px,-296.7px); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 68% { transform: translate(218.9px,296.7px) rotate(0deg) translate(-218.9px,-296.7px); } 100% { transform: translate(218.9px,296.7px) rotate(0deg) translate(-218.9px,-296.7px); } }
-@keyframes a8_d { 0% { d: path('M218.9,312.9C203,312.9,204,293.6,204,293.6C204,293.6,217.3,269.2,233.8,289.2C238.7,296.7,233.8,304.4,233.8,304.4C233.8,304.4,232.5,312.9,218.9,312.9Z'); animation-timing-function: cubic-bezier(.2,.8,1,1); } 24% { d: path('M247.5,345.6C219.1,332.9,212.9,295.4,212.9,295.4C212.9,295.4,247.3,276.2,276,297.1C299.9,312.8,304.4,345.6,304.4,345.6C304.4,345.6,275,358.2,247.5,345.6Z'); animation-timing-function: cubic-bezier(0,1.5,.9,1.1); } 68% { d: path('M267.6,368.6C230.4,347.1,219.2,296.6,219.2,296.6C219.2,296.6,268.4,281.1,305.7,302.6C343,324.2,354.1,374.6,354.1,374.6C354.1,374.6,304.9,390.1,267.6,368.6Z'); } 100% { d: path('M267.6,368.6C230.4,347.1,219.2,296.6,219.2,296.6C219.2,296.6,268.4,281.1,305.7,302.6C343,324.2,354.1,374.6,354.1,374.6C354.1,374.6,304.9,390.1,267.6,368.6Z'); } }

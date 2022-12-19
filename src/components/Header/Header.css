@@ -8,25 +8,17 @@ header {
     right: 0;
     z-index: 10;
     padding: 1.7rem;
-    color: var(--light-sun-color);
-    backdrop-filter: blur(10px);
-    transition: background-color 0.6s ease-out;
+    color: var(--light-pink-color);
+    transition: all 0.6s ease-out;
 }
 
-/* logo */
-/* header button,
 .logo {
-    height: 32px;
-    width: 32px;
-} */
-
-.logo {
-    color: rgba(255, 255, 255, 1);
+    color: var(--light-green-color);
     transition: color 0.3s ease-out;
     cursor: pointer;
 }
 .logo:hover {
-    color: var(--sun-color);
+    color: var(--light-pink-color);
 }
 
 /* menu */
@@ -43,6 +35,20 @@ nav li {
 .mobile-icon {
     display: none;
 }
+
+.tickets {
+  border: 1px solid var(--light-pink-color);
+  border-radius: 46px;
+  padding: 0.7rem 0.8rem 0.55rem 0.8rem;
+  background-color: var(--green-color);
+  transition: all 0.4s ease-out;
+  z-index: 10;
+}
+.tickets:hover {
+  color: var(--green-color);
+  background-color: var(--light-pink-color);
+}
+
 /* for the hover/active effect */
 .menu-item a::before {
     content: '';
@@ -70,19 +76,36 @@ a:hover::before {
 }
 
 .social-media-icon {
-    /* color: var(--grey-color); */
     transition: color 0.4s ease-out;
 }
 .social-media-icon:hover {
-    color: var(--green-color);
+    color: var(--light-green-color);
 }
 
 .disabled {
     pointer-events: none;
     color: rgba(255, 248, 188, 0.5);
 }
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  header {
+    justify-content: center;
+    padding: 1.4rem 1rem;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}
 /* mobile menu */
-@media only screen and (max-width: 60.5rem) { /*970px */
+/* @media only screen and (max-width: 60.5rem) {
     nav ul,
     .social-media-icons {
         flex-direction: column;
@@ -107,4 +130,4 @@ a:hover::before {
     .mobile-icon {
         display: block;
     }
-}
+} */

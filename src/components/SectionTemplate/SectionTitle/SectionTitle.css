@@ -3,29 +3,12 @@
 }
 .section-title-container {
     position: relative;
-    padding: 4rem 0;
-    width: fit-content;
-    
-}
-.section-title-bg.odd {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(-45%, -55%);
-    z-index: -1;
-}
-
-.section-title-bg.even {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(40%, -55%);
-    z-index: -1;
+    padding: 4rem 0;    
 }
 
 .section-title {
-    color: var(--grey-color);
-    text-transform: capitalize;
-    letter-spacing: 0.3em;
+    color: var(--light-pink-color);
     width: fit-content;
+    text-align: center;
+    margin: 0 auto;
 }

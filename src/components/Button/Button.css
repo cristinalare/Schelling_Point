@@ -1,26 +1,19 @@
 .btn {
-    background-color: var(--grey-color);
-    border-radius: 4px;
-    padding: 0.7em;
-    color: var(--light-sun-color);
-    margin: 0 auto;
-    text-align: center;
-    transition: color 0.4s ease-out,
-        background-color 0.4s ease-out;
+  background: linear-gradient(90deg, var(--light-pink-color), transparent) var(--yellow-color);
+  border-radius: 66px;
+  text-transform: uppercase;
+  color: var(--green-color);
+  padding: 1em 0.5em;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  transition: all 0.4s ease-out;
+  width: 16em;
 }
+
 .btn:hover {
-    background-color: var(--sun-color);
-    color: var(--grey-color);
-}
-.cta {
-    width: 20rem;
-    z-index: 9;
-}
-@media only screen and (max-width: 37.5rem) { /*600px */
-    .cta {
-        width: 12rem;
-    }
-    .btn {
-        padding: 1em;
-    }
+  background-color: var(--light-green-color);
+  /* background-color: var(--sun-color);
+  color: var(--grey-color); */
 }

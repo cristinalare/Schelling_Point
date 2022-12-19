@@ -1,36 +1,40 @@
 .playlist-btn {
-    background-color: var(--grey-color);
-    border-radius: 8px;
     width: fit-content;
     padding: 2rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.playlist-btn span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 .icon {
-    color: #EAE4FF;
-    fill: #0E0333;
-    stroke: #6F3FF5;
+    color: var(--light-pink-color);
+    stroke: var(--light-pink-color);
     max-width: 100%;
     height: auto;
 }
+.icon.fill {
+  fill: var(--green-color);
+}
+
 .icon,
 .playlist-btn {
     transition: all 1s ease-out;
 }
 .playlist-btn:hover .icon {
     transform: rotate(180deg);
-    color: var(--grey-color);
-    fill: var(--sun-color);
-    stroke: var(--grey-color);
+    color: var(--yellow-color);
+    /* stroke: var(--yellow-color); */
 }
 .playlist-btn:hover {
-    background-color: var(--sun-color);
-    color: var(--grey-color);
+    /* background-color: var(--sun-color); */
+    color: var(--yellow-color);
+}
+
+@media only screen and (max-width: 35rem) {
+  .playlist-btn {
+    padding: 1.25rem;
+  }
 }

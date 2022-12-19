@@ -13,7 +13,7 @@ function Header () {
 
     useEffect(() => {
       const changeBg = () => {
-        window.scrollY > 200 ? setIsTransparentBg(false) : setIsTransparentBg(true);
+        window.scrollY > 50 ? setIsTransparentBg(false) : setIsTransparentBg(true);
       };
       
       window.addEventListener('scroll', changeBg);
@@ -29,18 +29,21 @@ function Header () {
         {name:'Past Events', disabled: false}];
 
     return (
-        <header className='main-xxs' style={{ backgroundColor: `${isTransparentBg ? 'transparent' : 'var(--purple-color)'}`}}>
+        <header
+          className='main-xxs'
+          style={{ backdropFilter: `${isTransparentBg ? 'blur(0px)' : 'blur(15px)'}`}}
+        >
             <button className="logo">
-                <div onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})} className="main-s">
+                <div onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
                     schelling point
                 </div>
             </button>
 
-            <MobileIcon toggleMenu={toggleMenu} activeMenu={activeMenu} className='mobile-icon'/>
+            {/* <MobileIcon toggleMenu={toggleMenu} activeMenu={activeMenu} className='mobile-icon'/> */}
 
             <nav className={activeMenu ? 'open' : undefined}>
                 <ul>
-                    {menuItems.map((menuItem, index) => (
+                    {/* {menuItems.map((menuItem, index) => (
                         <li className="menu-item" key={index}>
                             <Link 
                               onClick={() => activeMenu && toggleMenu()}
@@ -54,7 +57,8 @@ function Header () {
                                 {menuItem.name}
                             </Link>
                         </li>
-                    ))}
+                    ))} */}
+                    <li className="main-xxxs"><a className="tickets" href="https://forms.gle/FCsjpxsYr9AikaPj8">Early Bird Tickets</a></li>
                     <li className="social-media-icons">
                         <a href="https://t.me/joinchat/EX2vtzI0earU2LER" target="_blank" rel="noreferrer">
                             <svg className="social-media-icon" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,6 +70,13 @@ function Header () {
                                 <path d="M22.7878 2.12422C21.9679 2.48447 21.0859 2.73292 20.1542 2.84472C21.0983 2.28571 21.8312 1.37888 22.1791 0.322981C21.2971 0.84472 20.3157 1.22981 19.2598 1.42857C18.4275 0.546584 17.235 0 15.9182 0C13.384 0 11.3344 2.03727 11.3344 4.54658C11.3344 4.90683 11.3716 5.24224 11.4586 5.59006C7.64491 5.40373 4.26603 3.59006 2.00516 0.832298C1.60764 1.50311 1.38404 2.28571 1.38404 3.11801C1.38404 4.69565 2.19149 6.08696 3.42131 6.90683C2.66354 6.88199 1.95547 6.67081 1.34677 6.3354V6.38509C1.34677 8.59627 2.92441 10.4224 5.02379 10.8447C4.6387 10.9441 4.24118 11.0062 3.81882 11.0062C3.52069 11.0062 3.23497 10.9689 2.94926 10.9193C3.53311 12.7205 5.22255 14.0373 7.23497 14.0745C5.66975 15.2919 3.68218 16.0248 1.53311 16.0248C1.16044 16.0248 0.80019 16 0.439941 15.9627C2.47721 17.2547 4.88715 18 7.471 18C15.9058 18 20.5269 11.0683 20.5269 5.0559C20.5269 4.85714 20.5269 4.65838 20.5145 4.47205C21.4213 3.83851 22.1915 3.03106 22.8002 2.1118" fill="currentColor"/>
                             </svg>
                         </a>
+                        <a href="https://store.gitcoin.co/collections/schelling-point-2023" target="_blank" rel="noreferrer">
+                          <svg className="social-media-icon" width="23" height="18" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.49515 1.6712C4.65588 0.706825 5.49026 0 6.46794 0H24.0794C25.0571 0 25.8915 0.706826 26.0522 1.6712L29.3855 21.6712C29.5887 22.8903 28.6486 24 27.4128 24H3.1346C1.89872 24 0.958637 22.8903 1.16181 21.6712L4.49515 1.6712Z" fill="currentColor"/>
+                            <path d="M9.77368 8C9.77368 11.3137 12.2361 14 15.2737 14C18.3112 14 20.7737 11.3137 20.7737 8" stroke="#1F774D" strokeWidth="3" strokeLinecap="round"/>
+                          </svg>
+                        </a>
+
                     </li>
                 </ul>
             </nav>

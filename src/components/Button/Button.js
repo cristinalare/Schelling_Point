@@ -1,10 +1,10 @@
 import './Button.css';
 
-function Button ({ctaRef, text, link}) {
-    return (
-        <a className='btn cta main-s' href={link} target='_blank' rel='noreferrer'>
-            <span>{text} <span ref={ctaRef}></span></span>
-        </a>
-    );
+function Button ({text, link}) {
+  return (
+    <a className='btn main-xs' href={link} target='_blank' rel='noreferrer'>
+      <span>{text}</span>
+    </a>
+  );
 }
 export default Button ;

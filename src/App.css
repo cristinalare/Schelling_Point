@@ -1,89 +1,119 @@
 /* General styles */
 * {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-}
-
-body, 
-header {
-    max-width: 120rem;
-    margin: auto;
-}
-body {
-    overflow-x: hidden;
-    background-color: var(--purple-color);
-    color: var(--light-sun-color);
-}
-
-main {
-    position: relative;
-    top: calc(33px + 1.7rem + 1.7rem); /* header's height: padding + logo */
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
-    --grey-color: #0E0333; 
-    --light-grey-color: #0401100D;
-    --purple-color: #6F3FF5;
-    --light-purple-color: #EAE4FF;
-    --green-color: #02E2AC;
-    --light-green-color: #D7FFF6;
-    --sun-color: #FFE921;
-    --light-sun-color: #FFF8BC;
+  --header-height: calc(33px + 1.7rem + 1.7rem);
+  --subtitle-top-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 10));
+  --subtitle-bottom-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 13));
+  --subtitle-horizontal-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 3.5));
+  --grey-color: #0E0333; 
+  --light-grey-color: #0401100D;
+  --light-pink-color: #FFD6D3;
+  --light-green-color: #B3DE9F;
+  --green-color: #1F774D;
+  --yellow-color: #FBC624;
+  --white-color: #FFFFFF;
+  --yellow-gradient: linear-gradient(90deg, #FFD6D3 0%, #FBC624 100%);
 }
 
-.yellow {
-    color: var(--sun-color);
+@media only screen and (max-width: 600px) {
+  :root {
+    --header-height: 68px;
+  }
+}
+
+.sections,
+header {
+  max-width: 120rem;
+  margin: auto;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+
+main {
+  position: relative;
+  top: var(--header-height); /* header's height: padding + logo */
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-link {
+  font-family: KangmasRegular;
+  background: var(--yellow-gradient);
+  background-clip: text;
+  text-fill-color: transparent;
+  color: transparent;
+  transition: all 0.4s ease-out;
+}
+.main-link:hover {
+  color: var(--light-pink-color);
 }
 
 button {
-    border: none;
-    background-color: transparent;
+  border: none;
+  background-color: transparent;
 }
 
 /* scrollbar */
 ::-webkit-scrollbar {
-    width: 7px;
+  width: 8px;
 }
   
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: var(--light-green-color);
 }
   
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border: 1px solid var(--grey-color);
+  background: var(--green-color);
+  border-radius: 10px;
+  border: 1px solid var(--grey-color);
 }
  
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--purple-color);
+  background: var(--light-green-color);
 }
 
 /* typography */
 html {
-    font-family: 'Kanit', sans-serif;
-    font-weight: 400;
-    color: var(--light-sun-color);
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  color: var(--white-color);
 }
+/*  --font-xxs: 0.875rem; 14px
+  --font-xs: 1.375rem; 22px
+  --font-s: 1.5rem; 24px
+  --font-m: 2rem; 32px
+  --font-l: 3rem; 48px
+  --font-xl: 4rem; 64px
+  --line-height-xxl: 6rem;
+  --font-xxl: 5rem; 80px */
 
 :root {
-    --font-xxs: 0.875rem; /*14px */
-    --font-xs: 1.375rem; /*22px */
-    --font-s: 1.75rem; /*28px */
-    --font-m: 2rem; /* 32px */
-    --font-l: 3rem; /* 48px */
-    --font-xl: 4rem; /* 64px */
-    --font-xxl: 5rem; /*80px */
+  --font-xxxs: 1rem; /* 16px */
+  --font-xxs: 1.25rem; /* 20px */
+  --font-xs: 1.5rem; /*24px */
+  --font-s: 1.75rem; /* 28px */
+  --font-m: 2.75rem; /* 44px */
+  --font-l: 3.5rem; /* 56px */
+  --font-xl: 4rem; /* 64px */
+  --line-height-xxl: 110%;
+  --font-xxl: 8.5rem; /*150px */
 }
 .main-xxl,
 .main-xl,
@@ -92,99 +122,84 @@ html {
 .main-s,
 .main-xs,
 .main-xxs {
-    font-family: 'Kanit', sans-serif;
-    
+  font-family: 'Kanit', sans-serif;
+  font-family: KangmasRegular;
 }
-.main-xxl {
-    font-size: var(--font-xxl);
-    font-weight: 900;
-}
-.main-xl {
-    font-size: var(--font-xl);
-}
-.main-l {
-    font-size: var(--font-l);
-    font-weight: 800;
-}
-.main-m {
-    font-size: var(--font-m);
-    font-weight: 800;
-}
-/* cta */
-.main-s {
-    font-size: var(--font-s);
-    font-weight: 800;
-}
-/* nav */
-.main-xxs {
-    font-size: var(--font-xxs);
-    font-weight: 600;
-    letter-spacing: 0.3px;
+.italic {
+  font-family: KangmasItalic !important;
 }
 
-/* .body-l {
-    font-size: var(--font-l);
+.yellow {
+  color: var(--yellow-color);
 }
-.body-m {
-    font-size: var(--font-m);
+
+.main-xxl {
+  font-family: KangmasRegular;
+  font-size: var(--font-xxl);
+  line-height: var(--line-height-xxl);
+  font-weight: 400;
 }
-.body-s {
-    font-size: var(--font-s);
-} */
+.main-xl {
+  font-size: var(--font-xl);
+}
+.main-l {
+  font-size: var(--font-l);
+}
+.main-m {
+  font-size: var(--font-m);
+}
+
+.main-s {
+  font-size: var(--font-s);
+  font-weight: 500;
+}
+.main-xs {
+  font-size: var(--font-xs);
+}
+.main-xxs {
+  font-size: var(--font-xxs);
+}
+.main-xxxs {
+  font-size: var(--font-xxxs);
+}
+
+.logo {
+  font-family: Kanit;
+  font-size: var(--font-s);
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
 
 /* responsive fonts */
 
-@media only screen and (max-width: 62.5rem) { /*1000px */
-    .main-xxl {
-        font-size: var(--font-xl);
-    }
-    .main-xl {
-        font-size: var(--font-l);
-    }
-    .main-l {
-        font-size: var(--font-m);
-    }
-    .main-s {
-        font-size: var(--font-xs);
-    }
+@media only screen and (max-width: 87.5rem) { /*1400px */
+  :root {
+    --font-xxl: 6rem;
+    --font-l: 3rem;
+  }
+}
+
+@media only screen and (max-width: 71.875rem) { /*1150px */
+  :root {
+    --font-xxl: 4.5rem;
+    --font-s: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 53.12rem) { /*850px */
-    .main-xxl {
-        font-size: var(--font-l);
-    }
-    .main-xl {
-        font-size: var(--font-m);
-    }
-    .main-l {
-        font-size: var(--font-s);
-    }
-    .main-m {
-      font-size: var(--font-s);
-    }
-    
+  :root {
+    --font-xl: 3rem;
+    --font-l: 2rem;
+    --font-s: 1.25rem;
+  }
 }
 
-@media only screen and (max-width: 37.5rem) { /*600px */
-    .main-xxl {
-        font-size: var(--font-m);
-    }
-    .main-xl {
-        font-size: var(--font-s);
-    }
-    .main-l {
-        font-size: var(--font-xs);
-    }
-    .main-m {
-      font-size: var(--font-xs);
-    }
-    /* logo */
-    .main-s {
-        font-size: var(--font-xxs);
-    }
-}
-@media only screen and (max-width: 28.12rem) { /*450px */
-  .main-xxl {
-    font-size: var(--font-xs);
+@media only screen and (max-width: 31.25rem) { /* 500px*/
+  :root {
+    --font-xxl: 3.8rem;
+    --font-xl: 2.5rem;
+    --font-l: 1.5rem;
+    --font-s: 1.15rem;
+    --font-xs: 1.25rem;
   }
 }
