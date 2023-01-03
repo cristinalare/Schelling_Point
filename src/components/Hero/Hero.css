@@ -7,7 +7,8 @@
   padding-bottom: var(--header-height);  
 }
 
-.hero video::-webkit-media-controls{
+.hero video::-webkit-media-controls, 
+.hero video::-webkit-media-controls-overlay-play-button {
   display: none !important;
 }
 

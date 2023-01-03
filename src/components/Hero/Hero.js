@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect, useRef } from 'react';
 import './Hero.css';
 import { Parallax } from 'react-scroll-parallax';
 import flowerGif from './animation/flower.gif';
@@ -14,9 +14,18 @@ gsap.registerPlugin(CustomEase);
 
 function Hero () {
     // preload hero bg
+    const videoRef = useRef();
     useEffect(() => {
         const img = new Image();
         img.src = heroBg;
+    }, []);
+
+    useLayoutEffect(() => {
+      try {
+        videoRef.current && videoRef.current.play();
+      } catch(e) {
+        console.log(e);
+      }
     }, []);
 
     return (
@@ -33,8 +42,8 @@ function Hero () {
               </div>
               <h3 className='hero-location italic'>National Western Complex</h3>
             </div>
-            <video className="hero-animation" poster={flowerGif} playsInline preload="auto" width="500" height="500" autoPlay={true} loop muted={true}>
-              <source src={flowerMov} type="video/mp4" />
+            <video ref={videoRef} className="hero-animation" poster={flowerGif} playsInline preload="auto" width="500" height="500" loop muted={true}>
+              <source src={flowerMov} type="video/quicktime" />
               <source src={flowerWebm} type="video/webm" />
               <img src={flowerpng} alt="" />
             </video>
