@@ -7,6 +7,10 @@
   padding-bottom: var(--header-height);  
 }
 
+.hero video::-webkit-media-controls{
+  display: none !important;
+}
+
 .hero-container {
   display: flex;
   flex-direction: column;

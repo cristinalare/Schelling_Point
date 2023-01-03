@@ -33,9 +33,9 @@ function Hero () {
               </div>
               <h3 className='hero-location italic'>National Western Complex</h3>
             </div>
-            <video className="hero-animation" poster={flowerGif} preload="auto" width="500" height="500" autoPlay={true} loop muted={true}>
+            <video className="hero-animation" poster={flowerGif} playsInline preload="auto" width="500" height="500" autoPlay={true} loop muted={true}>
+              <source src={flowerMov} type="video/mp4" />
               <source src={flowerWebm} type="video/webm" />
-              <source src={flowerMov} type="video/mov" />
               <img src={flowerpng} alt="" />
             </video>
           </div>

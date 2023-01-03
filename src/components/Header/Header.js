@@ -31,7 +31,10 @@ function Header () {
     return (
         <header
           className='main-xxs'
-          style={{ backdropFilter: `${isTransparentBg ? 'blur(0px)' : 'blur(15px)'}`}}
+          style={{
+            backdropFilter: `${isTransparentBg ? 'blur(0px)' : 'blur(15px)'}`,
+            webkitBackdropFilter: `${isTransparentBg ? 'blur(0px)' : 'blur(15px)'}`
+            }}
         >
             <button className="logo">
                 <div onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
