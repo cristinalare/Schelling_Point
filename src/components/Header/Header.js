@@ -61,7 +61,6 @@ function Header () {
                             </Link>
                         </li>
                     ))} */}
-                    <li className="main-xxxs"><a className="tickets" href="https://forms.gle/FCsjpxsYr9AikaPj8">Early Bird Tickets</a></li>
                     <li className="social-media-icons">
                         <a href="https://t.me/joinchat/EX2vtzI0earU2LER" target="_blank" rel="noreferrer">
                             <svg className="social-media-icon" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">

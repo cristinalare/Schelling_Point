@@ -7,4 +7,4 @@ function Button ({text, link}) {
     </a>
   );
 }
-export default Button ;
+export default Button;
