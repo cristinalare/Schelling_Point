@@ -49,7 +49,6 @@ function Hero () {
             </video>
           </div>
           <div className='hero-buttons'>
-              <Button text='Apply to Speak' link='https://forms.gle/CnnJcEFHdVxmKFmS8' />
               <Button text='Early bird tickets' link='https://forms.gle/FCsjpxsYr9AikaPj8' />
           </div>
         </div>
