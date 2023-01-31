@@ -49,7 +49,7 @@ function Hero () {
             </video>
           </div>
           <div className='hero-buttons'>
-              <Button text='Early bird tickets' link='https://forms.gle/FCsjpxsYr9AikaPj8' />
+              <Button text='Get tickets' link='https://welook.io/t/schelling-point-denver-2023-general-admission-1' />
           </div>
         </div>
       </div>
