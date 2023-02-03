@@ -13,7 +13,7 @@ function Home() {
     const sectionTitles = [
         // {name: 'About', component: <About />, disabled: false}, 
         // {name:'Speakers', component: <Speakers />, disabled: false },
-        // {name:'Sponsors', component: <Sponsors />, disabled: false},
+        {name:'Sponsors', component: <Sponsors />, disabled: false},
         // {name:'Agenda', component: <Agenda />, disabled: false},
         // {name:'Afterparty', component: <Afterparty />, disabled: false},
         {name: 'Past Events', component: <PastEvents />, disabled: false}

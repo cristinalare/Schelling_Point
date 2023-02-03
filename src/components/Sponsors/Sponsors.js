@@ -1,86 +1,60 @@
 import Sponsor from './Sponsor';
 import './Sponsors.css';
-import anoma from './logos/anoma.svg';
-import celo from './logos/celo.svg';
-import lukso from './logos/lukso.svg';
-import protocol from './logos/protocol.svg';
-import radicle from './logos/radicle.svg';
-import supermodular from './logos/supermodular2.svg';
-import filecoin from './logos/filecoin.svg';
-import opolis from './logos/opolis.svg';
-import superrare from './logos/superrare.png';
-import ethlatam from './logos/ethlatam.svg';
+import aztec from './logos/aztec.svg';
+import consensys from './logos/consensys.svg';
+import ens from './logos/ens.svg';
+import foresightVentures from './logos/foresightVentures.svg';
+import drips from './logos/drips.svg';
 import karpatkey from './logos/karpatkey.svg';
+import zkSync from './logos/zkSync.svg';
 
 function Sponsors () {
-    const champ = [{
-      name: 'protocol',
-      logo: protocol
-    }];
     const lead = [
       {
-        name: 'radicle',
-        logo: radicle
+        name: 'zkSync',
+        logo: zkSync
       },
       {
-        name: 'lukso',
-        logo: lukso
+        name: 'foresightVentures',
+        logo: foresightVentures
       },
       {
-        name: 'celo',
-        logo: celo
+        name: 'drips',
+        logo: drips
+      },
+    ];
+    const core = [
+      {
+        name: 'aztec',
+        logo: aztec
       },
       {
         name: 'karpatkey',
         logo: karpatkey
       },
-    ];
-    const core = [
       {
-        name: 'anoma',
-        logo: anoma
-      },
-      {
-        name: 'opolis',
-        logo: opolis
+        name: 'ens',
+        logo: ens
       },
     ];
 
     const node = [
       {
-        name: 'superrare',
-        logo: superrare
-      },
-      {
-        name: 'filecoin',
-        logo: filecoin
-      },
-      {
-        name: 'supermodular',
-        logo: supermodular
+        name: 'consensys',
+        logo: consensys
       },
     ];
 
-    const extra = [
-      {
-        name: 'ethlatam',
-        logo: ethlatam
-      }
-    ]
-
     const lines = [
-      {title: 'Champ', list: champ, weight: '800'},
-      {title: 'Lead', list: lead, weight: '700'},
-      {title: 'Core', list: core, weight: '600'},
-      {title: 'Node', list: node, weight: '500'},
-      {title: 'Extra', list: extra},
+      { title: 'Lead', list: lead },
+      { title: 'Core', list: core },
+      { title: 'Node', list: node },
     ];
 
     return (
-      <div className="sponsors" id="sponsors">
+      <div className="sponsors">
         {lines.map(line => (
           <div className={`sponsors-line ${line.title}`} key={line.title}>
-            {/* <p className="line-title main-m"  style={{ fontWeight: line.weight}}>{line.title}</p> */}
             <div className="line-logos">
               {line.list.map(sponsor => (
                 <Sponsor logo={sponsor.logo} name={sponsor.name} key={sponsor.name} />

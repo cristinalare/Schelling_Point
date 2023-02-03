@@ -14,6 +14,7 @@ function Header () {
     useEffect(() => {
       const changeBg = () => {
         window.scrollY > 50 ? setIsTransparentBg(false) : setIsTransparentBg(true);
+        
       };
       
       window.addEventListener('scroll', changeBg);
