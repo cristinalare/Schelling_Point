@@ -32,12 +32,15 @@
   width: 5ch;
   text-align: right;
 }
+
 .line-logos {
   display: flex;
-  gap: 5rem;
+  column-gap: 5rem;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0 0.7rem;
+  row-gap: 0.7rem;
 }
 
 .sponsor-img {

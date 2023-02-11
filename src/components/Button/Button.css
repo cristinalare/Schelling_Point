@@ -12,6 +12,11 @@
   width: 16em;
 }
 
+.btn.disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}
+
 .btn:hover {
   background-color: var(--light-green-color);
 }

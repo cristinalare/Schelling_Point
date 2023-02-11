@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.61f8105d.css",
-    "main.js": "/static/js/main.21458f98.js",
+    "main.css": "/static/css/main.8a4569bc.css",
+    "main.js": "/static/js/main.8608fce6.js",
     "static/media/sp-bogota.mp4": "/static/media/sp-bogota.f89759a6960b5cb9b7aa.mp4",
     "static/media/flower.gif": "/static/media/flower.481c4d93462b9a0dc3e6.gif",
     "static/media/flower.webm": "/static/media/flower.bfdab1293f61d14681bf.webm",
@@ -41,12 +41,12 @@
     "static/media/johnH.jpg": "/static/media/johnH.ecb5fbbd193ef6235a96.jpg",
     "static/media/carlF.jpg": "/static/media/carlF.e0aad6853927cbdaaa12.jpg",
     "static/media/aaronS.jpg": "/static/media/aaronS.a77505436ed237d484f1.jpg",
-    "static/media/foresightVentures.svg": "/static/media/foresightVentures.e24429dd23d0131d7fecc66446b82604.svg",
     "static/media/owocki.jpg": "/static/media/owocki.01a0cf088f5109068cf1.jpg",
     "static/media/ericN.jpg": "/static/media/ericN.3992b23c67161689d7e9.jpg",
     "static/media/michaelF.jpg": "/static/media/michaelF.a08446bc0ebb536a74d8.jpg",
     "static/media/joannaL.jpg": "/static/media/joannaL.a68da2f6149451a9e068.jpg",
     "static/media/daphneC.jpg": "/static/media/daphneC.53a1469d3eb145920dc1.jpg",
+    "static/media/foresightVentures.svg": "/static/media/foresightVentures.245c55f905fb97ded1a1037e9576ed94.svg",
     "static/media/jonnyH.jpg": "/static/media/jonnyH.7c9df0911528508c426c.jpg",
     "static/media/guoL.jpg": "/static/media/guoL.7fa93ed95e002a7d5bd9.jpg",
     "static/media/manuA.jpg": "/static/media/manuA.a9b645348a8e85afb679.jpg",
@@ -84,11 +84,12 @@
     "static/media/aztec.svg": "/static/media/aztec.963f6ab26812eeb488258977b35f1e76.svg",
     "static/media/karpatkey.svg": "/static/media/karpatkey.4e944047a5ca2afa39bccd454c202dc5.svg",
     "static/media/drips.svg": "/static/media/drips.9dc00f9640a45697c7a607ab9314f1a4.svg",
-    "main.61f8105d.css.map": "/static/css/main.61f8105d.css.map",
-    "main.21458f98.js.map": "/static/js/main.21458f98.js.map"
+    "static/media/lukso.svg": "/static/media/lukso.eb9b0c1d6b35a951bc701c8ef2e3e362.svg",
+    "main.8a4569bc.css.map": "/static/css/main.8a4569bc.css.map",
+    "main.8608fce6.js.map": "/static/js/main.8608fce6.js.map"
   },
   "entrypoints": [
-    "static/css/main.61f8105d.css",
-    "static/js/main.21458f98.js"
+    "static/css/main.8a4569bc.css",
+    "static/js/main.8608fce6.js"
   ]
 }

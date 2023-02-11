@@ -49,10 +49,7 @@ function Hero () {
             </video>
           </div>
           <div className='hero-buttons'>
-              <Button text='Get tickets*' link='https://welook.io/t/schelling-point-denver-2023-general-admission-1' />
-              <p style={{ fontSize: '0.875rem', textAlign: 'center' }}>
-                *Note: You must apply to <a className="main-link" href="https://www.ethdenver.com/" target="_blank" rel="noreferrer">ETHDenver</a> to access the venue on Schelling Point day
-              </p>
+              <Button text='Sold out' disabled={true} />
           </div>
         </div>
       </div>

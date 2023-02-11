@@ -7,6 +7,7 @@ import foresightVentures from './logos/foresightVentures.svg';
 import drips from './logos/drips.svg';
 import karpatkey from './logos/karpatkey.svg';
 import zkSync from './logos/zkSync.svg';
+import lukso from './logos/lukso.svg';
 
 function Sponsors () {
     const lead = [
@@ -17,6 +18,10 @@ function Sponsors () {
       {
         name: 'foresightVentures',
         logo: foresightVentures
+      },
+      {
+        name: 'lukso',
+        logo: lukso
       },
       {
         name: 'drips',
