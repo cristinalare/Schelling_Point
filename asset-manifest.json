@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a4569bc.css",
-    "main.js": "/static/js/main.8608fce6.js",
+    "main.css": "/static/css/main.036edeaf.css",
+    "main.js": "/static/js/main.ddc889fe.js",
     "static/media/sp-bogota.mp4": "/static/media/sp-bogota.f89759a6960b5cb9b7aa.mp4",
     "static/media/flower.gif": "/static/media/flower.481c4d93462b9a0dc3e6.gif",
     "static/media/flower.webm": "/static/media/flower.bfdab1293f61d14681bf.webm",
@@ -22,7 +22,7 @@
     "static/media/afterparty-poster-mobile@1x.jpg": "/static/media/afterparty-poster-mobile@1x.907b95f4888a789999b4.jpg",
     "static/media/evinM.jfif": "/static/media/evinM.9d653af96bd272281b48.jfif",
     "static/media/pabloS.jpg": "/static/media/pabloS.b3bb2f8fc2b1be80f482.jpg",
-    "static/media/consensys.svg": "/static/media/consensys.de0ca4e86825e44d87a412066b0f52c7.svg",
+    "static/media/consensys.svg": "/static/media/consensys.20558a39f2e3dcb6391a405bbbfeef7c.svg",
     "static/media/julianB.jpg": "/static/media/julianB.a3002e021bf07625202c.jpg",
     "static/media/lindaX.jpg": "/static/media/lindaX.2a4958d5dff157539253.jpg",
     "static/media/jamesW.jpg": "/static/media/jamesW.529c283fc2f7b35d95f1.jpg",
@@ -78,18 +78,18 @@
     "static/media/simona.jpg": "/static/media/simona.7e01e841df45bf3c614f.jpg",
     "static/media/liviaD.jpg": "/static/media/liviaD.89cd24bafca6dc2ecd1f.jpg",
     "static/media/gitcoin.svg": "/static/media/gitcoin.c015caa66024296a40b3f6a6798af234.svg",
-    "static/media/ens.svg": "/static/media/ens.97bff174d6afd467de166452ac91505e.svg",
+    "static/media/ens.svg": "/static/media/ens.4564698d4e19c5d260385868f317d81d.svg",
     "static/media/zkSync.svg": "/static/media/zkSync.3f5c43bb07787db8bd5cdcfc7f106458.svg",
     "index.html": "/index.html",
-    "static/media/aztec.svg": "/static/media/aztec.963f6ab26812eeb488258977b35f1e76.svg",
-    "static/media/karpatkey.svg": "/static/media/karpatkey.4e944047a5ca2afa39bccd454c202dc5.svg",
+    "static/media/aztec.svg": "/static/media/aztec.3e2681d1c9312fe180b39f592077a95f.svg",
+    "static/media/karpatkey.svg": "/static/media/karpatkey.16894631d1c483c69e99c654cc596be9.svg",
     "static/media/drips.svg": "/static/media/drips.9dc00f9640a45697c7a607ab9314f1a4.svg",
     "static/media/lukso.svg": "/static/media/lukso.eb9b0c1d6b35a951bc701c8ef2e3e362.svg",
-    "main.8a4569bc.css.map": "/static/css/main.8a4569bc.css.map",
-    "main.8608fce6.js.map": "/static/js/main.8608fce6.js.map"
+    "main.036edeaf.css.map": "/static/css/main.036edeaf.css.map",
+    "main.ddc889fe.js.map": "/static/js/main.ddc889fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a4569bc.css",
-    "static/js/main.8608fce6.js"
+    "static/css/main.036edeaf.css",
+    "static/js/main.ddc889fe.js"
   ]
 }
