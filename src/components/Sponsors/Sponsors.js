@@ -1,74 +1,83 @@
-import Sponsor from './Sponsor';
-import './Sponsors.css';
-import aztec from './logos/aztec.svg';
-import consensys from './logos/consensys.svg';
-import ens from './logos/ens.svg';
-import foresightVentures from './logos/foresightVentures.svg';
-import drips from './logos/drips.svg';
-import karpatkey from './logos/karpatkey.svg';
-import zkSync from './logos/zkSync.svg';
-import lukso from './logos/lukso.svg';
+import Sponsor from "./Sponsor";
+import "./Sponsors.css";
+import aztec from "./logos/aztec.svg";
+import consensys from "./logos/consensys.svg";
+import ens from "./logos/ens.svg";
+import foresightVentures from "./logos/foresightVentures.svg";
+import drips from "./logos/drips.svg";
+import karpatkey from "./logos/karpatkey.svg";
+import zkSync from "./logos/zkSync.svg";
+import lukso from "./logos/lukso.svg";
+import celo from './logos/celo.svg';
 
-function Sponsors () {
-    const lead = [
-      {
-        name: 'zkSync',
-        logo: zkSync
-      },
-      {
-        name: 'foresightVentures',
-        logo: foresightVentures
-      },
-      {
-        name: 'lukso',
-        logo: lukso
-      },
-      {
-        name: 'drips',
-        logo: drips
-      },
-    ];
-    const core = [
-      {
-        name: 'aztec',
-        logo: aztec
-      },
-      {
-        name: 'karpatkey',
-        logo: karpatkey
-      },
-      {
-        name: 'ens',
-        logo: ens
-      },
-    ];
+function Sponsors() {
+  const lead = [
+    {
+      name: "zkSync",
+      logo: zkSync,
+    },
+    {
+      name: "foresightVentures",
+      logo: foresightVentures,
+    },
+    {
+      name: "lukso",
+      logo: lukso,
+    },
+    {
+      name: "drips",
+      logo: drips,
+    },
+    {
+      name: "celo",
+      logo: celo,
+    },
+  ];
+  const core = [
+    {
+      name: "aztec",
+      logo: aztec,
+    },
+    {
+      name: "karpatkey",
+      logo: karpatkey,
+    },
+    {
+      name: "ens",
+      logo: ens,
+    },
+  ];
 
-    const node = [
-      {
-        name: 'consensys',
-        logo: consensys
-      },
-    ];
+  const node = [
+    {
+      name: "consensys",
+      logo: consensys,
+    },
+  ];
 
-    const lines = [
-      { title: 'Lead', list: lead },
-      { title: 'Core', list: core },
-      { title: 'Node', list: node },
-    ];
+  const lines = [
+    { title: "Lead", list: lead },
+    { title: "Core", list: core },
+    { title: "Node", list: node },
+  ];
 
-    return (
-      <div className="sponsors">
-        {lines.map(line => (
-          <div className={`sponsors-line ${line.title}`} key={line.title}>
-            <div className="line-logos">
-              {line.list.map(sponsor => (
-                <Sponsor logo={sponsor.logo} name={sponsor.name} key={sponsor.name} />
-              ))}
-            </div>
+  return (
+    <div className="sponsors">
+      {lines.map((line) => (
+        <div className={`sponsors-line ${line.title}`} key={line.title}>
+          <div className="line-logos">
+            {line.list.map((sponsor) => (
+              <Sponsor
+                logo={sponsor.logo}
+                name={sponsor.name}
+                key={sponsor.name}
+              />
+            ))}
           </div>
-        ))}
-      </div>
-    );
+        </div>
+      ))}
+    </div>
+  );
 }
 
-export default Sponsors ;
+export default Sponsors;

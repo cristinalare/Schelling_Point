@@ -1,23 +1,38 @@
 #Speakers {
-  background-color: white;
+  background: url("./speakers-bg.svg") var(--white-color);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: auto;
 }
-#Speakers .section {
-  padding: 0 2% 2rem 2%;
+
+#Speakers h2 {
+  color: var(--green-color);
+}
+#Speakers.section {
+  padding-block: 7rem;
 }
 .speakers-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
-    width: 88%;
-    margin: auto;
-    justify-content: center;
-    max-height: 800px;
-    overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  width: 88%;
+  margin: auto;
+  justify-content: center;
+
+  /* max-height: 800px;
+    overflow-y: scroll; */
 }
 
 @media only screen and (max-width: 70rem) {
-    .speakers-container {
-        width: 95%;
-        gap: 2rem;
-    }
+  .speakers-container {
+    width: 95%;
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 36.25rem) {
+  .speakers-container {
+    column-gap: 0.5rem;
+    width: 100%;
+    justify-content: space-evenly;
+  }
 }

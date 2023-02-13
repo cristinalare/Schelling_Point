@@ -3,6 +3,9 @@
     text-align: center;
     position: relative;
 }
+#About.section {
+  padding-bottom: 20vh;
+}
 
 .about-bg {
     margin: auto;

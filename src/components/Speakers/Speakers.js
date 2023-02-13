@@ -12,6 +12,7 @@ function Speakers () {
                 speaker.avatar && (
                 <Speaker
                   twitter={speaker.twitter}
+                  index={index}
                   avatar={speaker.avatar}
                   name={speaker.name}
                   role={speaker.company}

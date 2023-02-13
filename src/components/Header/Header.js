@@ -33,8 +33,7 @@ function Header () {
         <header
           className='main-xxs'
           style={{
-            backdropFilter: `${isTransparentBg ? 'blur(0px)' : 'blur(15px)'}`,
-            WebkitBackdropFilter: `${isTransparentBg ? 'blur(0px)' : 'blur(15px)'}`
+            backgroundColor: `${isTransparentBg ? '' : 'var(--green-color)'}`,
             }}
         >
             <button className="logo">

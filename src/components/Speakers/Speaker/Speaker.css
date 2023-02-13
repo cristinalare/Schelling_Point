@@ -1,30 +1,25 @@
 .speaker-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    width: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 9rem;
+  color: var(--grey-color);
 }
 
 .avatar-container {
-    position: relative;
-    padding: 15px;
-    border-radius: 50%;
-    border: 1px solid white;
-    box-shadow: inset 0 0 12px 12px white;
-    background: linear-gradient(180deg, #02E2AC 0%, #FFE921 100%);
-    transition: all 0.3s ease-out;
+  position: relative;
+  padding: 15px;
+  transition: all 0.3s ease-out;
+  border-radius: 50%;
 }
 
 .avatar {
-    border-radius: 50%;
-    vertical-align: middle;
-    object-fit: fill;
-    width: 110px;
-    height: 110px;
+  vertical-align: middle;
+  object-fit: fill;
 }
 .avatar-container:hover {
-  border-radius: 35%;
+  transform: scale(0.9);
 }
 
 .speaker-description {
@@ -35,26 +30,26 @@
 }
 
 .speaker-name {
-    color: var(--grey-color);
-    font-size: 1.35rem;
-    letter-spacing: 0.0001em;
-    padding-bottom: 0.2em;
-    white-space: pre-line;
+  font-size: 1.25rem;
+  padding-bottom: 0.2em;
+  white-space: pre-line;
+  /* color: #67A0F7; */
+  color: var(--green-color);
+  font-family: KangmasRegular;
 }
 
 .role {
-    line-height: 110%;
-    font-weight: 500;
-    color: var(--purple-color);
+  line-height: 110%;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 36.25rem) {
-    .speaker-container {
-        width: 6.8rem;
-        height: auto;
-    }
-    .avatar {
-        height: 80px;
-        width: 80px;
-    }
+  /* .speaker-container {
+    width: 6.8rem;
+    height: auto;
+  } */
+  .avatar {
+    height: 95px;
+    width: 103px;
+  }
 }

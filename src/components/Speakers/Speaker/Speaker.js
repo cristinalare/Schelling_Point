@@ -1,10 +1,11 @@
+import Avatar from './Avatar';
 import './Speaker.css';
 
-function Speaker ({twitter, avatar, name, role}) {
+function Speaker ({twitter, avatar, name, role, index}) {
     return (
         <div className="speaker-container">
             <a href={twitter} target="_blank" rel="noreferrer" className="avatar-container">
-                <img className="avatar" loading="lazy" data-src="" src={avatar} alt={name} width="110" height="110"/>
+              <Avatar imgSrc={avatar} name={name} shape={index % 4}/>
             </a>
             <div className="speaker-description">
                 <p className="speaker-name">{name}</p>
