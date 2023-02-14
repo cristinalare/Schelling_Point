@@ -7,7 +7,7 @@ header {
     left: 0;
     right: 0;
     z-index: 10;
-    padding: 1.7rem;
+    padding: 1rem 1.7rem;
     color: var(--light-pink-color);
     transition: all 0.6s ease-out;
     /* mix-blend-mode: screen; */

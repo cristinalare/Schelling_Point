@@ -5,7 +5,7 @@
 }
 
 :root {
-  --header-height: calc(33px + 1.7rem + 1.7rem);
+  --header-height: calc(33px + 1rem + 1rem);
   --subtitle-top-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 10));
   --subtitle-bottom-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 13));
   --subtitle-horizontal-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 3.5));

@@ -65,7 +65,6 @@ import agustinM from './avatars/agustinM.jpg';
 import benD from './avatars/benD.jpeg';
 import bethanyC from './avatars/bethanyC.jpg';
 import billyL from './avatars/billyL.png';
-import charlesS from './avatars/charlesS.png';
 import elliottB from './avatars/elliottB.jpg';
 import gabrielT from './avatars/gabrielT.png';
 import gregoryL from './avatars/gregoryL.jpg';
@@ -89,6 +88,12 @@ export const speakersArray = [
     avatar: simona
   },
   {
+    name: 'Balaji\nSrinivasan',
+    company: '',
+    twitter: 'https://twitter.com/balajis',
+    avatar: balajiS
+  },
+  {
     name: 'Kevin\nOwocki',
     company: 'supermodular.xyz',
     twitter: 'https://twitter.com/owocki',
@@ -101,18 +106,23 @@ export const speakersArray = [
     avatar: marcusA
   },
   {
+    name: 'Rachel\nBrissenden',
+    company: '',
+    twitter: 'https://twitter.com/RachelRoseB',
+    avatar: rachelB
+  },
+  {
     name: 'David\nHoffman',
     company: 'Bankless',
     twitter: 'https://twitter.com/TrustlessState',
     avatar: davidH
   },
   {
-    name: 'Balaji\nSrinivasan',
+    name: 'Bethany\nCrystal',
     company: '',
-    twitter: 'https://twitter.com/balajis',
-    avatar: balajiS
+    twitter: 'https://twitter.com/bethanymarz',
+    avatar: bethanyC
   },
-  
   // {
   //   name: 'Kelli\nSchneider',
   //   company: 'The Giving Block',
@@ -126,16 +136,16 @@ export const speakersArray = [
     avatar: niranB
   },
   {
+    name: 'Justine\nHumenansky',
+    company: '',
+    twitter: 'https://twitter.com/lalalavendr',
+    avatar: justineH
+  },
+  {
     name: 'Trent',
     company: 'Protocol Guild',
     twitter: 'https://twitter.com/trent_vanepps',
     avatar: trentV
-  },
-  {
-    name: 'Charles\nSt. Louis',
-    company: '',
-    twitter: 'https://twitter.com/CharlieStLouis',
-    avatar: charlesS
   },
   {
     name: 'Joel\nThorstensson',
@@ -148,12 +158,6 @@ export const speakersArray = [
     company: '',
     twitter: 'https://twitter.com/0xbilly',
     avatar: billyL
-  },
-  {
-    name: 'Rachel\nBrissenden',
-    company: '',
-    twitter: 'https://twitter.com/RachelRoseB',
-    avatar: rachelB
   },
   {
     name: 'Gregory\nLandua',
@@ -198,22 +202,10 @@ export const speakersArray = [
     avatar: gabrielT
   },
   {
-    name: 'Bethany\nCrystal',
-    company: '',
-    twitter: 'https://twitter.com/bethanymarz',
-    avatar: bethanyC
-  },
-  {
     name: 'Ben\nDiFrancesco',
     company: '',
     twitter: 'https://twitter.com/bendifrancesco',
     avatar: benD
-  },
-  {
-    name: 'Justine\nHumenansky',
-    company: '',
-    twitter: 'https://twitter.com/lalalavendr',
-    avatar: justineH
   },
   // {
   //   name: 'Theresa\nKennedy',

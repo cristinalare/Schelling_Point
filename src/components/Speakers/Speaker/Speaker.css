@@ -18,8 +18,11 @@
   vertical-align: middle;
   object-fit: fill;
 }
-.avatar-container:hover {
+.speaker-container:hover .avatar-container {
   transform: scale(0.9);
+}
+.speaker-container:hover .speaker-name {
+  color:var(--grey-color);
 }
 
 .speaker-description {
@@ -34,6 +37,7 @@
   padding-bottom: 0.2em;
   white-space: pre-line;
   /* color: #67A0F7; */
+  transition: all 0.4s ease-out;
   color: var(--green-color);
   font-family: KangmasRegular;
 }
