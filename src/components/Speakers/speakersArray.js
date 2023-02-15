@@ -70,7 +70,6 @@ import gabrielT from './avatars/gabrielT.png';
 import gregoryL from './avatars/gregoryL.jpg';
 import joelT from './avatars/joelT.jpg';
 import justineH from './avatars/justineH.jpg';
-import kelliS from './avatars/kelliS.jpg';
 import kyleS from './avatars/kyleS.jpg';
 import matthewM from './avatars/matthewM.jpg';
 import niranB from './avatars/niranB.jpg';
@@ -123,12 +122,6 @@ export const speakersArray = [
     twitter: 'https://twitter.com/bethanymarz',
     avatar: bethanyC
   },
-  // {
-  //   name: 'Kelli\nSchneider',
-  //   company: 'The Giving Block',
-  //   twitter: 'https://twitter.com/kryptokelli',
-  //   avatar: kelliH
-  // },
   {
     name: 'Niran\nBabalola',
     company: 'Panvala',

@@ -9,6 +9,7 @@ import karpatkey from "./logos/karpatkey.svg";
 import zkSync from "./logos/zkSync.svg";
 import lukso from "./logos/lukso.svg";
 import celo from './logos/celo.svg';
+import aave from './logos/aave.svg';
 
 function Sponsors() {
   const lead = [
@@ -45,6 +46,10 @@ function Sponsors() {
     {
       name: "ens",
       logo: ens,
+    },
+    {
+      name: "aave",
+      logo: aave,
     },
   ];
 
