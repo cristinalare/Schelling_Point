@@ -10,6 +10,7 @@ import zkSync from "./logos/zkSync.svg";
 import lukso from "./logos/lukso.svg";
 import celo from './logos/celo.svg';
 import aave from './logos/aave.svg';
+import bitkeep from './logos/bitkeep.svg';
 
 function Sponsors() {
   const lead = [
@@ -28,6 +29,10 @@ function Sponsors() {
     {
       name: "drips",
       logo: drips,
+    },
+    {
+      name: "bitkeep",
+      logo: bitkeep,
     },
     {
       name: "celo",

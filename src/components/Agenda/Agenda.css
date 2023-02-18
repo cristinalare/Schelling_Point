@@ -1,14 +1,17 @@
 #Agenda {
   background-color: white;
-  color: var(--grey-color);
-  background-color: white;
+  color: var(--dark-color);
+}
+
+#Agenda .section-title {
+  color: var(--green-color);
 }
 
 #Agenda .section-content {
   margin: 0 2rem;
 }
 #Agenda.section {
-  padding: 0;
+  padding: 6rem 0 2rem 0;
 }
 
 .agenda-description {
@@ -21,46 +24,56 @@
 }
 
 .agenda-items {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid var(--dark-color);
+}
+@media only screen and (max-width: 700px) {
+  .agenda-items {
+    grid-template-columns: 1fr 1fr;
+  }
+  .agenda-item-header {
+    justify-content: center;
+  }
+}
+.agenda-items > * {
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid var(--dark-color);
 }
 
 .agenda-item-header {
   position: sticky;
-  font-size: 1.25rem;
-  padding: 1rem 0.2rem;
-  font-weight: 800;
-  top: calc(1.7rem + 1.7rem + 44px);
+  font-size: var(--font-s);
+  padding: 1rem 8%;
+  top: var(--header-height);
   z-index: 9;
   min-height: 4.5rem;
   vertical-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  font-family: KangmasRegular;
+  border: 1px solid var(--dark-color);
 }
-@media only screen and (max-width: 62.5rem) {
-  .agenda-item-header {
-    top: calc(3.4rem + 2rem);
-  }
-}
+
 
 .agenda-item-content {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
-  padding: 2rem 0.2rem 8rem 0.2rem;
-  height: 100%;
+  /* height: 100%; */
 }
-.agenda-item-1 .agenda-item-content, 
-.agenda-item-2 .agenda-item-content, 
-.agenda-item-3 .agenda-item-content {
-  max-height: 97%;
+.agenda-item-content:not(:last-child) {
+  border-bottom: 1px solid var(--dark-color);
 }
 
+.agenda-item-talk {
+  border-bottom: 1px solid var(--dark-color);
+  padding: 1.2rem 8%;
+}
 .agenda-item-title {
   font-weight: 500;
   font-size: 1rem;
   line-height: 120%;
-  padding: 0 8%;
 }
 .agenda-item-title a {
   transition: all 0.3s ease-out;
@@ -70,96 +83,54 @@
 }
 
 .agenda-item-hour {
-  font-weight: 700;
   font-size: 1rem;
   line-height: 120%;
   color: var(--purple-color);
 }
-
-.agenda-items,
-.agenda-items-group {
-  display: flex;
-}
-
-.last-talks {
-  display: flex;
-  flex-direction: column;
-}
-
-.group-1 {
-  width: 58%;
-}
-.group-2 {
-  width: 42%;
-}
-.agenda-item-1,
-.agenda-item-3 {
-  width: 55%;
-}
-.agenda-item-2,
-.last-talks {
-  width: 45%;
+.talk-title {
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 62.5rem) {
   .agenda-item-title { 
     font-size: 0.8rem;
-    padding: 0 4%;
+  }
+  .agenda-item-talk {
+    padding: 1.2rem 6%;
+  }
+  .desci-tag {
+    margin: 1rem 6% 0 6%;
   }
   .agenda-item-header {
     font-size: 1rem;
+    min-height: 3.5rem;
   }
   #Agenda .section-content {
     margin: 0;
   }
 }
-@media only screen and (max-width: 35rem) {
-  .agenda-items {
-    flex-direction: column;
-  }
-  .group-1,
-  .group-2 {
-    width: 100%;
-  }
-  .agenda-item-1,
-  .agenda-item-3 {
-    width: 50%;
-  }
-  .agenda-item-2,
-  .last-talks {
-    width: 50%;
-  }
-  .agenda-item-content {
-    height: 100%;
-  }
-  .agenda-item-3 .agenda-item-content {
-    height: 96%;
-  }
-}
 
 .agenda-item-1 .agenda-item-header {
-  background-color: var(--green-color);
+  background: var(--gradient-1);
 }
-.agenda-item-1 .agenda-item-content {
-  background-color: var(--light-green-color);
+.agenda-item-1 {
+  background: var(--gradient-2);
 }
 .agenda-item-2 .agenda-item-header {
-  background-color: var(--purple-color);
-  color: white;
+  background: var(--gradient-2);
 }
-.agenda-item-2 .agenda-item-content {
-  background-color: var(--light-purple-color);
+.agenda-item-2 {
+  background: var(--gradient-3);
 }
 .agenda-item-3 .agenda-item-header {
-  background-color: var(--sun-color);
+  background: var(--gradient-3);
 }
-.agenda-item-3 .agenda-item-content {
-  background-color: var(--light-sun-color);
+.agenda-item-3 {
+  background: var(--gradient-1);
 }
 .agenda-item-4 .agenda-item-header {
-  background-color: var(--grey-color);
-  color: white;
+  background: var(--gradient-1);
 }
-.agenda-item-4 .agenda-item-content {
-  background-color: var(--light-grey-color);
+.agenda-item-4 {
+  background: var(--gradient-2);
 }

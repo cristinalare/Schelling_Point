@@ -1,9 +1,14 @@
 .sections {
   padding-top: 4rem;
+  
 }
 
 .section {
   padding-bottom: 5rem;
+  overflow-x: hidden;
+}
+#Agenda.section {
+  overflow-x: unset;
 }
 
 .section-content {

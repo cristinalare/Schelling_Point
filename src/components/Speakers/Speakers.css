@@ -1,6 +1,6 @@
 #Speakers {
   background: url("./speakers-bg.svg") var(--white-color);
-  background-position: center;
+  background-position: top;
   background-repeat: repeat-y;
   background-size: auto;
 }

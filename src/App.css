@@ -5,11 +5,12 @@
 }
 
 :root {
-  --header-height: calc(33px + 1rem + 1rem);
+  --header-height: calc(44px + 1rem + 1rem);
   --subtitle-top-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 10));
   --subtitle-bottom-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 13));
   --subtitle-horizontal-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 3.5));
-  --grey-color: #0E0333; 
+  --grey-color: #0E0333;
+  --dark-color: #092755;
   --light-grey-color: #0401100D;
   --light-pink-color: #FFD6D3;
   --light-green-color: #B3DE9F;
@@ -17,6 +18,9 @@
   --yellow-color: #FBC624;
   --white-color: #FFFFFF;
   --yellow-gradient: linear-gradient(90deg, #FFD6D3 0%, #FBC624 100%);
+  --gradient-1: linear-gradient(90deg, #B3DE9F 0%, #FFD6D3 100%);
+  --gradient-2: linear-gradient(90deg, #FFD6D3 0%, #FBC624 100%);
+  --gradient-3: linear-gradient(90deg, #FBC624 0%, #B3DE9F 100%);
 }
 
 @media only screen and (max-width: 600px) {
@@ -183,6 +187,7 @@ html {
   :root {
     --font-xxl: 4.5rem;
     --font-s: 1.5rem;
+    --header-height: calc(2rem + 2rem);
   }
 }
 

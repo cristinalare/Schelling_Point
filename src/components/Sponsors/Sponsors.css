@@ -35,7 +35,7 @@
 
 .line-logos {
   display: flex;
-  column-gap: 5rem;
+  column-gap: 3rem;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -46,13 +46,14 @@
 .sponsor-img {
   max-width: unset;
 }
-@media only screen and (max-width: 79rem) {
+@media only screen and (max-width: 81rem) {
   .Lead .line-logos {
     column-gap: 2.5rem;
+    row-gap: 1rem;
   }
 }
 
-@media only screen and (max-width: 62.5rem) { /*1000px */
+@media only screen and (max-width: 65rem) {
   .Lead .sponsor-img {
     height: 55px;
     width: auto;
@@ -76,10 +77,10 @@
   }
 }
 
-@media only screen and (max-width: 45rem) {
+@media only screen and (max-width: 47rem) {
   /*720px */
   .Lead .sponsor-img {
-    height: 30px;
+    height: 35px;
     width: auto;
   }
   .Core .sponsor-img {
@@ -93,5 +94,11 @@
   .Lead .line-logos,
   .line-logos {
     gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  .Lead .line-logos{
+    justify-content: space-between;
   }
 }

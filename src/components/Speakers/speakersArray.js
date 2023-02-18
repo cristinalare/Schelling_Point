@@ -1,65 +1,8 @@
 import simona from './avatars/simona.jpg';
 import owocki from './avatars/owocki.jpg';
 import marcusA from './avatars/marcusA.png';
-// import evanm from './avatars/evanm.jpg';
-// import joannaL from './avatars/joannaL.jpg';
-// import daphneC from './avatars/daphneC.jpg';
-// import manuA from './avatars/manuA.jpg';
-// import vaughnM from './avatars/vaughnM.jpg';
-// import rhysL from './avatars/rhysL.jpg';
-// import paulaB from './avatars/paulaB.jpg';
-// import andresV from './avatars/andresV.jpg';
-// import danielK from './avatars/danielK.jpg';
-// import glenW from './avatars/glenW.jpg';
-// import christineV from './avatars/christineV.jpg';
-// import aaronS from './avatars/aaronS.jpg';
-// import guoL from './avatars/guoL.jpg';
-// import shreyJ from './avatars/shreyJ.jpg';
-// import pujaO from './avatars/pujaO.jpg';
-// import kasiaS from './avatars/kasiaS.jpg';
-// import camilaR from './avatars/camilaR.jpg';
-// import naderB from './avatars/naderB.png';
-// import fabianV from './avatars/fabianV.jpg';
-// import manasiV from './avatars/manasiV.png';
-// import julianB from './avatars/julianB.jpg';
-// import harshR from './avatars/harshR.jpg';
-// import jahedM from './avatars/jahedM.jpg';
-// import lindaX from './avatars/lindaX.jpg';
-// import lefterisK from './avatars/lefterisK.png';
-// import awaS from './avatars/awaS.jpg';
-// import evinM from './avatars/evinM.jfif';
-// import dennisonB from './avatars/dennisonB.jfif';
-// import jamesW from './avatars/jamesW.jpg';
-// import krisD from './avatars/krisD.jpg';
-// import rahulK from './avatars/rahulK.jpg';
-// import pabloS from './avatars/pabloS.jpg';
-// import johnP from './avatars/johnP.png';
-// import holkeB from './avatars/holkeB.jpg';
-// import marekO from './avatars/marekO.jpg';
-// import poojaS from './avatars/poojaS.jpg';
-// import reneP from './avatars/reneP.png';
-// import liviaD from './avatars/liviaD.jpg';
-// import johnH from './avatars/johnH.jpg';
-// import ryanC from './avatars/ryanC.jpg';
-// import marcJ from './avatars/marcJ.jpg';
-// import michaelF from './avatars/michaelF.jpg';
-// import paulK from './avatars/paulK.jpg';
-// import tylerG from './avatars/tylerG.jpg';
-// import lauraM from './avatars/lauraM.jpg';
-// import vincentW from './avatars/vincentW.jpg';
-// import eugeneL from './avatars/eugeneL.jpg';
-// import ericN from './avatars/ericN.jpg';
-// import dannyZ from './avatars/dannyZ.jpg';
-// import shivaniM from './avatars/shivaniM.jfif';
-// import leaB from './avatars/leaB.jpg';
-// import alanR from './avatars/alanR.jpg';
-// import androsW from './avatars/androsW.jpg';
-// import aleksandraS from './avatars/aleksandraS.jpg';
-// import danielU from './avatars/danielU.jpg';
-// import annaK from './avatars/annaK.jpg';
-// import scottM from './avatars/scottM.jpeg';
-// import jonnyH from './avatars/jonnyH.jpg';
-// import carlF from './avatars/carlF.jpg';
+import fabianV from './avatars/fabianV.jpg';
+import marekO from './avatars/marekO.jpg';
 import davidH from './avatars/davidH.png';
 import agustinM from './avatars/agustinM.jpg';
 import benD from './avatars/benD.jpeg';
@@ -78,6 +21,43 @@ import rachelB from './avatars/rachelB.png';
 import reka from './avatars/reka.jpg';
 import trentV from './avatars/trentV.jpg';
 import balajiS from './avatars/balajiS.jpg';
+import allisonD from './avatars/allisonD.jpg';
+import amyJ from './avatars/amyJ.jpg';
+import azeemK from './avatars/azeemK.jpg';
+import benF from './avatars/benF.jpg';
+import benjiL from './avatars/benjiL.jpg';
+import borisD from './avatars/borisD.jpg';
+import connorS from './avatars/connorS.jpg';
+import dimitriD from './avatars/dimitriD.jpg';
+import donG from './avatars/donG.jpg';
+import geordanS from './avatars/geordanS.jpg';
+import helenaG from './avatars/helenaG.jpg';
+import hudsonJ from './avatars/hudsonJ.jpg';
+import jacobL from './avatars/jacobL.jpg';
+import jonathanS from './avatars/jonathanS.png';
+import joshuaB from './avatars/joshuaB.jpg';
+import LaureH from './avatars/LaureH.jpg';
+import manveerB from './avatars/manveerB.jpg';
+import mariaM from './avatars/mariaM.jpg';
+import martaB from './avatars/martaB.jpg';
+import martinK from './avatars/martinK.jpg';
+import michaelF from './avatars/michaelF.jpg';
+import nathanS from './avatars/nathanS.jpg';
+import omarE from './avatars/omarE.jpg';
+import philH from './avatars/philH.jpg';
+import richardB from './avatars/richardB.jpg';
+import sageS from './avatars/sageS.jpg';
+import sarahH from './avatars/sarahH.jpg';
+import shadyE from './avatars/shadyE.png';
+import staniK from './avatars/StaniK.jpg';
+import tammyF from './avatars/tammyF.jpg';
+import theresaK from './avatars/theresaK.jpg';
+import tylerD from './avatars/tylerD.jpg';
+import vivekS from './avatars/vivekS.jpg';
+import yevM from './avatars/yevM.jpg';
+import alexG from './avatars/alexG.jpg';
+import timothyA from './avatars/timothyA.jpg';
+import benjaminL from './avatars/benjaminL.jpg';
 
 export const speakersArray = [
   {
@@ -135,7 +115,7 @@ export const speakersArray = [
     avatar: justineH
   },
   {
-    name: 'Trent',
+    name: 'Trent\nVan Epps',
     company: 'Protocol Guild',
     twitter: 'https://twitter.com/trent_vanepps',
     avatar: trentV
@@ -159,11 +139,17 @@ export const speakersArray = [
     avatar: gregoryL
   },
   {
-    name: 'Osho\nJha',
-    company: '',
-    twitter: 'https://twitter.com/CryptoBroShoNYC',
-    avatar: oshoJ
+    name: 'Manveer\nBasra',
+    company: 'Scholar',
+    twitter: 'https://twitter.com/manveerbasra_',
+    avatar: manveerB
   },
+  // {
+  //   name: 'Osho\nJha',
+  //   company: '',
+  //   twitter: 'https://twitter.com/CryptoBroShoNYC',
+  //   avatar: oshoJ
+  // },
   {
     name: 'Reka.eth',
     company: '',
@@ -200,434 +186,272 @@ export const speakersArray = [
     twitter: 'https://twitter.com/bendifrancesco',
     avatar: benD
   },
-  // {
-  //   name: 'Theresa\nKennedy',
-  //   company: '',
-  //   twitter: 'https://mobile.twitter.com/theresavkennedy',
-  //   avatar: 
-  // },
+  {
+    name: 'Theresa\nKennedy',
+    company: '',
+    twitter: 'https://twitter.com/theresavkennedy',
+    avatar: theresaK
+  },
   {
     name: 'Kyle Smith\n| bestape',
     company: '',
     twitter: 'https://twitter.com/bestape',
     avatar: kyleS
   },
+  {
+    name: 'Marta\nBelcher',
+    company: 'Filecoin Foundation',
+    twitter: 'https://twitter.com/MartaBelcher',
+    avatar: martaB
+  },
+  {
+    name: 'Connor\nSpelliscy',
+    company: '',
+    twitter: 'https://twitter.com/c_spelliscy',
+    avatar: connorS
+  },
+  {
+    name: 'Nathan\nSchneider',
+    company: '',
+    twitter: 'https://twitter.com/ntnsndr',
+    avatar: nathanS
+  },
+  {
+    name: 'Yev\nMuchnik',
+    company: '',
+    twitter: 'https://twitter.com/MuchnikYev',
+    avatar: yevM
+  },
+  // {
+  //   name: 'Andrew Dickson',
+  //   company: 'Drips',
+  //   twitter: 'https://twitter.com/surfaquadreams',
+  //   avatar: 
+  // },
+  {
+    name: 'Amy\nJung',
+    company: '',
+    twitter: 'https://twitter.com/itsamyjung',
+    avatar: amyJ
+  },
+  {
+    name: 'Sarah\nHubbard',
+    company: '',
+    twitter: 'https://twitter.com/sarahhubba',
+    avatar: sarahH
+  },
+  {
+    name: 'Hudson\nJameson',
+    company: '',
+    twitter: 'https://twitter.com/hudsonjameson',
+    avatar: hudsonJ
+  },
+  {
+    name: 'Maria\nMagenes',
+    company: '',
+    twitter: 'https://twitter.com/mariamagenes1',
+    avatar: mariaM
+  },
+  {
+    name: 'Geordan\nShannon',
+    company: '',
+    twitter: 'https://twitter.com/GeordanShannon',
+    avatar: geordanS
+  },
+  {
+    name: 'Dimitri\nDe Jonghe',
+    company: '',
+    twitter: 'https://twitter.com/DimitriDeJonghe',
+    avatar: dimitriD
+  },
+  {
+    name: 'Fabian\nVogelsteller',
+    company: 'Lukso',
+    twitter: 'https://twitter.com/feindura',
+    avatar: fabianV
+  },
+  {
+    name: 'Stani\nKulechov',
+    company: 'Aave',
+    twitter: 'https://twitter.com/StaniKulechov',
+    avatar: staniK
+  },
+  {
+    name: 'Tyler\nDiorio',
+    company: '',
+    twitter: 'https://twitter.com/TylerDiorio',
+    avatar: tylerD
+  },
+  {
+    name: 'Vivek\nSingh',
+    company: 'kernel',
+    twitter: 'https://twitter.com/vsinghdothings',
+    avatar: vivekS
+  },
+  {
+    name: 'Helena\nGagern',
+    company: '',
+    twitter: 'https://twitter.com/HelenaGagern',
+    avatar: helenaG
+  },
+  // {
+  //   name: 'Tyler Quigley',
+  //   company: 'Radicle',
+  //   twitter: '',
+  //   avatar: 
+  // },
+  // {
+  //   name: '',
+  //   company: '',
+  //   twitter: '',
+  //   avatar: 
+  // },
+  
+  // DESCI
+  {
+    name: 'Benji\nLeibowitz',
+    company: 'VitaDAO',
+    twitter: 'https://twitter.com/benjileibo/',
+    avatar: benjiL
+  },
+  // {
+  //   name: 'Jonathan Kung',
+  //   company: '',
+  //   twitter: '',
+  //   avatar: 
+  // },
+  {
+    name: 'Shady\nEl Damaty',
+    company: 'OpSci, Holonym',
+    twitter: 'https://twitter.com/hebbianloop',
+    avatar: shadyE
+  },
+  {
+    name: 'Jonathan\nStarr',
+    company: 'Desci Labs',
+    twitter: 'https://twitter.com/thejringo',
+    avatar: jonathanS
+  },
+  {
+    name: 'Boris\nDyakov',
+    company: 'Gitcoin | LabDAO',
+    twitter: 'https://twitter.com/BJ_Dyakov',
+    avatar: borisD
+  },
+  {
+    name: 'Tammy\nFrancis',
+    company: 'Catalyst 4 Change Global',
+    twitter: 'http://www.twitter.com/drtammyfrancis',
+    avatar: tammyF
+  },
+  {
+    name: 'Azeem\nKhan',
+    company: 'Gitcoin',
+    twitter: 'https://twitter.com/azeemk_',
+    avatar: azeemK
+  },
+  {
+    name: 'Allison\nDuettmann',
+    company: 'Foresight Institute',
+    twitter: 'https://twitter.com/allisondman',
+    avatar: allisonD
+  },
+  {
+    name: 'Sage\nShelton',
+    company: 'ReSci Network',
+    twitter: 'https://twitter.com/renegaderegen',
+    avatar: sageS
+  },
+  {
+    name: 'Phil\nHedayatnia',
+    company: 'Airfoil',
+    twitter: 'https://twitter.com/philhedayatnia',
+    avatar: philH
+  },
+  {
+    name: 'Omar\nElNaggar',
+    company: 'Weavechain',
+    twitter: 'https://twitter.com/homercarpenter',
+    avatar: omarE
+  },
+  {
+    name: 'Dimitri\nDe Jonghe',
+    company: 'Nevermined / Keyko',
+    twitter: 'https://twitter.com/DimitriDeJonghe',
+    avatar: dimitriD
+  },
+  {
+    name: 'Don\nGossen',
+    company: 'Nevermined AG',
+    twitter: 'https://twitter.com/dongossen?t=-RVhlT8a_UMhUF5PlISp7g&s=09',
+    avatar: donG
+  },
+  {
+    name: 'Laure\nHaak',
+    company: 'Mighty Red Barn',
+    twitter: 'https://twitter.com/HaakYak',
+    avatar: LaureH
+  },
+  {
+    name: 'Martin\nKarlsson',
+    company: 'Lateral.io/desci',
+    twitter: 'https://twitter.com/jmartink',
+    avatar: martinK
+  },
+  {
+    name: 'Richard\nBlythman',
+    company: 'Algovera',
+    twitter: 'https://twitter.com/richardblythman?t=wXzlYmcWZdVzZRd24ZA6kw&s=09',
+    avatar: richardB
+  },
+  {
+    name: 'Michael\nFischer',
+    company: 'DBDAO.xyz',
+    twitter: 'https://twitter.com/0xMikeyF',
+    avatar: michaelF
+  },
+  {
+    name: 'Jacob\nLuo',
+    company: 'Kdot',
+    twitter: 'https://www.twitter.com/jacob_luo19',
+    avatar: jacobL
+  },
+  {
+    name: 'Joshua\nBate',
+    company: 'DeSciWorld',
+    twitter: 'https://twitter.com/jb87ua',
+    avatar: joshuaB
+  },
+  {
+    name: 'Ben\nFielding',
+    company: 'Gensyn',
+    twitter: 'https://twitter.com/fenbielding',
+    avatar: benF
+  },
+  {
+     name: 'Marek\nOlszewski',
+    company: 'Celo',
+    twitter: 'https://twitter.com/marek_',
+    avatar: marekO
+  },
+  {
+    name: 'Alex\nGluchowski',
+   company: 'zkSync',
+   twitter: 'https://twitter.com/gluk64',
+   avatar: alexG
+ },
+  {
+    name: 'Timothy\nArcher',
+    company: 'OpenCivics',
+    twitter: 'https://twitter.com/thetimearcher',
+    avatar: timothyA
+  },
+  {
+    name: 'Benjamin\nLIfe',
+    company: 'OpenCivics',
+    twitter: 'https://twitter.com/omniharmonic',
+    avatar: benjaminL
+  },
 
-  // OLD
 
-
-  // {
-  //   name: 'Kasia\nSitkiewicz',
-  //   company: 'Github',
-  //   twitter: 'https://twitter.com/Calikasia',
-  //   avatar: kasiaS
-  // },
-  // {
-  //   name: 'Camila\nRamos',
-  //   company: 'Fuel Labs',
-  //   twitter: 'https://twitter.com/camiinthisthang',
-  //   avatar: camilaR
-  // },
-  // {
-  //   name: 'Nader\nDabit',
-  //   company: 'DevDAO',
-  //   twitter: 'Twitter.com/dabit3',
-  //   avatar: naderB
-  // },
-  // {
-  //   name: 'Eric\nNakagawa',
-  //   company: 'Celo',
-  //   twitter: 'https://twitter.com/ericnakagawa',
-  //   avatar: ericN
-  // },
-  // {
-  //   name: 'Fabian\nVogelsteller',
-  //   company: 'LUKSO',
-  //   twitter: 'https://twitter.com/feindura',
-  //   avatar: fabianV
-  // },
-  // {
-  //   name: 'Glen\nWeyl',
-  //   company: 'RadicalxChange',
-  //   twitter: 'https://twitter.com/glenweyl',
-  //   avatar: glenW
-  // },
-  // {
-  //   name: 'Danny\nZuckerman',
-  //   company: 'Ceramic',
-  //   twitter: 'https://twitter.com/dazuck',
-  //   avatar: dannyZ
-  // },
-  // {
-  //   name: 'Manasi\nVora',
-  //   company: 'Skynet',
-  //   twitter: 'https://twitter.com/manasilvora',
-  //   avatar: manasiV
-  // },
-  // {
-  //   name: 'Shivani\nMitra',
-  //   company: 'MOCA',
-  //   twitter: 'https://mobile.twitter.com/shivani_3000',
-  //   avatar: shivaniM
-  // },
-  // {
-  //   name: 'Julian\nBrangold',
-  //   company: 'CruptoArg',
-  //   twitter: 'https://twitter.com/julianbrangold',
-  //   avatar: julianB
-  // },
-  // {
-  //   name: 'Stefany\nCuervo',
-  //   company: 'Colombian Artist',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Bertie\nLumsden',
-  //   company: 'ArtDAO',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Rico\nSerna',
-  //   company: 'Chimbites',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Harsh\nRajat',
-  //   company: 'EPNS',
-  //   twitter: 'https://twitter.com/harshrajat',
-  //   avatar: harshR
-  // },
-  // {
-  //   name: 'Jahed\nMomand',
-  //   company: 'Cerulean Ventures',
-  //   twitter: 'https://twitter.com/againstutopia',
-  //   avatar: jahedM
-  // },
-  // {
-  //   name: 'Linda\nXie',
-  //   company: 'Scalar Capital',
-  //   twitter: 'https://twitter.com/ljxie',
-  //   avatar: lindaX
-  // },
-  // {
-  //   name: 'Lefteris\nKarapetsas',
-  //   company: 'Rotki',
-  //   twitter: 'https://twitter.com/lefterisjp',
-  //   avatar: lefterisK
-  // },
-  // {
-  //   name: 'Scott\nMoore',
-  //   company: 'Gitcoin',
-  //   twitter: 'https://twitter.com/notscottmoore',
-  //   avatar: scottM
-  // },
-  // {
-  //   name: 'Awa\nSun Yin',
-  //   company: 'Anoma',
-  //   twitter: 'https://twitter.com/awasunyin',
-  //   avatar: awaS
-  // },
-  // {
-  //   name: 'Jonny\nHowle',
-  //   company: 'Disco',
-  //   twitter: 'https://twitter.com/jonnyhowle?s=21&t=72YDAmCKDGGXlTNLzYtxIQ',
-  //   avatar: jonnyH
-  // },
-  // {
-  //   name: 'Carl\nFairclough',
-  //   company: 'Disco',
-  //   twitter: 'https://twitter.com/carlfairclough?s=21&t=72YDAmCKDGGXlTNLzYtxIQ',
-  //   avatar: carlF
-  // },
-  // {
-  //   name: 'Dennison\nBertram',
-  //   company: 'Tally',
-  //   twitter: 'https://twitter.com/dennisonbertram',
-  //   avatar: dennisonB
-  // },
-  // {
-  //   name: 'James\nWaugh',
-  //   company: 'fireeyes',
-  //   twitter: 'https://twitter.com/blockchainjames',
-  //   avatar: jamesW
-  // },
-  // {
-  //   name: 'Kris\nDecoodt',
-  //   company: 'Gitcoin',
-  //   twitter: 'https://twitter.com/krrisis',
-  //   avatar: krisD
-  // },
-  // {
-  //   name: 'Rahul\nKothari',
-  //   company: 'Reddit',
-  //   twitter: 'https://twitter.com/omw_to_the_moon',
-  //   avatar: rahulK
-  // },
-  // {
-  //   name: 'Pablo\nSabbatella',
-  //   company: 'Defy Education',
-  //   twitter: 'https://twitter.com/pablosabbatella',
-  //   avatar: pabloS
-  // },
-  // {
-  //   name: 'Aaron\nSoskin',
-  //   company: 'govrn.io',
-  //   twitter: 'https://twitter.com/AaronSoskin',
-  //   avatar: aaronS
-  // },
-  // {
-  //   name: 'John\nPaller',
-  //   company: 'Opolis',
-  //   twitter: 'https://twitter.com/pallerjohn',
-  //   avatar: johnP
-  // },
-  // {
-  //   name: 'Paula\nBerman',
-  //   company: 'RadicalxChange',
-  //   twitter: 'https://twitter.com/_paulaberman',
-  //   avatar: paulaB
-  // },
-  // {
-  //   name: 'Andrés\nVelásquez',
-  //   company: 'Fundación Karisma',
-  //   twitter: 'https://twitter.com/Karisma',
-  //   avatar: andresV
-  // },
-  // {
-  //   name: 'Daniel\nKnobelsdorf',
-  //   company: 'RadicalxChange',
-  //   twitter: 'https://twitter.com/DanielKnobelsd1',
-  //   avatar: danielK
-  // },
-  // {
-  //   name: 'Michael\nFreedman',
-  //   company: 'Microsoft',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Christine\nVandevoorde',
-  //   company: 'govrn.io',
-  //   twitter: 'https://twitter.com/TinaVandev',
-  //   avatar: christineV
-  // },
-  // {
-  //   name: 'Guo\nLiu',
-  //   company: 'Matters Lab',
-  //   twitter: 'https://twitter.com/_GuoLiu',
-  //   avatar: guoL
-  // },
-  // {
-  //   name: 'Shrey\nJain',
-  //   company: 'Microsoft',
-  //   twitter: 'https://twitter.com/shreyjaineth',
-  //   avatar: shreyJ
-  // },
-  // {
-  //   name: 'Puja\nOhlhaver',
-  //   company: 'Flashbots',
-  //   twitter: 'https://twitter.com/pujaohlhaver',
-  //   avatar: pujaO
-  // },
-  // {
-  //   name: 'Evan\nMiyazono',
-  //   company: 'Protocol Labs',
-  //   twitter: 'https://twitter.com/emiyazono',
-  //   avatar: evanm
-  // },
-  // {
-  //   name: 'Holke\nBrammer',
-  //   company: 'Protocol Labs',
-  //   twitter: 'https://twitter.com/holkeb',
-  //   avatar: holkeB
-  // },
-  // {
-  //   name: 'Joanna\nLiang',
-  //   company: 'JSquare',
-  //   twitter: 'https://twitter.com/joanna_jsquare',
-  //   avatar: joannaL
-  // },
-  // {
-  //   name: 'Anna\nKryukova',
-  //   company: 'Celo',
-  //   twitter: 'https://twitter.com/annaalexak',
-  //   avatar: annaK
-  // },
-  // {
-  //   name: 'Marek\nOlszewski',
-  //   company: 'Celo/cLabs',
-  //   twitter: 'https://twitter.com/marek_',
-  //   avatar: marekO
-  // },
-  // {
-  //   name: 'Matthew\nFrehlich',
-  //   company: 'Protocol Labs',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Daphne\nCharles',
-  //   company: 'Kiwi Labs',
-  //   twitter: 'https://twitter.com/Daphachar',
-  //   avatar: daphneC
-  // },
-  // {
-  //   name: 'Pooja\nShah',
-  //   company: 'Tephra Labs',
-  //   twitter: 'https://twitter.com/pooja_eth',
-  //   avatar: poojaS
-  // },
-  // {
-  //   name: 'Juan\nGuillen',
-  //   company: 'MakerDAO',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Rene\nPinnell',
-  //   company: 'Artizen Fund',
-  //   twitter: 'https://twitter.com/rjpinnell',
-  //   avatar: reneP
-  // },
-  // {
-  //   name: 'Vaughn\nMcKenzie-Landell',
-  //   company: 'Butter',
-  //   twitter: 'https://twitter.com/vaughnmck',
-  //   avatar: vaughnM
-  // },
-  // {
-  //   name: 'Rhys\nLindmark',
-  //   company: 'Roote/Web3 & Society',
-  //   twitter: 'https://twitter.com/RhysLindmark',
-  //   avatar: rhysL
-  // },
-  // {
-  //   name: 'Manu\nAlzuru',
-  //   company: 'DoinGud',
-  //   twitter: 'https://twitter.com/ManuAlzuru',
-  //   avatar: manuA
-  // },
-  // {
-  //   name: 'Livia\nDe',
-  //   company: 'Commons Stack',
-  //   twitter: 'https://twitter.com/_liviade',
-  //   avatar: liviaD
-  // },
-  // {
-  //   name: 'Erin\nMurphy',
-  //   company: 'Topl',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Ester\nFonseca',
-  //   company: 'Carbonfi',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'John\nHoopes',
-  //   company: 'Toucan',
-  //   twitter: 'https://twitter.com/johnx25bd',
-  //   avatar: johnH
-  // },
-  // {
-  //   name: 'Ryan\nChristoffersen',
-  //   company: 'Regen',
-  //   twitter: 'https://twitter.com/ryanchristo_',
-  //   avatar: ryanC
-  // },
-  // {
-  //   name: 'Lea\nBauer',
-  //   company: 'Flow',
-  //   twitter: 'https://twitter.com/leafbauer',
-  //   avatar: leaB
-  // },
-  // {
-  //   name: 'Marc\nJohnson',
-  //   company: 'Moderator',
-  //   twitter: 'https://twitter.com/marcjohnson518',
-  //   avatar: marcJ
-  // },
-  // {
-  //   name: 'Alan\nRansil',
-  //   company: 'Filecoin Green',
-  //   twitter: 'https://twitter.com/rransil',
-  //   avatar: alanR
-  // },
-  // {
-  //   name: 'Ana Maria\nMahecha',
-  //   company: 'KokoDAO',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Andros\nWong',
-  //   company: 'Wonder',
-  //   twitter: 'https://twitter.com/0xAndros',
-  //   avatar: androsW
-  // },
-  // {
-  //   name: 'Aleksandra\nSmilek',
-  //   company: 'Foresight',
-  //   twitter: 'https://twitter.com/jed_voras',
-  //   avatar: aleksandraS
-  // },
-  // {
-  //   name: 'Daniel\nUribe',
-  //   company: 'Genobank',
-  //   twitter: 'https://twitter.com/duribeb',
-  //   avatar: danielU
-  // },
-  // {
-  //   name: 'Michael\nFischer',
-  //   company: 'CurateDAO',
-  //   twitter: 'https://twitter.com/0xMikeyF',
-  //   avatar: michaelF
-  // },
-  // {
-  //   name: 'Paul\nKohlhaas',
-  //   company: 'Molecule',
-  //   twitter: 'https://twitter.com/paulkhls',
-  //   avatar: paulK
-  // },
-  // {
-  //   name: 'Tyler\nGolato',
-  //   company: 'Molecule',
-  //   twitter: 'https://twitter.com/GolatoTyler',
-  //   avatar: tylerG
-  // },
-  // {
-  //   name: 'Carolina\nMenchaca',
-  //   company: 'DeSci.World',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Laura\nMinquini',
-  //   company: 'AthenaDAO',
-  //   twitter: 'https://twitter.com/lauraminquini/',
-  //   avatar: lauraM
-  // },
-  // {
-  //   name: 'Oksana\nStanevich',
-  //   company: 'MD, Researcher',
-  //   twitter: '',
-  //   avatar: ''
-  // },
-  // {
-  //   name: 'Vincent\nWeisser',
-  //   company: 'vitaDAO',
-  //   twitter: 'https://twitter.com/vincentweisser',
-  //   avatar: vincentW
-  // },
-  // {
-  //   name: 'Eugene\nLeventhal',
-  //   company: 'SCRF',
-  //   twitter: 'https://twitter.com/bbeats1',
-  //   avatar: eugeneL
-  // },
 ];
