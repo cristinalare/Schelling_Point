@@ -4,6 +4,7 @@
 }
 #Sponsors .section-content {
   margin: 0;
+  padding: 1rem;
 }
 
 #Sponsors .section-title {
@@ -46,11 +47,9 @@
 .sponsor-img {
   max-width: unset;
 }
-@media only screen and (max-width: 81rem) {
-  .Lead .line-logos {
-    column-gap: 2.5rem;
-    row-gap: 1rem;
-  }
+
+.Lead .line-logos {
+  max-width: 50rem;
 }
 
 @media only screen and (max-width: 65rem) {
@@ -68,9 +67,6 @@
   }
   .line-logos {
     gap: 3.5rem;
-  }
-  .Lead .line-logos {
-    column-gap: 2rem;
   }
   #Sponsors {
     padding-block: 2.5rem;
@@ -91,14 +87,13 @@
     height: 18px;
     width: auto;
   }
-  .Lead .line-logos,
   .line-logos {
     gap: 1rem;
   }
 }
 
-@media only screen and (max-width: 396px) {
+@media only screen and (max-width: 496px) {
   .Lead .line-logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }

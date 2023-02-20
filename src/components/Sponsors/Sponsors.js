@@ -11,16 +11,17 @@ import lukso from "./logos/lukso.svg";
 import celo from './logos/celo.svg';
 import aave from './logos/aave.svg';
 import bitkeep from './logos/bitkeep.svg';
+import gitcoin from './logos/gitcoin.svg';
 
 function Sponsors() {
   const lead = [
     {
-      name: "zkSync",
-      logo: zkSync,
-    },
-    {
       name: "foresightVentures",
       logo: foresightVentures,
+    },
+    {
+      name: "zkSync",
+      logo: zkSync,
     },
     {
       name: "lukso",
@@ -33,6 +34,10 @@ function Sponsors() {
     {
       name: "bitkeep",
       logo: bitkeep,
+    },
+    {
+      name: "gitcoin",
+      logo: gitcoin,
     },
     {
       name: "celo",

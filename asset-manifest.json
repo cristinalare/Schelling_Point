@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb71e6a2.css",
-    "main.js": "/static/js/main.1c358ba3.js",
+    "main.css": "/static/css/main.be8bf534.css",
+    "main.js": "/static/js/main.fae77dea.js",
     "static/media/sp-bogota.mp4": "/static/media/sp-bogota.f89759a6960b5cb9b7aa.mp4",
     "static/media/flower.gif": "/static/media/flower.481c4d93462b9a0dc3e6.gif",
     "static/media/flower.webm": "/static/media/flower.bfdab1293f61d14681bf.webm",
@@ -85,11 +85,11 @@
     "static/media/drips.svg": "/static/media/drips.9dc00f9640a45697c7a607ab9314f1a4.svg",
     "static/media/lukso.svg": "/static/media/lukso.eb9b0c1d6b35a951bc701c8ef2e3e362.svg",
     "static/media/celo.svg": "/static/media/celo.4945a7f106381ffc80c382225f3a3c78.svg",
-    "main.eb71e6a2.css.map": "/static/css/main.eb71e6a2.css.map",
-    "main.1c358ba3.js.map": "/static/js/main.1c358ba3.js.map"
+    "main.be8bf534.css.map": "/static/css/main.be8bf534.css.map",
+    "main.fae77dea.js.map": "/static/js/main.fae77dea.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb71e6a2.css",
-    "static/js/main.1c358ba3.js"
+    "static/css/main.be8bf534.css",
+    "static/js/main.fae77dea.js"
   ]
 }

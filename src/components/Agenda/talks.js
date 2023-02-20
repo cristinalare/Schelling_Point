@@ -11,7 +11,7 @@ export const talksMain = [
   },
   {
     time: "10:30 AM",
-    title: "Cooperation Across Social Distance",
+    title: "New Form Factors for Quadratic Funding",
     name: "Kevin Owocki ◖ Supermodular",
   },
   {
@@ -81,7 +81,7 @@ export const talksMain = [
   {
     time: "3:20 PM",
     title: "PG Funding Panel",
-    name: "",
+    name: "Scott Moore ◖ Gitcoin, Awa Sun ◖ Anoma, Zaki Manian ◖ Cosmos, Daniel Hwang ◖ ",
   },
   {
     time: "3:45 PM",
@@ -231,14 +231,19 @@ export const desciTalks = [
   },
   {
     time: "11:00 AM",
-    title: "Biomimicry in Decentralized Science System Design",
-    name: "Tyler Quigley ◖ Radicle",
+    title: "Funding far-out longevity research",
+    name: "Emil Kendziorra",
+  },
+  {
+    time: "11:15 AM",
+    title: "Prefigurative Self Infrastructuring",
+    name: "Michael Zargham",
   },
   {
     time: "11:30 AM",
     title:
       "Universities and the new world of accreditation and knowledge stewardship",
-    name: "Jonathan Starr ◖ DeSci Labs, Jonathan Kung  ◖ Science Publishing DAO and Tammy Francis ◖ Catalyst 4 Change Global",
+    name: "Jonathan Starr ◖ DeSci Labs",
   },
   {
     time: "12:00 PM",
@@ -254,7 +259,7 @@ export const desciTalks = [
   {
     time: "1:30 PM",
     title: "Digital Identity for Web Native Scientists",
-    name: "Shady El Damaty ◖ OpSci, Laure Haak ◖ Mighty Red Barn",
+    name: "Shady El Damaty ◖ OpSci, Laure Haak ◖ Mighty Red Barn, Joel Thorstensson ◖ Ceramic",
   },
   {
     time: "2:00 PM",
@@ -274,7 +279,7 @@ export const desciTalks = [
   {
     time: "3:05 PM",
     title: "Decentralized AI & Compute for Public Goods",
-    name: "TBD",
+    name: "Don Gossen ◖ Nevermined, Richard Blythman ◖ Algovera, Erik Allberg ◖ dao.xyz, David Aronchick ◖ Bacalhau",
   },
   {
     time: "3:45 PM",
@@ -284,7 +289,7 @@ export const desciTalks = [
   {
     time: "4:15 PM",
     title: "New Funding Models for DeSci",
-    name: "Boris Dyakov ◖ Gitcoin",
+    name: "Keith Comito ◖ Lifespan.io",
   },
 ];
 
@@ -323,12 +328,12 @@ export const desciWorkshops = [
   {
     time: "2:30 PM",
     title: "Incentivization Workshop: Build your own nation",
-    name: "Jonathan Starr ◖ DeSci Labs",
+    name: "Jonathan Starr",
   },
   {
     time: "3:10 PM",
     title: "Desci Tools Showcase",
-    name: "Jonathan Starr ◖ DeSci Labs, David Aronchick ◖ , Don Gossen ◖Nevermined AG , Richard Blythman ◖ Algovera, Michael Fischer ◖ DBDAO.xyz, Omar ElNaggar ◖ Weavechain, Manveer Basra ◖ Scholar, Jacob Luo ◖ , Allison Duettmann ◖ Foresight Institute, Derek Anderson ◖ ",
+    name: "Jonathan Starr ◖ Gridcoin, David Aronchick ◖ bacalhau, Don Gossen ◖Nevermined AG, Richard Blythman ◖ Algovera, Michael Fischer ◖ DBDAO.xyz, Omar ElNaggar ◖ Weavechain, Manveer Basra ◖ Scholar, Jacob Luo, Allison Duettmann ◖ Foresight Institute, Derek Anderson, Carla Ostmann ◖ DeSci Labs",
   },
   {
     time: "4:10 PM",

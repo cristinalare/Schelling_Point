@@ -260,7 +260,7 @@ export const speakersArray = [
   },
   {
     name: 'Dimitri\nDe Jonghe',
-    company: '',
+    company: 'Nevermined',
     twitter: 'https://twitter.com/DimitriDeJonghe',
     avatar: dimitriD
   },
@@ -373,12 +373,6 @@ export const speakersArray = [
     company: 'Weavechain',
     twitter: 'https://twitter.com/homercarpenter',
     avatar: omarE
-  },
-  {
-    name: 'Dimitri\nDe Jonghe',
-    company: 'Nevermined / Keyko',
-    twitter: 'https://twitter.com/DimitriDeJonghe',
-    avatar: dimitriD
   },
   {
     name: 'Don\nGossen',
