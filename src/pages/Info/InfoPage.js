@@ -7,7 +7,7 @@ import { Parallax } from "react-scroll-parallax";
 
 function InfoPage() {
   return (
-    <div>
+    <div className="info-page">
       <div className="info-hero">
         <div className="info-hero-bg">
         <Parallax

@@ -1,3 +1,6 @@
+.info-page {
+  overflow-x: hidden;
+}
 .info-hero {
   min-height: calc(100vh - var(--header-height) - 0.5 * var(--header-height));
   display: flex;
