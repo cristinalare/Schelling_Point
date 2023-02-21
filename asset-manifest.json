@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.14f4844c.css",
-    "main.js": "/static/js/main.a2df917b.js",
+    "main.js": "/static/js/main.2733cbd2.js",
     "static/media/sp-bogota.mp4": "/static/media/sp-bogota.f89759a6960b5cb9b7aa.mp4",
     "static/media/flower.gif": "/static/media/flower.481c4d93462b9a0dc3e6.gif",
     "static/media/flower.webm": "/static/media/flower.bfdab1293f61d14681bf.webm",
@@ -16,10 +16,10 @@
     "static/media/afterparty-poster-mobile@2x.jpg": "/static/media/afterparty-poster-mobile@2x.20317b6fc8a343310e0d.jpg",
     "static/media/marcusA.png": "/static/media/marcusA.ddf819f906ee6d257862.png",
     "static/media/footer-bg.svg": "/static/media/footer-bg.1bfd375e659f5a7d2543d8f8e1546905.svg",
+    "static/media/afterparty-img.svg": "/static/media/afterparty-img.2839e0c594c6129d95edc46e3f018d5e.svg",
     "static/media/afterparty-poster-mobile@1x.jpg": "/static/media/afterparty-poster-mobile@1x.907b95f4888a789999b4.jpg",
     "static/media/consensys.svg": "/static/media/consensys.20558a39f2e3dcb6391a405bbbfeef7c.svg",
     "static/media/agustinM.jpg": "/static/media/agustinM.0572da6f6901119b8c9c.jpg",
-    "static/media/afterparty-img.svg": "/static/media/afterparty-img.c8229fa9acc19948a72a9f9978c0b6ca.svg",
     "static/media/azeemK.jpg": "/static/media/azeemK.a520f8da37e40185ce08.jpg",
     "static/media/about-bg.svg": "/static/media/about-bg.50953c0fb0444f508e551cef866e9109.svg",
     "static/media/joshuaB.jpg": "/static/media/joshuaB.5e7b2982a57b06e60cbb.jpg",
@@ -89,10 +89,10 @@
     "static/media/lukso.svg": "/static/media/lukso.eb9b0c1d6b35a951bc701c8ef2e3e362.svg",
     "static/media/celo.svg": "/static/media/celo.4945a7f106381ffc80c382225f3a3c78.svg",
     "main.14f4844c.css.map": "/static/css/main.14f4844c.css.map",
-    "main.a2df917b.js.map": "/static/js/main.a2df917b.js.map"
+    "main.2733cbd2.js.map": "/static/js/main.2733cbd2.js.map"
   },
   "entrypoints": [
     "static/css/main.14f4844c.css",
-    "static/js/main.a2df917b.js"
+    "static/js/main.2733cbd2.js"
   ]
 }
