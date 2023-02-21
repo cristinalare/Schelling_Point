@@ -119,7 +119,9 @@ function InfoPage() {
             need to show your ticket to a Schelling Point organizer and they
             will grab your green VIP wristband for entry.
           </p>
+          <Parallax rotate={[0, 120]}>
           <img src={afterpartyImg} width="231" height="230" alt="" />
+          </Parallax>
           <p>
             We are so excited to see you in Denver! Each Schelling Point acts as
             a safe place where web3 and collective thriving converge and
