@@ -14,7 +14,7 @@ function Agenda() {
       {/* <p className="agenda-description">◖ Click on a title in order to add it to your calendar</p> */}
       <div className="agenda-items">
         <Stage
-          stageTitle="Main"
+          stageTitle="SP Main Stage"
           talksArray={talksMain}
           classes="agenda-item-1"
         />

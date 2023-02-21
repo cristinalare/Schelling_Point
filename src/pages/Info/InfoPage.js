@@ -10,14 +10,20 @@ function InfoPage() {
     <div className="info-page">
       <div className="info-hero">
         <div className="info-hero-bg">
-        <Parallax
-          translateY={[0, 70]}
-          shouldAlwaysCompleteAnimation={true}
-          scale={[1, 1.4]}
-          opacity={[1, 0.2]}
-        >
-          <img src={infoHeroBg} alt="" width="450" height="450" fetchpriority="high" />
-        </Parallax>
+          <Parallax
+            translateY={[0, 70]}
+            shouldAlwaysCompleteAnimation={true}
+            scale={[1, 1.4]}
+            opacity={[1, 0.2]}
+          >
+            <img
+              src={infoHeroBg}
+              alt=""
+              width="450"
+              height="450"
+              fetchpriority="high"
+            />
+          </Parallax>
         </div>
         <h1 className="main-xxl">
           All you need
@@ -41,7 +47,10 @@ function InfoPage() {
             <br />
             Don’t forget, in order to gain access to Schelling Point, you will
             need to be a confirmed ETHDenver attendee.{" "}
-            <a href="https://ethdenver.typeform.com/to/FFN8e1Cz?typeform-source=www.google.com" className="link">
+            <a
+              href="https://ethdenver.typeform.com/to/FFN8e1Cz?typeform-source=www.google.com"
+              className="link"
+            >
               Click here
             </a>{" "}
             to apply to ETH Denver TODAY!
@@ -55,7 +64,10 @@ function InfoPage() {
             conference starts at 10:00 AM.
             <br />
             <span className="bold">Location: </span>
-            <a className="link" href="https://www.google.com/maps/place/4655+Humboldt+St,+Denver,+CO+80216/@39.7813353,-104.9737487,17z/data=!3m1!4b1!4m5!3m4!1s0x876c79a79d6ecaed:0x76b27e8871b63c4c!8m2!3d39.7813353!4d-104.97156?hl=en&authuser=0">
+            <a
+              className="link"
+              href="https://www.google.com/maps/place/4655+Humboldt+St,+Denver,+CO+80216/@39.7813353,-104.9737487,17z/data=!3m1!4b1!4m5!3m4!1s0x876c79a79d6ecaed:0x76b27e8871b63c4c!8m2!3d39.7813353!4d-104.97156?hl=en&authuser=0"
+            >
               National Western $SPORK Castle, 4655 Humboldt St, Denver CO 80216
             </a>
           </p>
@@ -94,8 +106,7 @@ function InfoPage() {
             <br />
             <br />
             How does that work? Both events are happening at the same venue -
-            The Mission Ballroom. There will be green wristbands distributed in
-            the afternoon at Schelling Point.
+            The Mission Ballroom.
             <br />
             <br />
             There’s a limited number of spots available so make sure to come
@@ -115,12 +126,11 @@ function InfoPage() {
             (2 min drive or 10 min walk from National Western $SPORK Castle)
             <br />
             <br />
-            In order to gain access to the Happy Hour and After Party you will
-            need to show your ticket to a Schelling Point organizer and they
-            will grab your green VIP wristband for entry.
+            To gain access to the Happy Hour and After Party, you will need to
+            show your green wristband or ticket to a Schelling Point organizer.
           </p>
           <Parallax rotate={[0, 120]}>
-          <img src={afterpartyImg} width="231" height="230" alt="" />
+            <img src={afterpartyImg} width="231" height="230" alt="" />
           </Parallax>
           <p>
             We are so excited to see you in Denver! Each Schelling Point acts as
