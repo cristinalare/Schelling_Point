@@ -23,12 +23,6 @@
   --gradient-3: linear-gradient(90deg, #FBC624 0%, #B3DE9F 100%);
 }
 
-@media only screen and (max-width: 600px) {
-  :root {
-    --header-height: 68px;
-  }
-}
-
 .sections,
 header {
   max-width: 120rem;
@@ -39,6 +33,7 @@ body {
   overflow-x: hidden;
   background-color: var(--green-color);
   color: var(--white-color);
+  scroll-behavior: smooth;
 }
 
 main {
@@ -67,6 +62,19 @@ a {
 }
 .main-link:hover {
   color: var(--light-pink-color);
+}
+
+.link {
+  color: var(--light-pink-color);
+  text-decoration: underline;
+  transition: color 0.4s ease-out;
+}
+.link:hover {
+  color: var(--light-green-color);
+}
+
+.bold {
+  font-weight: 700;
 }
 
 button {
@@ -188,6 +196,21 @@ html {
     --font-xxl: 4.5rem;
     --font-s: 1.5rem;
     --header-height: calc(2rem + 2rem);
+  }
+}
+@media only screen and (max-width: 600px) {
+  :root {
+    --header-height: 70px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  :root {
+    --header-height: 63px;
+  }
+}
+@media only screen and (max-width: 353px) {
+  :root {
+    --header-height: 74px;
   }
 }
 

@@ -10,8 +10,8 @@ function StageContent({ stageTitle, talksArray, desciWorkshops }) {
             {talk.link ? (
               <p className="agenda-item-title">
                 <a href={talk.link} target="_blank" rel="noreferrer">
-                  {talk.title}&nbsp;
-                  {talk.name.length > 0 && <span>&#40;{talk.name}&#41;</span>}
+                  {talk.title}{" "}
+                  <span>{talk.name.length > 0 && `&#40;${talk.name}&#41;`}</span>
                 </a>
               </p>
             ) : (

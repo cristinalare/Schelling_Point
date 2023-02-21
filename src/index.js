@@ -1,10 +1,28 @@
-import React from 'react';
+import React from "react";
 import { hydrate, render } from "react-dom";
-import App from './App';
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import ScrollToTop from "./components/ScrollToTop";
 
 const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {
-  hydrate(<React.StrictMode><App /></React.StrictMode>, rootElement);
+  hydrate(
+    <BrowserRouter>
+      <React.StrictMode>
+        <ScrollToTop />
+        <App />
+      </React.StrictMode>
+    </BrowserRouter>,
+    rootElement
+  );
 } else {
-  render(<React.StrictMode><App /></React.StrictMode>, rootElement);
+  render(
+    <BrowserRouter>
+      <React.StrictMode>
+        <ScrollToTop />
+        <App />
+      </React.StrictMode>
+    </BrowserRouter>,
+    rootElement
+  );
 }

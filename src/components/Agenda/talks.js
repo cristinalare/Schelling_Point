@@ -34,7 +34,6 @@ export const talksMain = [
     time: "11:55 AM",
     title: "Radicle Drips: New Economic Primitives for Public Goods Funding",
     name: "Andrew Dickson ◖ Drips",
-    link: "https://youtu.be/utOQVWbZI7Q",
   },
   {
     time: "12:15 PM",
@@ -147,7 +146,7 @@ export const Unconference = [
   {
     time: "12:05 PM",
     title: "Grow groups sustainably through personalized experiences",
-    name: "Reka.ethGuild ◖ ",
+    name: "Reka.eth ◖ Guild",
   },
   {
     time: "12:25 PM",

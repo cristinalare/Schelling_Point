@@ -1,0 +1,24 @@
+.info-hero {
+  min-height: calc(100vh - var(--header-height) - 0.5 * var(--header-height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: var(--light-pink-color);
+  margin: 0 1rem 2rem 1rem;
+}
+@media only screen and (max-width: 400px) {
+  .info-hero .main-xxl {
+    font-size: 3rem;
+  }
+}
+
+.info-hero-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 100%;
+}

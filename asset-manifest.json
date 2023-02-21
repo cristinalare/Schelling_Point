@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.be8bf534.css",
-    "main.js": "/static/js/main.fae77dea.js",
+    "main.css": "/static/css/main.14f4844c.css",
+    "main.js": "/static/js/main.a2df917b.js",
     "static/media/sp-bogota.mp4": "/static/media/sp-bogota.f89759a6960b5cb9b7aa.mp4",
     "static/media/flower.gif": "/static/media/flower.481c4d93462b9a0dc3e6.gif",
     "static/media/flower.webm": "/static/media/flower.bfdab1293f61d14681bf.webm",
     "static/media/flower.mov": "/static/media/flower.97dd6cd692fc2d831798.mov",
     "static/media/afterparty-poster@2x.jpg": "/static/media/afterparty-poster@2x.ef4785a455db81bbb1a1.jpg",
+    "static/media/afterparty-poster.png": "/static/media/afterparty-poster.b9dd30b700f7f5d90402.png",
     "static/media/afterparty-poster@1x.jpg": "/static/media/afterparty-poster@1x.c0dea739f7766d53cca4.jpg",
     "static/media/flower.png": "/static/media/flower.2717a516197156f75da9.png",
     "static/media/video-poster.png": "/static/media/video-poster.8d894c426e49cb27401b.png",
@@ -18,11 +19,13 @@
     "static/media/afterparty-poster-mobile@1x.jpg": "/static/media/afterparty-poster-mobile@1x.907b95f4888a789999b4.jpg",
     "static/media/consensys.svg": "/static/media/consensys.20558a39f2e3dcb6391a405bbbfeef7c.svg",
     "static/media/agustinM.jpg": "/static/media/agustinM.0572da6f6901119b8c9c.jpg",
+    "static/media/afterparty-img.svg": "/static/media/afterparty-img.c8229fa9acc19948a72a9f9978c0b6ca.svg",
     "static/media/azeemK.jpg": "/static/media/azeemK.a520f8da37e40185ce08.jpg",
     "static/media/about-bg.svg": "/static/media/about-bg.50953c0fb0444f508e551cef866e9109.svg",
     "static/media/joshuaB.jpg": "/static/media/joshuaB.5e7b2982a57b06e60cbb.jpg",
     "static/media/rachelB.png": "/static/media/rachelB.6f11e508d766bc193383.png",
     "static/media/geordanS.jpg": "/static/media/geordanS.82ef9556bdc0ae17e96d.jpg",
+    "static/media/info-hero-bg.svg": "/static/media/info-hero-bg.210e2927bed23ea19eccd1d7f557859a.svg",
     "static/media/trentV.jpg": "/static/media/trentV.c0f276c086e1f487609a.jpg",
     "static/media/hudsonJ.jpg": "/static/media/hudsonJ.ac5510de6f66eb7344e8.jpg",
     "static/media/mariaM.jpg": "/static/media/mariaM.4ca3bd860c8894192ee7.jpg",
@@ -85,11 +88,11 @@
     "static/media/drips.svg": "/static/media/drips.9dc00f9640a45697c7a607ab9314f1a4.svg",
     "static/media/lukso.svg": "/static/media/lukso.eb9b0c1d6b35a951bc701c8ef2e3e362.svg",
     "static/media/celo.svg": "/static/media/celo.4945a7f106381ffc80c382225f3a3c78.svg",
-    "main.be8bf534.css.map": "/static/css/main.be8bf534.css.map",
-    "main.fae77dea.js.map": "/static/js/main.fae77dea.js.map"
+    "main.14f4844c.css.map": "/static/css/main.14f4844c.css.map",
+    "main.a2df917b.js.map": "/static/js/main.a2df917b.js.map"
   },
   "entrypoints": [
-    "static/css/main.be8bf534.css",
-    "static/js/main.fae77dea.js"
+    "static/css/main.14f4844c.css",
+    "static/js/main.a2df917b.js"
   ]
 }
