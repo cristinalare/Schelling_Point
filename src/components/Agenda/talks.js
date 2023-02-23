@@ -16,8 +16,8 @@ export const talksMain = [
   },
   {
     time: "10:50 AM",
-    title: "Planetary Health Futures: tools for imagination + action",
-    name: "Geordan Shannon, Dimitri De Jonghe",
+    title: "Radicle Drips: New Economic Primitives for Public Goods Funding",
+    name: "Andrew Dickson ◖ Drips",
   },
   {
     time: "11:10 AM",
@@ -32,8 +32,8 @@ export const talksMain = [
   },
   {
     time: "11:55 AM",
-    title: "Radicle Drips: New Economic Primitives for Public Goods Funding",
-    name: "Andrew Dickson ◖ Drips",
+    title: "Planetary Health Futures: tools for imagination + action",
+    name: "Geordan Shannon, Dimitri De Jonghe",
   },
   {
     time: "12:15 PM",
@@ -138,11 +138,11 @@ export const Unconference = [
     title: "What permaculture can teach web3",
     name: "Gregory Landua ◖ Regen Network",
   },
-  // {
-  //   time: "11:45 AM",
-  //   title: `The Future of Open Data: How We Make Earth's Climate Record a Public Good`,
-  //   name: "Osho Jha",
-  // },
+  {
+    time: "11:45 AM",
+    title: `Designing for Resilience in Open-Source Ecosystems`,
+    name: "Abbey Titcomb",
+  },
   {
     time: "12:05 PM",
     title: "Grow groups sustainably through personalized experiences",
@@ -242,7 +242,7 @@ export const desciTalks = [
     time: "11:30 AM",
     title:
       "Universities and the new world of accreditation and knowledge stewardship",
-    name: "Jonathan Starr ◖ DeSci Labs",
+    name: "Jonathan Starr ◖ DeSci Labs, Jonathan Kung ◖ Science Publishing DAO, Tammy Francis ◖ Catalyst 4 Change Global",
   },
   {
     time: "12:00 PM",
@@ -253,7 +253,7 @@ export const desciTalks = [
   {
     time: "1:00 PM",
     title: "Gitcoin Grants & DeSci",
-    name: "Boris Dyakov ◖ Gitcoin, Azeem Khan ◖ Gitcoin, Jonathan Starr ◖ DeSci Labs, Shady El Damaty ◖ OpSci, Allison Duettmann ◖ Foresight Institute, Manveer Basra ◖ Scholar, Martin Karlsson ◖ Lateral.io/desci",
+    name: "Boris Dyakov ◖ Gitcoin, Azeem Khan ◖ Gitcoin, Jonathan Starr ◖ DeSci Labs, Shady El Damaty ◖ OpSci, Allison Duettmann ◖ Foresight Institute, Manveer Basra ◖ Scholar, Martin Karlsson ◖ Lateral.io/desci, Keith Comito ◖ Lifespan.io, Francisco Diazmo",
   },
   {
     time: "1:30 PM",
@@ -262,7 +262,7 @@ export const desciTalks = [
   },
   {
     time: "2:00 PM",
-    title: "MetaSci Workshop",
+    title: "Metascience",
     name: "Jonathan Kung ◖ Science Publishing DAO",
   },
   {
@@ -278,7 +278,7 @@ export const desciTalks = [
   {
     time: "3:05 PM",
     title: "Decentralized AI & Compute for Public Goods",
-    name: "Don Gossen ◖ Nevermined, Richard Blythman ◖ Algovera, Erik Allberg ◖ dao.xyz, David Aronchick ◖ Bacalhau",
+    name: "Don Gossen ◖ Nevermined, Richard Blythman ◖ Algovera, Erik Allberg ◖ dao.xyz, David Aronchick ◖ Bacalhau, Tom Trowbridge",
   },
   {
     time: "3:45 PM",
@@ -288,7 +288,7 @@ export const desciTalks = [
   {
     time: "4:15 PM",
     title: "New Funding Models for DeSci",
-    name: "Keith Comito ◖ Lifespan.io",
+    name: "Keith Comito ◖ Lifespan.io, Qing Ze, Robbie Hegger",
   },
 ];
 
@@ -315,27 +315,27 @@ export const desciWorkshops = [
     calendar: "",
   },
   {
-    time: "1:10 PM",
+    time: "1:00 PM",
     title: "X-Community-Schmooze",
     name: "Boris Dyakov ◖ Gitcoin, Sage Shelton ◖ ReSci Network",
   },
   {
-    time: "1:50 PM",
+    time: "1:40 PM",
     title: "Tech-Tree",
     name: "Allison Duettmann ◖ Foresight Institute",
   },
   {
-    time: "2:30 PM",
+    time: "2:20 PM",
     title: "Incentivization Workshop: Build your own nation",
     name: "Jonathan Starr",
   },
   {
-    time: "3:10 PM",
-    title: "Desci Tools Showcase",
-    name: "Jonathan Starr ◖ Gridcoin, David Aronchick ◖ bacalhau, Don Gossen ◖Nevermined AG, Richard Blythman ◖ Algovera, Michael Fischer ◖ DBDAO.xyz, Omar ElNaggar ◖ Weavechain, Manveer Basra ◖ Scholar, Jacob Luo, Allison Duettmann ◖ Foresight Institute, Derek Anderson, Carla Ostmann ◖ DeSci Labs",
+    time: "3:00 PM",
+    title: "Tools Tables",
+    name: "Jonathan Starr ◖ Gridcoin, David Aronchick ◖ bacalhau, Don Gossen ◖Nevermined AG, Richard Blythman ◖ Algovera, Michael Fischer ◖ DBDAO.xyz, Omar ElNaggar ◖ Weavechain, Manveer Basra ◖ Scholar, Jacob Luo, Allison Duettmann ◖ Foresight Institute, Derek Anderson, Carla Ostmann ◖ DeSci Labs, Jesse Hudson, Nanak Nihal Khalsa ◖ Holonym",
   },
   {
-    time: "4:10 PM",
+    time: "4:00 PM",
     title: "Unconference",
     name: "TBD",
   },

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1ebed05d.css",
-    "main.js": "/static/js/main.ca772989.js",
+    "main.js": "/static/js/main.59c09853.js",
     "static/media/sp-bogota.mp4": "/static/media/sp-bogota.f89759a6960b5cb9b7aa.mp4",
     "static/media/flower.gif": "/static/media/flower.481c4d93462b9a0dc3e6.gif",
     "static/media/flower.webm": "/static/media/flower.bfdab1293f61d14681bf.webm",
@@ -48,6 +48,7 @@
     "static/media/theresaK.jpg": "/static/media/theresaK.d273c046fb0ae6c8b21a.jpg",
     "static/media/sageS.jpg": "/static/media/sageS.17090053258fe78829f3.jpg",
     "static/media/gregoryL.jpg": "/static/media/gregoryL.b87ba5453d8ef5b7806b.jpg",
+    "static/media/abbeyT.jpg": "/static/media/abbeyT.6e0f409da9a10cde2c18.jpg",
     "static/media/oshoJ.jpg": "/static/media/oshoJ.f5beca3aab2f32f9454d.jpg",
     "static/media/elliottB.jpg": "/static/media/elliottB.6099add7108d12e27985.jpg",
     "static/media/allisonD.jpg": "/static/media/allisonD.8f18ac3f443a4393fbf8.jpg",
@@ -89,10 +90,10 @@
     "static/media/lukso.svg": "/static/media/lukso.eb9b0c1d6b35a951bc701c8ef2e3e362.svg",
     "static/media/celo.svg": "/static/media/celo.4945a7f106381ffc80c382225f3a3c78.svg",
     "main.1ebed05d.css.map": "/static/css/main.1ebed05d.css.map",
-    "main.ca772989.js.map": "/static/js/main.ca772989.js.map"
+    "main.59c09853.js.map": "/static/js/main.59c09853.js.map"
   },
   "entrypoints": [
     "static/css/main.1ebed05d.css",
-    "static/js/main.ca772989.js"
+    "static/js/main.59c09853.js"
   ]
 }

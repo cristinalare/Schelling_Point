@@ -58,6 +58,7 @@ import yevM from './avatars/yevM.jpg';
 import alexG from './avatars/alexG.jpg';
 import timothyA from './avatars/timothyA.jpg';
 import benjaminL from './avatars/benjaminL.jpg';
+import abbeyT from './avatars/abbeyT.jpg';
 
 export const speakersArray = [
   {
@@ -428,6 +429,12 @@ export const speakersArray = [
     twitter: 'https://twitter.com/marek_',
     avatar: marekO
   },
+  {
+    name: 'Abbey\nTitcomb',
+   company: '',
+   twitter: 'https://twitter.com/abbey_titcomb',
+   avatar: abbeyT
+ },
   {
     name: 'Alex\nGluchowski',
    company: 'zkSync',
