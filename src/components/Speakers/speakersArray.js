@@ -59,6 +59,26 @@ import alexG from './avatars/alexG.jpg';
 import timothyA from './avatars/timothyA.jpg';
 import benjaminL from './avatars/benjaminL.jpg';
 import abbeyT from './avatars/abbeyT.jpg';
+import carlaO from './avatars/carlaO.jpg';
+import davidA from './avatars/davidA.jpeg';
+import derekA from './avatars/derekA.JPG';
+import emilK from './avatars/emilK.jpeg';
+import franciscoD from './avatars/franciscoD.jpg';
+import erikA from './avatars/erikA.jpg';
+import jeffreyJ from './avatars/jeffreyJ.jpg';
+import jelaniC from './avatars/jelaniC.jpg';
+import jesseH from './avatars/jesseH.jpg';
+import jonathanK from './avatars/jonathanK.jpg';
+import keithC from './avatars/keithC.jpg';
+import matthewD from './avatars/Matthew_Duffy.png';
+import michaelZ from './avatars/michaelZ.jpg';
+import nanakN from './avatars/nanakN.jpg';
+import reillyC from './avatars/Reilly_Capps.jpg';
+import sovereignO from './avatars/Sovereign_Oshumare.jpeg';
+import tomT from './avatars/tomT.jpg';
+import travisF from './avatars/Travis_F.png';
+import vjones from './avatars/Vjones.jpg';
+
 
 export const speakersArray = [
   {
@@ -295,12 +315,86 @@ export const speakersArray = [
     twitter: 'https://twitter.com/HelenaGagern',
     avatar: helenaG
   },
-  // {
-  //   name: 'Tyler Quigley',
-  //   company: 'Radicle',
-  //   twitter: '',
-  //   avatar: 
-  // },
+  {
+    name: 'Erik\nAllberg',
+    company: 'dao.xyz',
+    twitter: 'https://twitter.com/ErikAllberg',
+    avatar: erikA
+  },
+  {
+    name: 'Keith\nComito',
+    company: 'Lifespan.io',
+    twitter: 'https://twitter.com/keithcomito',
+    avatar: keithC
+  },
+  {
+    name: 'Jeffrey\nJoh',
+    company: '',
+    twitter: 'http://www.twitter.com/whatupjeff',
+    avatar: jeffreyJ
+  },
+  {
+    name: 'Michael\nZargham',
+    company: 'BlockScience',
+    twitter: 'https://twitter.com/mZargham',
+    avatar: michaelZ
+  },
+  {
+    name: 'Carla\nOstmann',
+    company: 'DeSci Labs',
+    twitter: 'https://twitter.com/carlaostmann',
+    avatar: carlaO
+  },
+  {
+    name: 'David\nAronchick',
+    company: 'Protocol Labs',
+    twitter: 'https://twitter.com/aronchick',
+    avatar: davidA
+  },
+  {
+    name: 'Emil\nKendziorra',
+    company: 'CryoDAO',
+    twitter: '',
+    avatar: emilK
+  },
+  {
+    name: 'Francisco\nDíaz',
+    company: 'talentDAO',
+    twitter: 'https://twitter.com/le_panch0',
+    avatar: franciscoD
+  },
+  {
+    name: 'Jelani\nClarke',
+    company: 'DeSciWorld',
+    twitter: 'https://twitter.com/JelaniC3?s=20',
+    avatar: jelaniC
+  },
+  {
+    name: 'Tom\nTrowbridge',
+    company: 'Fluence Labs',
+    twitter: 'https://twitter.com/TheTomTrow',
+    avatar: tomT
+  },
+  
+  {
+    name: 'Derek\nAnderson',
+    company: 'Blockless',
+    twitter: 'https://twitter.com/dmikeyanderson',
+    avatar: derekA
+  },
+  {
+    name: 'Jesse\nHudson',
+    company: 'Molecule',
+    twitter: 'https://twitter.com/jsshdsn',
+    avatar: jesseH
+  },
+  {
+    name: 'Nanak\nNihal Khalsa',
+    company: 'Holonym',
+    twitter: 'https://twitter.com/nanaknihal',
+    avatar: nanakN
+  },
+
   // {
   //   name: '',
   //   company: '',
@@ -315,17 +409,17 @@ export const speakersArray = [
     twitter: 'https://twitter.com/benjileibo/',
     avatar: benjiL
   },
-  // {
-  //   name: 'Jonathan Kung',
-  //   company: '',
-  //   twitter: '',
-  //   avatar: 
-  // },
   {
-    name: 'Shady\nEl Damaty',
-    company: 'OpSci, Holonym',
-    twitter: 'https://twitter.com/hebbianloop',
-    avatar: shadyE
+    name: 'Jonathan Kung',
+    company: 'Science Publishing DAO',
+    twitter: '',
+    avatar: jonathanK
+  },
+  {
+    name: 'Boris\nDyakov',
+    company: 'Gitcoin | LabDAO',
+    twitter: 'https://twitter.com/BJ_Dyakov',
+    avatar: borisD
   },
   {
     name: 'Jonathan\nStarr',
@@ -334,10 +428,10 @@ export const speakersArray = [
     avatar: jonathanS
   },
   {
-    name: 'Boris\nDyakov',
-    company: 'Gitcoin | LabDAO',
-    twitter: 'https://twitter.com/BJ_Dyakov',
-    avatar: borisD
+    name: 'Shady\nEl Damaty',
+    company: 'OpSci, Holonym',
+    twitter: 'https://twitter.com/hebbianloop',
+    avatar: shadyE
   },
   {
     name: 'Tammy\nFrancis',
@@ -418,12 +512,6 @@ export const speakersArray = [
     avatar: joshuaB
   },
   {
-    name: 'Ben\nFielding',
-    company: 'Gensyn',
-    twitter: 'https://twitter.com/fenbielding',
-    avatar: benF
-  },
-  {
      name: 'Marek\nOlszewski',
     company: 'Celo',
     twitter: 'https://twitter.com/marek_',
@@ -453,6 +541,34 @@ export const speakersArray = [
     twitter: 'https://twitter.com/omniharmonic',
     avatar: benjaminL
   },
-
-
+  {
+    name: 'Reilly\nCapps',
+    company: '',
+    twitter: 'https://twitter.com/ReillyCapps',
+    avatar: reillyC
+  },
+  {
+    name: 'Sovereign\nOshumare',
+    company: '',
+    twitter: 'https://twitter.com/s_oshumare',
+    avatar: sovereignO
+  },
+  {
+    name: 'Valinda\nJones',
+    company: '',
+    twitter: 'https://twitter.com/missmetadata/',
+    avatar: vjones
+  },
+  {
+    name: 'Matthew\nDuffy',
+    company: '',
+    twitter: 'https://twitter.com/duffmaestri',
+    avatar: matthewD
+  },
+  {
+    name: 'Travis\nFluck',
+    company: '',
+    twitter: 'https://www.instagram.com/view_askew',
+    avatar: travisF
+  },
 ];

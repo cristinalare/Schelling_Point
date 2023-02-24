@@ -60,7 +60,7 @@ function InfoPage() {
           <p>
             <span className="bold">Date: </span>March 2nd 2023
             <br />
-            <span className="bold">Time: </span>Doors open at 9:30 AM. The
+            <span className="bold">Time: </span>Doors open at 8:30 AM. The
             conference starts at 10:00 AM.
             <br />
             <span className="bold">Location: </span>

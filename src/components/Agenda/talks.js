@@ -231,12 +231,12 @@ export const desciTalks = [
   {
     time: "11:00 AM",
     title: "Funding far-out longevity research",
-    name: "Emil Kendziorra",
+    name: "Emil Kendziorra ◖ CryoDAO",
   },
   {
     time: "11:15 AM",
     title: "Prefigurative Self Infrastructuring",
-    name: "Michael Zargham",
+    name: "Michael Zargham ◖ BlockScience",
   },
   {
     time: "11:30 AM",
@@ -253,7 +253,7 @@ export const desciTalks = [
   {
     time: "1:00 PM",
     title: "Gitcoin Grants & DeSci",
-    name: "Boris Dyakov ◖ Gitcoin, Azeem Khan ◖ Gitcoin, Jonathan Starr ◖ DeSci Labs, Shady El Damaty ◖ OpSci, Allison Duettmann ◖ Foresight Institute, Manveer Basra ◖ Scholar, Martin Karlsson ◖ Lateral.io/desci, Keith Comito ◖ Lifespan.io, Francisco Diazmo",
+    name: "Boris Dyakov ◖ Gitcoin, Azeem Khan ◖ Gitcoin, Jonathan Starr ◖ DeSci Labs, Shady El Damaty ◖ OpSci, Allison Duettmann ◖ Foresight Institute, Manveer Basra ◖ Scholar, Martin Karlsson ◖ Lateral.io/desci, Keith Comito ◖ Lifespan.io, Francisco Diaz ◖ talentDAO",
   },
   {
     time: "1:30 PM",
@@ -278,7 +278,7 @@ export const desciTalks = [
   {
     time: "3:05 PM",
     title: "Decentralized AI & Compute for Public Goods",
-    name: "Don Gossen ◖ Nevermined, Richard Blythman ◖ Algovera, Erik Allberg ◖ dao.xyz, David Aronchick ◖ Bacalhau, Tom Trowbridge",
+    name: "Don Gossen ◖ Nevermined, Richard Blythman ◖ Algovera, Erik Allberg ◖ dao.xyz, David Aronchick ◖ Bacalhau, Tom Trowbridge ◖ Fluence Labs",
   },
   {
     time: "3:45 PM",
@@ -306,7 +306,7 @@ export const desciWorkshops = [
   {
     time: "11:30 AM",
     title: "Ethics in DeSci",
-    name: "Joshua Bate ◖ DeSciWorld and Jelani Clarke ◖ ",
+    name: "Joshua Bate ◖ DeSciWorld and Jelani Clarke ◖ DeSciWorld",
   },
   {
     time: "12:10 PM",
@@ -332,7 +332,7 @@ export const desciWorkshops = [
   {
     time: "3:00 PM",
     title: "Tools Tables",
-    name: "Jonathan Starr ◖ Gridcoin, David Aronchick ◖ bacalhau, Don Gossen ◖Nevermined AG, Richard Blythman ◖ Algovera, Michael Fischer ◖ DBDAO.xyz, Omar ElNaggar ◖ Weavechain, Manveer Basra ◖ Scholar, Jacob Luo, Allison Duettmann ◖ Foresight Institute, Derek Anderson, Carla Ostmann ◖ DeSci Labs, Jesse Hudson, Nanak Nihal Khalsa ◖ Holonym",
+    name: "Jonathan Starr ◖ Gridcoin, David Aronchick ◖ bacalhau, Don Gossen ◖Nevermined AG, Richard Blythman ◖ Algovera, Michael Fischer ◖ DBDAO.xyz, Omar ElNaggar ◖ Weavechain, Manveer Basra ◖ Scholar, Jacob Luo, Allison Duettmann ◖ Foresight Institute, Derek Anderson ◖ Blockless, Carla Ostmann ◖ DeSci Labs, Jesse Hudson ◖ Molecule, Nanak Nihal Khalsa ◖ Holonym",
   },
   {
     time: "4:00 PM",
