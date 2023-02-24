@@ -198,7 +198,7 @@ export const speakersArray = [
   {
     name: 'Gabriel\nTumlos',
     company: '',
-    twitter: 'twitter.com/bondwithmochi',
+    twitter: 'https://twitter.com/bondwithmochi',
     avatar: gabrielT
   },
   {
