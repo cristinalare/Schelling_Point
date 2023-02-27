@@ -59,7 +59,7 @@ export const talksMain = [
   {
     time: "1:55 PM",
     title: "Account Abstraction: the Pathway to Mass Adoption",
-    name: "Alex Gluchowski",
+    name: "Ramon Canales ◖ Matter Labs | zkSync",
   },
   {
     time: "2:15 PM",

@@ -523,12 +523,12 @@ export const speakersArray = [
    twitter: 'https://twitter.com/abbey_titcomb',
    avatar: abbeyT
  },
-  {
-    name: 'Alex\nGluchowski',
-   company: 'zkSync',
-   twitter: 'https://twitter.com/gluk64',
-   avatar: alexG
- },
+//   {
+//     name: 'Alex\nGluchowski',
+//    company: 'zkSync',
+//    twitter: 'https://twitter.com/gluk64',
+//    avatar: alexG
+//  },
   {
     name: 'Timothy\nArcher',
     company: 'OpenCivics',
