@@ -273,12 +273,12 @@ export const speakersArray = [
     twitter: 'https://twitter.com/mariamagenes1',
     avatar: mariaM
   },
-  {
-    name: 'Geordan\nShannon',
-    company: '',
-    twitter: 'https://twitter.com/GeordanShannon',
-    avatar: geordanS
-  },
+  // {
+  //   name: 'Geordan\nShannon',
+  //   company: '',
+  //   twitter: 'https://twitter.com/GeordanShannon',
+  //   avatar: geordanS
+  // },
   {
     name: 'Dimitri\nDe Jonghe',
     company: 'Nevermined',

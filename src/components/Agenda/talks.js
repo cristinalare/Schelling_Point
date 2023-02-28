@@ -33,10 +33,15 @@ export const talksMain = [
   {
     time: "11:55 AM",
     title: "Planetary Health Futures: tools for imagination + action",
-    name: "Geordan Shannon, Dimitri De Jonghe",
+    name: "Louis Parker, Dimitri De Jonghe",
   },
   {
-    time: "12:15 PM",
+    time: "12:15 AM",
+    title: "Bootstrapping Impact Markets: A Study of Carbon Credits as Impact Certificates",
+    name: "Marcus Aurelius ◖ Klima DAO",
+  },
+  {
+    time: "12:30 PM",
     title: "LUNCH",
     name: "",
     calendar: "",
@@ -203,7 +208,7 @@ export const Unconference = [
   {
     time: "4:10 PM",
     title: "The Future of Grants",
-    name: `Kevin Olsen ◖ Gitcoin, Riccardo Lamanna ◖ OpenQ, Apoorv Nandan ◖ DaoLens, Tina He ◖ Station, Tyler Sullberg ◖ Moderator`,
+    name: `Kevin Olsen ◖ Gitcoin, Riccardo Lamanna ◖ OpenQ, Vikram Aditya ◖ DaoLens, Balázs Némethi ◖ kycDAO, Joshua Tan (Moderator)`,
   },
   {
     time: "4:40 PM",
