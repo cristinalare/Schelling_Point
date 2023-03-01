@@ -58,6 +58,15 @@ function InfoPage() {
         </InfoCard>
         <InfoCard title="Conference details" divider={true}>
           <p>
+            Schelling Point and ETHDenver are partnering with MEW wallet as
+            their official wallet for this year's event. Preinstall MEW wallet
+            and claim $BUIDLBux for food and beverages during Schelling Point
+            and ETHDenver.<br/>
+            Preinstall today: <a
+              href="https://www.mewwallet.com"
+              className="link"
+            >https://www.mewwallet.com</a><br/>
+            A MEW representative will be at the check-in table on the day of the Schelling Point event to assist with the MEW wallet setup.<br/><br/>
             <span className="bold">Date: </span>March 2nd 2023
             <br />
             <span className="bold">Time: </span>Doors open at 8:30 AM. The
