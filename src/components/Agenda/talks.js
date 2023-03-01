@@ -43,7 +43,7 @@ export const talksMain = [
     link: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDNybTNvOXZ2MDFsN2djZG9qamFsdmFkbm8gNDI0M2VhZjU3MWZlNzJlOTI0ZmU1MGI2NzIzMzkzY2Y1MmU0YWIxN2FlOTZlNTU1ZDViYzUzM2ZiNWUzYTExZEBn&tmsrc=4243eaf571fe72e924fe50b6723393cf52e4ab17ae96e555d5bc533fb5e3a11d%40group.calendar.google.com",
   },
   {
-    time: "12:15 AM",
+    time: "12:15 PM",
     title:
       "Bootstrapping Impact Markets: A Study of Carbon Credits as Impact Certificates",
     name: "Marcus Aurelius ◖ Klima DAO",
