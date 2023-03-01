@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ebed05d.css",
-    "main.js": "/static/js/main.60b26bd5.js",
+    "main.css": "/static/css/main.affec603.css",
+    "main.js": "/static/js/main.fa2cdc24.js",
     "static/media/sp-bogota.mp4": "/static/media/sp-bogota.f89759a6960b5cb9b7aa.mp4",
     "static/media/flower.gif": "/static/media/flower.481c4d93462b9a0dc3e6.gif",
     "static/media/Travis_F.png": "/static/media/Travis_F.96a2811cfe0b2798d9a8.png",
@@ -108,11 +108,11 @@
     "static/media/drips.svg": "/static/media/drips.9dc00f9640a45697c7a607ab9314f1a4.svg",
     "static/media/lukso.svg": "/static/media/lukso.eb9b0c1d6b35a951bc701c8ef2e3e362.svg",
     "static/media/celo.svg": "/static/media/celo.4945a7f106381ffc80c382225f3a3c78.svg",
-    "main.1ebed05d.css.map": "/static/css/main.1ebed05d.css.map",
-    "main.60b26bd5.js.map": "/static/js/main.60b26bd5.js.map"
+    "main.affec603.css.map": "/static/css/main.affec603.css.map",
+    "main.fa2cdc24.js.map": "/static/js/main.fa2cdc24.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ebed05d.css",
-    "static/js/main.60b26bd5.js"
+    "static/css/main.affec603.css",
+    "static/js/main.fa2cdc24.js"
   ]
 }

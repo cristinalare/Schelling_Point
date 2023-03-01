@@ -81,7 +81,8 @@
   transition: all 0.3s ease-out;
 }
 .agenda-item-title a:hover {
-  color: var(--purple-color);
+  text-decoration: underline;
+  color: var(--green-color);
 }
 
 .agenda-item-hour {
