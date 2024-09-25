@@ -12,7 +12,7 @@ function Agenda() {
   return (
     <div className="agenda" id="agenda">
       {/* <p className="agenda-description">◖ Click on a title in order to add it to your calendar</p> */}
-      <div className="agenda-items">
+      {/* <div className="agenda-items">
         <Stage
           stageTitle="SP Main Stage"
           talksArray={talksMain}
@@ -33,7 +33,9 @@ function Agenda() {
           talksArray={desciWorkshops}
           classes="agenda-item-4"
         />
-      </div>
+      </div> */}
+
+      <h3 className="coming-soon">Coming soon</h3>
     </div>
   );
 }

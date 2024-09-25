@@ -20,9 +20,10 @@ function PastEvents() {
         </Parallax>
 
         <div className='past-events-playlists'>
-          <PlaylistBtn name='Denver' link='https://www.youtube.com/playlist?list=PLvTrX8LNPbPlryx_S85pZPfH9yD7qcPsg' />
+          <PlaylistBtn name="Denver '22" link='https://www.youtube.com/playlist?list=PLvTrX8LNPbPlryx_S85pZPfH9yD7qcPsg' />
           <PlaylistBtn name='Amsterdam' link='https://www.youtube.com/playlist?list=PLvTrX8LNPbPlLNcFPuWiac3W19cUSaKFF' />
           <PlaylistBtn name='Bogota' link='https://www.youtube.com/watch?v=K8tEQui7zEo&list=PLvTrX8LNPbPkQ3qDNpQDRZQClhUl_BJQp' />
+           <PlaylistBtn name="Denver '24" link='https://www.youtube.com/playlist?list=PLvTrX8LNPbPmhPdK2sXR2lT20Ty9fT9t1' />
 
         </div>
       </div>

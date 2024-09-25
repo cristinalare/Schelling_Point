@@ -5,9 +5,11 @@ import { speakersArray } from './speakersArray';
 
 function Speakers () {
     return (
+      
         <div className="speakers">
             <div className="speakers-container">
-              { 
+              <h3 className="coming-soon">Coming soon</h3>
+              {/* { 
               speakersArray.map((speaker, index) => (
                 speaker.avatar && (
                 <Speaker
@@ -20,7 +22,7 @@ function Speakers () {
                 />
                 )
               ))
-              }
+              } */}
             </div>
         </div>
     );

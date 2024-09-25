@@ -10,7 +10,7 @@ function Footer () {
       <div className='footer-links'>
         <a className="main-link" href="https://t.me/joinchat/EX2vtzI0earU2LER" target="_blank" rel="noreferrer">telegram</a>
         <a className="main-link" href="https://twitter.com/schellingpoint_" target="_blank" rel="noreferrer">twitter</a>
-        <a className="main-link" href="https://store.gitcoin.co/collections/schelling-point-2023" target="_blank" rel="noreferrer">store</a>
+        {/* <a className="main-link" href="https://store.gitcoin.co/collections/schelling-point-2023" target="_blank" rel="noreferrer">store</a> */}
       </div>
     </footer>
   );
