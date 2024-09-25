@@ -133,7 +133,7 @@ function Header() {
                 />
               </svg>
             </a>
-            <a
+            {/* <a
               href="https://store.gitcoin.co/collections/schelling-point-2023"
               target="_blank"
               rel="noreferrer"
@@ -157,7 +157,7 @@ function Header() {
                   strokeLinecap="round"
                 />
               </svg>
-            </a>
+            </a> */}
           </li>
         </ul>
       </nav>
