@@ -60,7 +60,7 @@ function Header() {
       <nav className={activeMenu ? "open" : undefined}>
         <ul>
           <div className="nav-links">
-            <NavLink
+            {/* <NavLink
               to="/"
               className={({ isActive }) =>
                 isActive ? "active-nav" : "inactive-nav"
@@ -75,7 +75,7 @@ function Header() {
               }
             >
               info
-            </NavLink>
+            </NavLink> */}
           </div>
           {/* {menuItems.map((menuItem, index) => (
                         <li className="menu-item" key={index}>

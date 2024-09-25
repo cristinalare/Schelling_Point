@@ -78,7 +78,8 @@ function Sponsors() {
 
   return (
     <div className="sponsors">
-      {lines.map((line) => (
+      <h3 className="coming-soon">Coming soon</h3>
+      {/* {lines.map((line) => (
         <div className={`sponsors-line ${line.title}`} key={line.title}>
           <div className="line-logos">
             {line.list.map((sponsor) => (
@@ -90,7 +91,7 @@ function Sponsors() {
             ))}
           </div>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 }

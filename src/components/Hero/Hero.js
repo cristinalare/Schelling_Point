@@ -36,11 +36,13 @@ function Hero () {
           </Parallax>
           <div className='hero-content'>
             <div className='hero-title'>
-              <h1 className='main-xxl'>Schelling<br/>Point<br/>Denver</h1>
+              <h1 className='main-xxl'>Schelling<br/>Point<br/>
+              {/* 2025 */}
+              </h1>
               <div className='hero-date italic'>
-                March 2nd, ‘23
+                February 27th, ‘25
               </div>
-              <h3 className='hero-location italic'>National Western Complex</h3>
+              {/* <h3 className='hero-location italic'>National Western Complex</h3> */}
             </div>
             <video ref={videoRef} className="hero-animation" poster={flowerGif} playsInline preload="auto" width="500" height="500" loop muted={true}>
               <source src={flowerMov} type="video/quicktime" />
@@ -49,7 +51,7 @@ function Hero () {
             </video>
           </div>
           <div className='hero-buttons'>
-              <Button text='Sold out' disabled={true} />
+              <Button text='Coming soon' disabled={true} />
           </div>
         </div>
       </div>

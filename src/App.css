@@ -7,7 +7,7 @@
 :root {
   --header-height: calc(44px + 1rem + 1rem);
   --subtitle-top-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 10));
-  --subtitle-bottom-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 13));
+  --subtitle-bottom-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 200));
   --subtitle-horizontal-offset: calc(var(--font-xxl) - calc(var(--font-xxl) / 3.5));
   --grey-color: #0E0333;
   --dark-color: #092755;
@@ -124,7 +124,7 @@ html {
   --font-m: 2.75rem; /* 44px */
   --font-l: 3.5rem; /* 56px */
   --font-xl: 4rem; /* 64px */
-  --line-height-xxl: 110%;
+  --line-height-xxl: 115%;
   --font-xxl: 8.5rem; /*150px */
 }
 .main-xxl,
@@ -231,3 +231,11 @@ html {
     --font-xs: 1.25rem;
   }
 }
+
+.coming-soon {
+  margin: 0 auto;
+  width: fit-content;
+  font-size: 24px;
+  color: var(--grey-color);
+}
+
